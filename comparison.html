@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatles Anthology - DVD vs Disney+ Comparison</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #fff;
+            font-size: 2em;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            position: relative;
+        }
+
+        .column {
+            position: relative;
+        }
+
+        .column-header {
+            position: sticky;
+            top: 0;
+            background: #1a1a1a;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4CAF50;
+            z-index: 10;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .dvd-header {
+            border-bottom-color: #2196F3;
+        }
+
+        .dplus-header {
+            border-bottom-color: #FF9800;
+        }
+
+        .entry {
+            background: #2a2a2a;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 6px;
+            border-left: 4px solid #555;
+            transition: all 0.2s;
+        }
+
+        .entry:hover {
+            background: #333;
+            transform: translateX(2px);
+        }
+
+        .dvd .entry {
+            border-left-color: #2196F3;
+        }
+
+        .dplus .entry {
+            border-left-color: #FF9800;
+        }
+
+        .entry.matched {
+            border-left-width: 6px;
+        }
+
+        .timecode {
+            font-weight: bold;
+            color: #4CAF50;
+            font-family: 'Courier New', monospace;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+
+        .content {
+            color: #e0e0e0;
+        }
+
+        .content em {
+            color: #FFD700;
+            font-style: italic;
+        }
+
+        .content strong {
+            color: #FF6B6B;
+            font-weight: bold;
+        }
+
+        .spacer {
+            height: 0;
+            transition: height 0.3s;
+        }
+
+        #arrow-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .arrow-line {
+            fill: none;
+            stroke: #4CAF50;
+            stroke-width: 2;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+
+        .arrow-line.strong-match {
+            stroke: #FFD700;
+            stroke-width: 3;
+            opacity: 0.8;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2em;
+            color: #888;
+        }
+
+        .error {
+            background: #d32f2f;
+            color: white;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px;
+        }
+
+        @media (max-width: 1200px) {
+            .columns {
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Beatles Anthology Episode 1 - Comparison</h1>
+    <div class="loading" id="loading">Loading transcripts...</div>
+    <div class="container" id="container" style="display: none;">
+        <svg id="arrow-layer"></svg>
+        <div class="columns">
+            <div class="column dvd">
+                <div class="column-header dvd-header">2003 DVD Version</div>
+                <div id="dvd-content"></div>
+            </div>
+            <div class="column dplus">
+                <div class="column-header dplus-header">2025 Disney+ Version</div>
+                <div id="dplus-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class TranscriptParser {
+            parse(text) {
+                const lines = text.split('\n');
+                const entries = [];
+                let currentEntry = null;
+
+                for (let line of lines) {
+                    line = line.trim();
+
+                    // Skip title and empty lines
+                    if (!line || line.startsWith('Anthology,')) continue;
+
+                    // Check if this is a timecode line
+                    const timecodeMatch = line.match(/^(\d{2}:\d{2})/);
+
+                    if (timecodeMatch) {
+                        // Save previous entry if it exists
+                        if (currentEntry) {
+                            entries.push(currentEntry);
+                        }
+
+                        // Start new entry
+                        currentEntry = {
+                            timecode: timecodeMatch[1],
+                            content: line.substring(timecodeMatch[0].length).trim()
+                        };
+                    } else if (currentEntry && line.startsWith('-')) {
+                        // This is a continuation (like photo differences)
+                        currentEntry.content += '\n' + line;
+                    }
+                }
+
+                // Don't forget the last entry
+                if (currentEntry) {
+                    entries.push(currentEntry);
+                }
+
+                return entries;
+            }
+
+            formatContent(text) {
+                // Convert markdown-like formatting to HTML
+                return text
+                    .replace(/_([^_]+)_/g, '<em>$1</em>')  // Italics
+                    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')  // Bold
+                    .replace(/\[edit\]/g, '<strong>[edit]</strong>')
+                    .replace(/\n/g, '<br>');
+            }
+        }
+
+        class TranscriptMatcher {
+            constructor(dvdEntries, dplusEntries) {
+                this.dvdEntries = dvdEntries;
+                this.dplusEntries = dplusEntries;
+                this.matches = [];
+            }
+
+            // Calculate similarity between two strings
+            similarity(s1, s2) {
+                const len1 = s1.length;
+                const len2 = s2.length;
+                const maxLen = Math.max(len1, len2);
+
+                if (maxLen === 0) return 1.0;
+
+                // Simple similarity: count common words
+                const words1 = s1.toLowerCase().match(/\w+/g) || [];
+                const words2 = s2.toLowerCase().match(/\w+/g) || [];
+
+                const set1 = new Set(words1);
+                const set2 = new Set(words2);
+
+                let common = 0;
+                for (let word of set1) {
+                    if (set2.has(word)) common++;
+                }
+
+                return (2 * common) / (set1.size + set2.size);
+            }
+
+            // Extract key features from content for matching
+            extractFeatures(content) {
+                // Extract speaker names
+                const speakers = content.match(/^(George|Paul|John|Ringo|Brian|Neil|Cathy):/);
+                const speaker = speakers ? speakers[1] : null;
+
+                // Extract song titles (in italics)
+                const songs = content.match(/_([^_]+)_/g) || [];
+
+                // Clean content for comparison
+                const cleanContent = content
+                    .replace(/_([^_]+)_/g, '$1')
+                    .replace(/\*\*\[edit\]\*\*/g, '')
+                    .replace(/\*\*([^*]+)\*\*/g, '$1')
+                    .toLowerCase();
+
+                return { speaker, songs, cleanContent };
+            }
+
+            findMatches() {
+                const used = new Set();
+
+                for (let i = 0; i < this.dvdEntries.length; i++) {
+                    const dvdEntry = this.dvdEntries[i];
+                    const dvdFeatures = this.extractFeatures(dvdEntry.content);
+
+                    let bestMatch = null;
+                    let bestScore = 0;
+                    let bestIndex = -1;
+
+                    // Look for matches in a reasonable window
+                    const searchStart = Math.max(0, i - 10);
+                    const searchEnd = Math.min(this.dplusEntries.length, i + 10);
+
+                    for (let j = searchStart; j < searchEnd; j++) {
+                        if (used.has(j)) continue;
+
+                        const dplusEntry = this.dplusEntries[j];
+                        const dplusFeatures = this.extractFeatures(dplusEntry.content);
+
+                        let score = 0;
+
+                        // Same speaker is a strong signal
+                        if (dvdFeatures.speaker && dvdFeatures.speaker === dplusFeatures.speaker) {
+                            score += 0.3;
+                        }
+
+                        // Same song titles
+                        const commonSongs = dvdFeatures.songs.filter(song =>
+                            dplusFeatures.songs.includes(song)
+                        );
+                        if (commonSongs.length > 0) {
+                            score += 0.3;
+                        }
+
+                        // Content similarity
+                        const contentSim = this.similarity(dvdFeatures.cleanContent, dplusFeatures.cleanContent);
+                        score += contentSim * 0.4;
+
+                        if (score > bestScore) {
+                            bestScore = score;
+                            bestMatch = dplusEntry;
+                            bestIndex = j;
+                        }
+                    }
+
+                    // Only match if score is good enough
+                    if (bestScore > 0.4) {
+                        this.matches.push({
+                            dvdIndex: i,
+                            dplusIndex: bestIndex,
+                            score: bestScore
+                        });
+                        used.add(bestIndex);
+                    }
+                }
+
+                return this.matches;
+            }
+        }
+
+        class TranscriptRenderer {
+            constructor(container) {
+                this.container = container;
+                this.dvdContent = document.getElementById('dvd-content');
+                this.dplusContent = document.getElementById('dplus-content');
+                this.arrowLayer = document.getElementById('arrow-layer');
+                this.parser = new TranscriptParser();
+            }
+
+            async loadFile(filename) {
+                const response = await fetch(filename);
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${filename}`);
+                }
+                return await response.text();
+            }
+
+            renderEntry(entry, index, column) {
+                const div = document.createElement('div');
+                div.className = 'entry';
+                div.dataset.index = index;
+                div.dataset.column = column;
+
+                const timecode = document.createElement('div');
+                timecode.className = 'timecode';
+                timecode.textContent = entry.timecode;
+
+                const content = document.createElement('div');
+                content.className = 'content';
+                content.innerHTML = this.parser.formatContent(entry.content);
+
+                div.appendChild(timecode);
+                div.appendChild(content);
+
+                return div;
+            }
+
+            renderEntries(entries, container, column) {
+                entries.forEach((entry, index) => {
+                    const entryDiv = this.renderEntry(entry, index, column);
+                    container.appendChild(entryDiv);
+                });
+            }
+
+            alignAndDrawArrows(matches) {
+                // Get all entry elements
+                const dvdEntries = Array.from(this.dvdContent.querySelectorAll('.entry'));
+                const dplusEntries = Array.from(this.dplusContent.querySelectorAll('.entry'));
+
+                // Clear existing spacers
+                document.querySelectorAll('.spacer').forEach(el => el.remove());
+
+                // Sort matches by dvd index
+                matches.sort((a, b) => a.dvdIndex - b.dvdIndex);
+
+                // Insert spacers to align items
+                let dvdOffset = 0;
+                let dplusOffset = 0;
+
+                matches.forEach((match, idx) => {
+                    const dvdIndex = match.dvdIndex + dvdOffset;
+                    const dplusIndex = match.dplusIndex + dplusOffset;
+
+                    const dvdEl = dvdEntries[dvdIndex];
+                    const dplusEl = dplusEntries[dplusIndex];
+
+                    if (!dvdEl || !dplusEl) return;
+
+                    // Mark as matched
+                    dvdEl.classList.add('matched');
+                    dplusEl.classList.add('matched');
+
+                    // Get positions
+                    const dvdRect = dvdEl.getBoundingClientRect();
+                    const dplusRect = dplusEl.getBoundingClientRect();
+                    const containerRect = this.container.getBoundingClientRect();
+
+                    // Calculate vertical difference
+                    const diff = dplusRect.top - dvdRect.top;
+
+                    // Insert spacer before the element that's higher
+                    if (Math.abs(diff) > 20) {  // Only align if difference is significant
+                        const spacer = document.createElement('div');
+                        spacer.className = 'spacer';
+                        spacer.style.height = Math.abs(diff) + 'px';
+
+                        if (diff > 0) {
+                            // Disney+ is lower, add spacer in DVD
+                            dvdEl.parentNode.insertBefore(spacer, dvdEl);
+                            dvdOffset++;
+                        } else {
+                            // DVD is lower, add spacer in Disney+
+                            dplusEl.parentNode.insertBefore(spacer, dplusEl);
+                            dplusOffset++;
+                        }
+                    }
+                });
+
+                // Redraw arrows after alignment settles
+                setTimeout(() => this.drawArrows(matches), 350);
+            }
+
+            drawArrows(matches) {
+                // Clear existing arrows
+                this.arrowLayer.innerHTML = '';
+
+                const containerRect = this.container.getBoundingClientRect();
+                const columnsEl = document.querySelector('.columns');
+                const columnsRect = columnsEl.getBoundingClientRect();
+
+                // Set SVG dimensions
+                this.arrowLayer.setAttribute('width', columnsRect.width);
+                this.arrowLayer.setAttribute('height', columnsRect.height);
+                this.arrowLayer.style.left = (columnsRect.left - containerRect.left) + 'px';
+                this.arrowLayer.style.top = (columnsRect.top - containerRect.top) + 'px';
+
+                matches.forEach(match => {
+                    const dvdEl = this.dvdContent.querySelector(`[data-index="${match.dvdIndex}"]`);
+                    const dplusEl = this.dplusContent.querySelector(`[data-index="${match.dplusIndex}"]`);
+
+                    if (!dvdEl || !dplusEl) return;
+
+                    const dvdRect = dvdEl.getBoundingClientRect();
+                    const dplusRect = dplusEl.getBoundingClientRect();
+
+                    // Calculate positions relative to columns container
+                    const x1 = dvdRect.right - columnsRect.left;
+                    const y1 = dvdRect.top - columnsRect.top + dvdRect.height / 2;
+                    const x2 = dplusRect.left - columnsRect.left;
+                    const y2 = dplusRect.top - columnsRect.top + dplusRect.height / 2;
+
+                    // Create curved path
+                    const midX = (x1 + x2) / 2;
+                    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                    const d = `M ${x1} ${y1} C ${midX} ${y1}, ${midX} ${y2}, ${x2} ${y2}`;
+                    path.setAttribute('d', d);
+                    path.setAttribute('class', match.score > 0.7 ? 'arrow-line strong-match' : 'arrow-line');
+
+                    this.arrowLayer.appendChild(path);
+                });
+            }
+
+            async render() {
+                try {
+                    // Load both files
+                    const [dvdText, dplusText] = await Promise.all([
+                        this.loadFile('1-dvd.md'),
+                        this.loadFile('1-dplus.md')
+                    ]);
+
+                    // Parse entries
+                    const dvdEntries = this.parser.parse(dvdText);
+                    const dplusEntries = this.parser.parse(dplusText);
+
+                    // Render entries
+                    this.renderEntries(dvdEntries, this.dvdContent, 'dvd');
+                    this.renderEntries(dplusEntries, this.dplusContent, 'dplus');
+
+                    // Find matches
+                    const matcher = new TranscriptMatcher(dvdEntries, dplusEntries);
+                    const matches = matcher.findMatches();
+
+                    console.log(`Found ${matches.length} matches`);
+
+                    // Hide loading, show content
+                    document.getElementById('loading').style.display = 'none';
+                    this.container.style.display = 'block';
+
+                    // Align and draw arrows after render
+                    setTimeout(() => {
+                        this.alignAndDrawArrows(matches);
+                    }, 100);
+
+                    // Redraw arrows on window resize
+                    let resizeTimeout;
+                    window.addEventListener('resize', () => {
+                        clearTimeout(resizeTimeout);
+                        resizeTimeout = setTimeout(() => {
+                            this.drawArrows(matches);
+                        }, 200);
+                    });
+
+                } catch (error) {
+                    document.getElementById('loading').innerHTML =
+                        `<div class="error">Error: ${error.message}</div>`;
+                }
+            }
+        }
+
+        // Initialize when page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            const renderer = new TranscriptRenderer(document.getElementById('container'));
+            renderer.render();
+        });
+    </script>
+</body>
+</html>
