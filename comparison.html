@@ -230,116 +230,6 @@
             }
         }
 
-        class TranscriptMatcher {
-            constructor(dvdEntries, dplusEntries) {
-                this.dvdEntries = dvdEntries;
-                this.dplusEntries = dplusEntries;
-                this.matches = [];
-            }
-
-            // Calculate similarity between two strings
-            similarity(s1, s2) {
-                const len1 = s1.length;
-                const len2 = s2.length;
-                const maxLen = Math.max(len1, len2);
-
-                if (maxLen === 0) return 1.0;
-
-                // Simple similarity: count common words
-                const words1 = s1.toLowerCase().match(/\w+/g) || [];
-                const words2 = s2.toLowerCase().match(/\w+/g) || [];
-
-                const set1 = new Set(words1);
-                const set2 = new Set(words2);
-
-                let common = 0;
-                for (let word of set1) {
-                    if (set2.has(word)) common++;
-                }
-
-                return (2 * common) / (set1.size + set2.size);
-            }
-
-            // Extract key features from content for matching
-            extractFeatures(content) {
-                // Extract speaker names
-                const speakers = content.match(/^(George|Paul|John|Ringo|Brian|Neil|Cathy):/);
-                const speaker = speakers ? speakers[1] : null;
-
-                // Extract song titles (in italics)
-                const songs = content.match(/_([^_]+)_/g) || [];
-
-                // Clean content for comparison
-                const cleanContent = content
-                    .replace(/_([^_]+)_/g, '$1')
-                    .replace(/\*\*\[edit\]\*\*/g, '')
-                    .replace(/\*\*([^*]+)\*\*/g, '$1')
-                    .toLowerCase();
-
-                return { speaker, songs, cleanContent };
-            }
-
-            findMatches() {
-                const used = new Set();
-
-                for (let i = 0; i < this.dvdEntries.length; i++) {
-                    const dvdEntry = this.dvdEntries[i];
-                    const dvdFeatures = this.extractFeatures(dvdEntry.content);
-
-                    let bestMatch = null;
-                    let bestScore = 0;
-                    let bestIndex = -1;
-
-                    // Look for matches in a reasonable window
-                    const searchStart = Math.max(0, i - 10);
-                    const searchEnd = Math.min(this.dplusEntries.length, i + 10);
-
-                    for (let j = searchStart; j < searchEnd; j++) {
-                        if (used.has(j)) continue;
-
-                        const dplusEntry = this.dplusEntries[j];
-                        const dplusFeatures = this.extractFeatures(dplusEntry.content);
-
-                        let score = 0;
-
-                        // Same speaker is a strong signal
-                        if (dvdFeatures.speaker && dvdFeatures.speaker === dplusFeatures.speaker) {
-                            score += 0.3;
-                        }
-
-                        // Same song titles
-                        const commonSongs = dvdFeatures.songs.filter(song =>
-                            dplusFeatures.songs.includes(song)
-                        );
-                        if (commonSongs.length > 0) {
-                            score += 0.3;
-                        }
-
-                        // Content similarity
-                        const contentSim = this.similarity(dvdFeatures.cleanContent, dplusFeatures.cleanContent);
-                        score += contentSim * 0.4;
-
-                        if (score > bestScore) {
-                            bestScore = score;
-                            bestMatch = dplusEntry;
-                            bestIndex = j;
-                        }
-                    }
-
-                    // Only match if score is good enough
-                    if (bestScore > 0.4) {
-                        this.matches.push({
-                            dvdIndex: i,
-                            dplusIndex: bestIndex,
-                            score: bestScore
-                        });
-                        used.add(bestIndex);
-                    }
-                }
-
-                return this.matches;
-            }
-        }
 
         class TranscriptRenderer {
             constructor(container) {
@@ -385,58 +275,98 @@
                 });
             }
 
-            alignAndDrawArrows(matches) {
-                // Get all entry elements
-                const dvdEntries = Array.from(this.dvdContent.querySelectorAll('.entry'));
-                const dplusEntries = Array.from(this.dplusContent.querySelectorAll('.entry'));
+            alignAndDrawArrows(matches, dvdCount, dplusCount) {
+                // Mark matched entries
+                matches.forEach(match => {
+                    const dvdEl = this.dvdContent.querySelector(`[data-index="${match.dvd}"]`);
+                    const dplusEl = this.dplusContent.querySelector(`[data-index="${match.dplus}"]`);
+
+                    if (dvdEl) dvdEl.classList.add('matched');
+                    if (dplusEl) dplusEl.classList.add('matched');
+                });
 
                 // Clear existing spacers
                 document.querySelectorAll('.spacer').forEach(el => el.remove());
 
-                // Sort matches by dvd index
-                matches.sort((a, b) => a.dvdIndex - b.dvdIndex);
+                // Build sets of matched indices for quick lookup
+                const dvdMatched = new Set(matches.map(m => m.dvd));
+                const dplusMatched = new Set(matches.map(m => m.dplus));
 
-                // Insert spacers to align items
-                let dvdOffset = 0;
-                let dplusOffset = 0;
+                // Create mapping objects for quick lookup
+                const dvdToDP = {};
+                const dpToD = {};
+                matches.forEach(m => {
+                    dvdToDP[m.dvd] = m.dplus;
+                    dpToD[m.dplus] = m.dvd;
+                });
 
-                matches.forEach((match, idx) => {
-                    const dvdIndex = match.dvdIndex + dvdOffset;
-                    const dplusIndex = match.dplusIndex + dplusOffset;
+                // Sort matches to process in order
+                const sortedMatches = [...matches].sort((a, b) => a.dvd - b.dvd);
 
-                    const dvdEl = dvdEntries[dvdIndex];
-                    const dplusEl = dplusEntries[dplusIndex];
+                let dvdIdx = 0;
+                let dplusIdx = 0;
 
-                    if (!dvdEl || !dplusEl) return;
+                sortedMatches.forEach((match, matchIdx) => {
+                    // Insert spacers for any unmatched DVD entries before this match
+                    while (dvdIdx < match.dvd) {
+                        if (!dvdMatched.has(dvdIdx)) {
+                            // This DVD entry is unmatched, need spacer on dplus side
+                            const dvdEl = this.dvdContent.querySelector(`[data-index="${dvdIdx}"]`);
+                            const dplusEl = this.dplusContent.querySelector(`[data-index="${dplusIdx}"]`);
 
-                    // Mark as matched
-                    dvdEl.classList.add('matched');
-                    dplusEl.classList.add('matched');
+                            if (dvdEl && dplusEl) {
+                                const spacer = document.createElement('div');
+                                spacer.className = 'spacer';
+                                spacer.style.height = dvdEl.offsetHeight + 12 + 'px'; // height + margin
+                                dplusEl.parentNode.insertBefore(spacer, dplusEl);
+                            }
+                        }
+                        dvdIdx++;
+                    }
 
-                    // Get positions
-                    const dvdRect = dvdEl.getBoundingClientRect();
-                    const dplusRect = dplusEl.getBoundingClientRect();
-                    const containerRect = this.container.getBoundingClientRect();
+                    // Insert spacers for any unmatched Disney+ entries before this match
+                    while (dplusIdx < match.dplus) {
+                        if (!dplusMatched.has(dplusIdx)) {
+                            // This Disney+ entry is unmatched, need spacer on dvd side
+                            const dplusEl = this.dplusContent.querySelector(`[data-index="${dplusIdx}"]`);
+                            const dvdEl = this.dvdContent.querySelector(`[data-index="${dvdIdx}"]`);
 
-                    // Calculate vertical difference
-                    const diff = dplusRect.top - dvdRect.top;
+                            if (dplusEl && dvdEl) {
+                                const spacer = document.createElement('div');
+                                spacer.className = 'spacer';
+                                spacer.style.height = dplusEl.offsetHeight + 12 + 'px'; // height + margin
+                                dvdEl.parentNode.insertBefore(spacer, dvdEl);
+                            }
+                        }
+                        dplusIdx++;
+                    }
 
-                    // Insert spacer before the element that's higher
-                    if (Math.abs(diff) > 20) {  // Only align if difference is significant
-                        const spacer = document.createElement('div');
-                        spacer.className = 'spacer';
-                        spacer.style.height = Math.abs(diff) + 'px';
+                    // Now align the matched pair
+                    const dvdEl = this.dvdContent.querySelector(`[data-index="${match.dvd}"]`);
+                    const dplusEl = this.dplusContent.querySelector(`[data-index="${match.dplus}"]`);
 
-                        if (diff > 0) {
-                            // Disney+ is lower, add spacer in DVD
-                            dvdEl.parentNode.insertBefore(spacer, dvdEl);
-                            dvdOffset++;
-                        } else {
-                            // DVD is lower, add spacer in Disney+
-                            dplusEl.parentNode.insertBefore(spacer, dplusEl);
-                            dplusOffset++;
+                    if (dvdEl && dplusEl) {
+                        const dvdRect = dvdEl.getBoundingClientRect();
+                        const dplusRect = dplusEl.getBoundingClientRect();
+                        const diff = dplusRect.top - dvdRect.top;
+
+                        if (Math.abs(diff) > 5) {
+                            const spacer = document.createElement('div');
+                            spacer.className = 'spacer';
+                            spacer.style.height = Math.abs(diff) + 'px';
+
+                            if (diff > 0) {
+                                // Disney+ is lower, add spacer before DVD element
+                                dvdEl.parentNode.insertBefore(spacer, dvdEl);
+                            } else {
+                                // DVD is lower, add spacer before Disney+ element
+                                dplusEl.parentNode.insertBefore(spacer, dplusEl);
+                            }
                         }
                     }
+
+                    dvdIdx++;
+                    dplusIdx++;
                 });
 
                 // Redraw arrows after alignment settles
@@ -458,8 +388,8 @@
                 this.arrowLayer.style.top = (columnsRect.top - containerRect.top) + 'px';
 
                 matches.forEach(match => {
-                    const dvdEl = this.dvdContent.querySelector(`[data-index="${match.dvdIndex}"]`);
-                    const dplusEl = this.dplusContent.querySelector(`[data-index="${match.dplusIndex}"]`);
+                    const dvdEl = this.dvdContent.querySelector(`[data-index="${match.dvd}"]`);
+                    const dplusEl = this.dplusContent.querySelector(`[data-index="${match.dplus}"]`);
 
                     if (!dvdEl || !dplusEl) return;
 
@@ -477,7 +407,10 @@
                     const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
                     const d = `M ${x1} ${y1} C ${midX} ${y1}, ${midX} ${y2}, ${x2} ${y2}`;
                     path.setAttribute('d', d);
-                    path.setAttribute('class', match.score > 0.7 ? 'arrow-line strong-match' : 'arrow-line');
+
+                    // Color code by match type
+                    const className = match.matchType === 'same' ? 'arrow-line strong-match' : 'arrow-line';
+                    path.setAttribute('class', className);
 
                     this.arrowLayer.appendChild(path);
                 });
@@ -485,25 +418,26 @@
 
             async render() {
                 try {
-                    // Load both files
-                    const [dvdText, dplusText] = await Promise.all([
+                    // Load both transcript files and mapping
+                    const [dvdText, dplusText, mappingResponse] = await Promise.all([
                         this.loadFile('1-dvd.md'),
-                        this.loadFile('1-dplus.md')
+                        this.loadFile('1-dplus.md'),
+                        fetch('mapping.json')
                     ]);
+
+                    const mappingData = await mappingResponse.json();
+                    const matches = mappingData.mappings;
 
                     // Parse entries
                     const dvdEntries = this.parser.parse(dvdText);
                     const dplusEntries = this.parser.parse(dplusText);
 
+                    console.log(`DVD entries: ${dvdEntries.length}, Disney+ entries: ${dplusEntries.length}`);
+                    console.log(`Loaded ${matches.length} matches from mapping file`);
+
                     // Render entries
                     this.renderEntries(dvdEntries, this.dvdContent, 'dvd');
                     this.renderEntries(dplusEntries, this.dplusContent, 'dplus');
-
-                    // Find matches
-                    const matcher = new TranscriptMatcher(dvdEntries, dplusEntries);
-                    const matches = matcher.findMatches();
-
-                    console.log(`Found ${matches.length} matches`);
 
                     // Hide loading, show content
                     document.getElementById('loading').style.display = 'none';
@@ -511,7 +445,7 @@
 
                     // Align and draw arrows after render
                     setTimeout(() => {
-                        this.alignAndDrawArrows(matches);
+                        this.alignAndDrawArrows(matches, dvdEntries.length, dplusEntries.length);
                     }, 100);
 
                     // Redraw arrows on window resize
@@ -526,6 +460,7 @@
                 } catch (error) {
                     document.getElementById('loading').innerHTML =
                         `<div class="error">Error: ${error.message}</div>`;
+                    console.error(error);
                 }
             }
         }
