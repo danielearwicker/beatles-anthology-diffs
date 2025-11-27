@@ -322,6 +322,7 @@
                     div.className = "entry";
                     div.dataset.index = index;
                     div.dataset.column = column;
+                    div.id = `${column}${index}`; // Add ID for deep linking
 
                     const timecode = document.createElement("div");
                     timecode.className = "timecode";
@@ -833,7 +834,7 @@
                             });
                         });
 
-                        // Click to scroll to corresponding entry
+                        // Click to scroll to corresponding entry (or self if unmatched)
                         entry.addEventListener("click", () => {
                             const correspondingIndices =
                                 column === "dvd"
@@ -844,7 +845,7 @@
                                 correspondingIndices &&
                                 correspondingIndices.length > 0
                             ) {
-                                // Scroll to the first corresponding entry
+                                // Has a match - scroll to the first corresponding entry
                                 const targetIndex = correspondingIndices[0];
                                 const targetColumn =
                                     column === "dvd" ? "dplus" : "dvd";
@@ -865,6 +866,9 @@
                                     // Add highlight to target
                                     targetEl.classList.add("highlight-target");
 
+                                    // Update URL hash for deep linking
+                                    window.history.replaceState(null, null, `#${targetEl.id}`);
+
                                     // Scroll to center
                                     targetEl.scrollIntoView({
                                         behavior: "smooth",
@@ -878,6 +882,9 @@
                                         );
                                     }, 2000);
                                 }
+                            } else {
+                                // No match - just update hash to this item
+                                window.history.replaceState(null, null, `#${entry.id}`);
                             }
                         });
                     });
@@ -928,6 +935,24 @@
                                 dvdEntries.length,
                                 dplusEntries.length
                             );
+
+                            // Handle deep linking from URL hash
+                            setTimeout(() => {
+                                if (window.location.hash) {
+                                    const targetId = window.location.hash.substring(1); // Remove the '#'
+                                    const targetEl = document.getElementById(targetId);
+                                    if (targetEl) {
+                                        targetEl.classList.add("highlight-target");
+                                        targetEl.scrollIntoView({
+                                            behavior: "smooth",
+                                            block: "center",
+                                        });
+                                        setTimeout(() => {
+                                            targetEl.classList.remove("highlight-target");
+                                        }, 3000);
+                                    }
+                                }
+                            }, 500);
                         }, 100);
 
                         // Redraw arrows on window resize
