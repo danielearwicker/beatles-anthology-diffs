@@ -137,7 +137,8 @@
             "dvd": 28,
             "dplus": 24,
             "matchType": "same",
-            "note": "John: art school, jazz only, called it blues"
+            "note": "John: art school, jazz only, called it blues",
+            "aligned": true
         },
         {
             "dvd": 29,
@@ -150,7 +151,8 @@
             "dvd": 31,
             "dplus": 26,
             "matchType": "same",
-            "note": "Paul: in school, picture of Elvis"
+            "note": "Paul: in school, picture of Elvis",
+            "aligned": true
         },
         {
             "dvd": 32,
@@ -176,7 +178,8 @@
             "dvd": 39,
             "dplus": 35,
             "matchType": "same",
-            "note": "John: train songs, Rock Island Line"
+            "note": "John: train songs, Rock Island Line",
+            "aligned": true
         },
         {
             "dvd": 40,
@@ -202,7 +205,8 @@
             "dvd": 48,
             "dplus": 47,
             "matchType": "same",
-            "note": "John: re-established relationship with mother, banjo/guitar"
+            "note": "John: re-established relationship with mother, banjo/guitar",
+            "aligned": true
         },
         {
             "dvd": 49,
@@ -215,7 +219,8 @@
             "dvd": 50,
             "dplus": 50,
             "matchType": "same",
-            "note": "Ringo: 30 bob bass drum"
+            "note": "Ringo: 30 bob bass drum",
+            "aligned": true
         },
 
         {
@@ -339,7 +344,8 @@
             "dvd": 72,
             "dplus": 69,
             "matchType": "same",
-            "note": "George: John got name Beatles in a vision"
+            "note": "George: John got name Beatles in a vision",
+            "aligned": true
         },
         {
             "dvd": 74,
@@ -352,14 +358,16 @@
             "dvd": 82,
             "dplus": 73,
             "matchType": "same",
-            "note": "Pathetic tour"
+            "note": "Pathetic tour",
+            "aligned": true
         },
 
         {
             "dvd": 84,
             "dplus": 74,
             "matchType": "same",
-            "note": "John: toppermost of the poppermost"
+            "note": "John: toppermost of the poppermost",
+            "aligned": true
         },
 
         {
@@ -372,13 +380,15 @@
             "dvd": 86,
             "dplus": 75,
             "matchType": "same",
-            "note": "Got to be five"
+            "note": "Got to be five",
+            "aligned": true
         },
         {
             "dvd": 88,
             "dplus": 77,
             "matchType": "different",
-            "note": "Roll Over Beethoven"
+            "note": "Roll Over Beethoven",
+            "aligned": true
         },
 
         {
@@ -398,7 +408,8 @@
             "dvd": 94,
             "dplus": 80,
             "matchType": "same",
-            "note": "Money over Reeperbahn photos"
+            "note": "Money over Reeperbahn photos",
+            "aligned": true
         },
         {
             "dvd": 95,
@@ -410,7 +421,8 @@
             "dvd": 97,
             "dplus": 84,
             "matchType": "similar",
-            "note": "Great by then"
+            "note": "Great by then",
+            "aligned": true
         },
         {
             "dvd": 97,

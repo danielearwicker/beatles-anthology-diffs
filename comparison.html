@@ -27,6 +27,10 @@
                 font-size: 2em;
             }
 
+            p {
+                margin: 10px 0;
+            }
+
             .debug-indicator {
                 display: inline-block;
                 background: #ff6b6b;
@@ -47,7 +51,7 @@
             .columns {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                gap: 60px;
+                gap: 100px;
                 position: relative;
             }
 
@@ -100,6 +104,22 @@
             .entry.matched {
                 border-left-width: 6px;
                 cursor: pointer;
+            }
+
+            .entry.dropped {
+                background: rgba(139, 0, 0, 0.15);
+            }
+
+            .entry.dropped:hover {
+                background: rgba(139, 0, 0, 0.25);
+            }
+
+            .entry.added {
+                background: rgba(0, 100, 0, 0.15);
+            }
+
+            .entry.added:hover {
+                background: rgba(0, 100, 0, 0.25);
             }
 
             .timecode {
@@ -191,6 +211,19 @@
     </head>
     <body>
         <h1>Beatles Anthology Episode 1 - Comparison</h1>
+        <p>
+            Are you wondering how has the Beatles Anthology documentary changed
+            between the 2003 DVD version and the 2025 Disney+ version? Here is
+            an attempt to answer that question.
+        </p>
+        <p>
+            This is not a complete transcript. It includes items removed from
+            the original DVD version (dark red items on the left) or added to
+            the Disney+ version (dark green items on the right), and also some
+            items reordered or modified which are connected by links. You can
+            click on an item to follow the link to see where it appears in the
+            other version.
+        </p>
         <div class="loading" id="loading">Loading transcripts...</div>
         <div class="container" id="container" style="display: none">
             <svg id="arrow-layer"></svg>
@@ -350,6 +383,13 @@
                         dplusElements.push(el);
                     }
 
+                    // Build sets of matched indices
+                    const dvdMatchedSet = new Set(matches.map((m) => m.dvd));
+                    const dplusMatchedSet = new Set(
+                        matches.map((m) => m.dplus)
+                    );
+
+                    // Mark matched entries
                     matches.forEach((match) => {
                         if (dvdElements[match.dvd])
                             dvdElements[match.dvd].classList.add("matched");
@@ -357,8 +397,23 @@
                             dplusElements[match.dplus].classList.add("matched");
                     });
 
+                    // Mark dropped DVD entries (no mapping to Disney+)
+                    for (let i = 0; i < dvdCount; i++) {
+                        if (!dvdMatchedSet.has(i) && dvdElements[i]) {
+                            dvdElements[i].classList.add("dropped");
+                        }
+                    }
+
+                    // Mark added Disney+ entries (no mapping from DVD)
+                    for (let i = 0; i < dplusCount; i++) {
+                        if (!dplusMatchedSet.has(i) && dplusElements[i]) {
+                            dplusElements[i].classList.add("added");
+                        }
+                    }
+
                     // Filter out matches that represent extreme reordering
                     // Only use matches for alignment where both indices increase monotonically
+                    // EXCEPT for forced alignments which are always included
                     const monotonic = [];
                     let lastDvd = -1;
                     let lastDplus = -1;
@@ -368,11 +423,17 @@
                     );
 
                     sortedMatches.forEach((match) => {
-                        // Only use this match for alignment if both indices are increasing
-                        if (match.dvd > lastDvd && match.dplus > lastDplus) {
+                        // Always include forced alignments, or matches where both indices are increasing
+                        const isForced = match.aligned === true;
+                        const isMonotonic =
+                            match.dvd > lastDvd && match.dplus > lastDplus;
+
+                        if (isForced || isMonotonic) {
                             monotonic.push(match);
-                            lastDvd = match.dvd;
-                            lastDplus = match.dplus;
+                            if (isMonotonic) {
+                                lastDvd = match.dvd;
+                                lastDplus = match.dplus;
+                            }
                         }
                     });
 
@@ -427,9 +488,13 @@
                         const hasModerateMismatch = totalMismatch > 10;
                         const hasLargeMismatch = totalMismatch > 12;
 
+                        // Check if this is a forced alignment anchor
+                        const isForced = current.aligned === true;
+
                         const shouldSkip =
-                            hasLargeMismatch ||
-                            (isIsolated && hasModerateMismatch);
+                            !isForced &&
+                            (hasLargeMismatch ||
+                                (isIsolated && hasModerateMismatch));
 
                         // Record diagnostics
                         diagnostics.push({
@@ -446,7 +511,12 @@
                             isIsolated,
                             hasModerateMismatch,
                             hasLargeMismatch,
-                            decision: shouldSkip ? "SKIP" : "ALIGN",
+                            isForced,
+                            decision: shouldSkip
+                                ? "SKIP"
+                                : isForced
+                                ? "FORCED"
+                                : "ALIGN",
                         });
 
                         if (shouldSkip) {
@@ -464,6 +534,13 @@
                     // Log diagnostics table
                     console.log("\n=== ALIGNMENT DIAGNOSTICS ===");
                     console.table(diagnostics);
+
+                    // Highlight forced alignments
+                    const forced = diagnostics.filter((d) => d.isForced);
+                    if (forced.length > 0) {
+                        console.log("\n🔒 FORCED ALIGNMENT ANCHORS:");
+                        console.table(forced);
+                    }
 
                     // Find and highlight problematic alignments
                     const problematic = diagnostics
@@ -499,24 +576,46 @@
                     const dvdMatched = new Set(matches.map((m) => m.dvd));
                     const dplusMatched = new Set(matches.map((m) => m.dplus));
 
+                    // Sort alignmentMatches to ensure we process them in a sensible order
+                    // This prevents forced alignments from breaking the sequential processing
+                    const sortedAlignments = [...alignmentMatches].sort(
+                        (a, b) => {
+                            // Primary sort by DVD index
+                            if (a.dvd !== b.dvd) return a.dvd - b.dvd;
+                            // Secondary sort by Disney+ index
+                            return a.dplus - b.dplus;
+                        }
+                    );
+
                     // Track the last processed indices
                     let lastDvdIdx = -1;
                     let lastDplusIdx = -1;
 
-                    // Use only alignmentMatches for creating spacers
-                    alignmentMatches.forEach((match, matchIdx) => {
-                        // Calculate height of unmatched DVD items between last match and this match
+                    // Use only sortedAlignments for creating spacers
+                    sortedAlignments.forEach((match, matchIdx) => {
+                        // Skip if this alignment would go backwards (only possible with forced alignments)
+                        if (
+                            match.dvd <= lastDvdIdx ||
+                            match.dplus <= lastDplusIdx
+                        ) {
+                            console.warn(
+                                `⚠️ Skipping out-of-order forced alignment: DVD ${match.dvd} → Disney+ ${match.dplus}`
+                            );
+                            return;
+                        }
+                        // Calculate height of ALL items between last alignment match and this one
+                        // (This includes matched items that were skipped for alignment)
                         let dvdHeight = 0;
                         for (let i = lastDvdIdx + 1; i < match.dvd; i++) {
-                            if (dvdElements[i] && !dvdMatched.has(i)) {
+                            if (dvdElements[i]) {
                                 dvdHeight += dvdElements[i].offsetHeight + 12; // Include margin
                             }
                         }
 
-                        // Calculate height of unmatched Disney+ items between last match and this match
+                        // Calculate height of ALL Disney+ items between last alignment match and this one
                         let dplusHeight = 0;
                         for (let i = lastDplusIdx + 1; i < match.dplus; i++) {
-                            if (dplusElements[i] && !dplusMatched.has(i)) {
+                            if (dplusElements[i]) {
                                 dplusHeight +=
                                     dplusElements[i].offsetHeight + 12; // Include margin
                             }
