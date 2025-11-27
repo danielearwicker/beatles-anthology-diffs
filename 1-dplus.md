@@ -32,7 +32,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 03:57 _We'll Meet Again_
 
-04:56 George: "My father was driving a bus at the time I was born, and I lived in a two-up and two-down, 12 Arnold Grove."
+04:56 George: "My father was driving a bus at the time I was born, and I lived in a two-up and two-down, 12 Arnold Grove." _(Very similar but not identical take)_
 
 05:20 Footage of soldiers marching in formation. Ringo: "We were all roughly the same age and we were like, the first group of people who didn't go in the army."
 
@@ -122,7 +122,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 15:53 Ringo: "I used to look in shops and see drums, that's all I looked at, never looked at guitars or anything."
 
-15:57 Ringo: "I bought a 30 bob bass drum - 30 shillings - huge mother! Just a huge one-sided bass drum. \*\*And in our area, there used to be lots and lots of parties, y'know, your uncle would play banjo, or harmonica, my grandparents played mandolin and banjo, so there was always someone playing something. And so I would play my big drum and drive 'em mad. But because I was a kid, they'd let me do it."
+15:57 Ringo: "I bought a 30 bob bass drum - 30 shillings - huge mother! Just a huge one-sided bass drum. And in our area, there used to be lots and lots of parties, y'know, your uncle would play banjo, or harmonica, my grandparents played mandolin and banjo, so there was always someone playing something. And so I would play my big drum and drive 'em mad. But because I was a kid, they'd let me do it."
 
 16:26 Paul: "George and I lived very near each other in Liverpool, in fact we were just a bus stop away from each other - I'd get on the bus, and then the stop after, George would get on. So being quite close in age we'd sit together and talk about stuff and that. **[edit]** So, I suppose I used to talk down to him a little bit **[edit]**, might have been a failing of mine, to talk down to him, 'cause I'd known him as a younger kid."
 

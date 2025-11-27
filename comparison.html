@@ -26,6 +26,17 @@
             font-size: 2em;
         }
 
+        .debug-indicator {
+            display: inline-block;
+            background: #FF6B6B;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.5em;
+            margin-left: 15px;
+            vertical-align: middle;
+        }
+
         .container {
             max-width: 1800px;
             margin: 0 auto;
@@ -87,6 +98,7 @@
 
         .entry.matched {
             border-left-width: 6px;
+            cursor: pointer;
         }
 
         .timecode {
@@ -140,6 +152,20 @@
             opacity: 0.8;
         }
 
+        .arrow-line.dimmed {
+            opacity: 0.1 !important;
+        }
+
+        .arrow-line.highlighted {
+            opacity: 1 !important;
+            stroke-width: 4 !important;
+        }
+
+        .entry.highlight-target {
+            background: #3a3a3a;
+            box-shadow: 0 0 20px rgba(76, 175, 80, 0.4);
+        }
+
         .loading {
             text-align: center;
             padding: 50px;
@@ -180,6 +206,9 @@
     </div>
 
     <script>
+        // DEBUG: Set to true to show index numbers next to entries
+        const SHOW_INDICES = true;
+
         class TranscriptParser {
             parse(text) {
                 const lines = text.split('\n');
@@ -192,8 +221,8 @@
                     // Skip title and empty lines
                     if (!line || line.startsWith('Anthology,')) continue;
 
-                    // Check if this is a timecode line
-                    const timecodeMatch = line.match(/^(\d{2}:\d{2})/);
+                    // Check if this is a timecode line (supports both MM:SS and HH:MM:SS)
+                    const timecodeMatch = line.match(/^(\d{1,2}:\d{2}(?::\d{2})?)/);
 
                     if (timecodeMatch) {
                         // Save previous entry if it exists
@@ -256,7 +285,17 @@
 
                 const timecode = document.createElement('div');
                 timecode.className = 'timecode';
-                timecode.textContent = entry.timecode;
+
+                // Optionally show index number for debugging
+                if (SHOW_INDICES) {
+                    const indexBadge = document.createElement('span');
+                    indexBadge.style.cssText = 'background: #555; padding: 2px 6px; border-radius: 3px; margin-right: 8px; font-size: 0.85em;';
+                    indexBadge.textContent = `#${index}`;
+                    timecode.appendChild(indexBadge);
+                }
+
+                const timecodeText = document.createTextNode(entry.timecode);
+                timecode.appendChild(timecodeText);
 
                 const content = document.createElement('div');
                 content.className = 'content';
@@ -276,101 +315,129 @@
             }
 
             alignAndDrawArrows(matches, dvdCount, dplusCount) {
-                // Mark matched entries
-                matches.forEach(match => {
-                    const dvdEl = this.dvdContent.querySelector(`[data-index="${match.dvd}"]`);
-                    const dplusEl = this.dplusContent.querySelector(`[data-index="${match.dplus}"]`);
-
-                    if (dvdEl) dvdEl.classList.add('matched');
-                    if (dplusEl) dplusEl.classList.add('matched');
-                });
-
                 // Clear existing spacers
                 document.querySelectorAll('.spacer').forEach(el => el.remove());
 
-                // Build sets of matched indices for quick lookup
+                // Mark matched entries and collect all elements
+                const dvdElements = [];
+                const dplusElements = [];
+
+                for (let i = 0; i < dvdCount; i++) {
+                    const el = this.dvdContent.querySelector(`[data-index="${i}"]`);
+                    dvdElements.push(el);
+                }
+
+                for (let i = 0; i < dplusCount; i++) {
+                    const el = this.dplusContent.querySelector(`[data-index="${i}"]`);
+                    dplusElements.push(el);
+                }
+
+                matches.forEach(match => {
+                    if (dvdElements[match.dvd]) dvdElements[match.dvd].classList.add('matched');
+                    if (dplusElements[match.dplus]) dplusElements[match.dplus].classList.add('matched');
+                });
+
+                // Filter out matches that represent extreme reordering
+                // Only use matches for alignment where both indices increase monotonically
+                const alignmentMatches = [];
+                let lastDvd = -1;
+                let lastDplus = -1;
+
+                const sortedMatches = [...matches].sort((a, b) => a.dvd - b.dvd);
+
+                sortedMatches.forEach(match => {
+                    // Only use this match for alignment if both indices are increasing
+                    if (match.dvd > lastDvd && match.dplus > lastDplus) {
+                        alignmentMatches.push(match);
+                        lastDvd = match.dvd;
+                        lastDplus = match.dplus;
+                    }
+                });
+
+                console.log(`Total matches: ${matches.length}, Alignment matches: ${alignmentMatches.length}`);
+
+                // Build set of matched indices (for all matches, not just alignment)
                 const dvdMatched = new Set(matches.map(m => m.dvd));
                 const dplusMatched = new Set(matches.map(m => m.dplus));
 
-                // Create mapping objects for quick lookup
-                const dvdToDP = {};
-                const dpToD = {};
-                matches.forEach(m => {
-                    dvdToDP[m.dvd] = m.dplus;
-                    dpToD[m.dplus] = m.dvd;
-                });
+                // Track the last processed indices
+                let lastDvdIdx = -1;
+                let lastDplusIdx = -1;
 
-                // Sort matches to process in order
-                const sortedMatches = [...matches].sort((a, b) => a.dvd - b.dvd);
-
-                let dvdIdx = 0;
-                let dplusIdx = 0;
-
-                sortedMatches.forEach((match, matchIdx) => {
-                    // Insert spacers for any unmatched DVD entries before this match
-                    while (dvdIdx < match.dvd) {
-                        if (!dvdMatched.has(dvdIdx)) {
-                            // This DVD entry is unmatched, need spacer on dplus side
-                            const dvdEl = this.dvdContent.querySelector(`[data-index="${dvdIdx}"]`);
-                            const dplusEl = this.dplusContent.querySelector(`[data-index="${dplusIdx}"]`);
-
-                            if (dvdEl && dplusEl) {
-                                const spacer = document.createElement('div');
-                                spacer.className = 'spacer';
-                                spacer.style.height = dvdEl.offsetHeight + 12 + 'px'; // height + margin
-                                dplusEl.parentNode.insertBefore(spacer, dplusEl);
-                            }
+                // Use only alignmentMatches for creating spacers
+                alignmentMatches.forEach((match, matchIdx) => {
+                    // Calculate height of unmatched DVD items between last match and this match
+                    let dvdHeight = 0;
+                    for (let i = lastDvdIdx + 1; i < match.dvd; i++) {
+                        if (dvdElements[i] && !dvdMatched.has(i)) {
+                            dvdHeight += dvdElements[i].offsetHeight + 12; // Include margin
                         }
-                        dvdIdx++;
                     }
 
-                    // Insert spacers for any unmatched Disney+ entries before this match
-                    while (dplusIdx < match.dplus) {
-                        if (!dplusMatched.has(dplusIdx)) {
-                            // This Disney+ entry is unmatched, need spacer on dvd side
-                            const dplusEl = this.dplusContent.querySelector(`[data-index="${dplusIdx}"]`);
-                            const dvdEl = this.dvdContent.querySelector(`[data-index="${dvdIdx}"]`);
-
-                            if (dplusEl && dvdEl) {
-                                const spacer = document.createElement('div');
-                                spacer.className = 'spacer';
-                                spacer.style.height = dplusEl.offsetHeight + 12 + 'px'; // height + margin
-                                dvdEl.parentNode.insertBefore(spacer, dvdEl);
-                            }
+                    // Calculate height of unmatched Disney+ items between last match and this match
+                    let dplusHeight = 0;
+                    for (let i = lastDplusIdx + 1; i < match.dplus; i++) {
+                        if (dplusElements[i] && !dplusMatched.has(i)) {
+                            dplusHeight += dplusElements[i].offsetHeight + 12; // Include margin
                         }
-                        dplusIdx++;
                     }
 
-                    // Now align the matched pair
-                    const dvdEl = this.dvdContent.querySelector(`[data-index="${match.dvd}"]`);
-                    const dplusEl = this.dplusContent.querySelector(`[data-index="${match.dplus}"]`);
+                    // Insert spacer on the side with less content
+                    const heightDiff = Math.abs(dvdHeight - dplusHeight);
+                    if (heightDiff > 10) { // Only if difference is significant
+                        const spacer = document.createElement('div');
+                        spacer.className = 'spacer';
+                        spacer.style.height = heightDiff + 'px';
 
-                    if (dvdEl && dplusEl) {
-                        const dvdRect = dvdEl.getBoundingClientRect();
-                        const dplusRect = dplusEl.getBoundingClientRect();
-                        const diff = dplusRect.top - dvdRect.top;
-
-                        if (Math.abs(diff) > 5) {
-                            const spacer = document.createElement('div');
-                            spacer.className = 'spacer';
-                            spacer.style.height = Math.abs(diff) + 'px';
-
-                            if (diff > 0) {
-                                // Disney+ is lower, add spacer before DVD element
+                        if (dvdHeight < dplusHeight) {
+                            // DVD side has less content, add spacer before this DVD match
+                            const dvdEl = dvdElements[match.dvd];
+                            if (dvdEl) {
                                 dvdEl.parentNode.insertBefore(spacer, dvdEl);
-                            } else {
-                                // DVD is lower, add spacer before Disney+ element
+                            }
+                        } else {
+                            // Disney+ side has less content, add spacer before this Disney+ match
+                            const dplusEl = dplusElements[match.dplus];
+                            if (dplusEl) {
                                 dplusEl.parentNode.insertBefore(spacer, dplusEl);
                             }
                         }
                     }
 
-                    dvdIdx++;
-                    dplusIdx++;
+                    lastDvdIdx = match.dvd;
+                    lastDplusIdx = match.dplus;
                 });
 
-                // Redraw arrows after alignment settles
-                setTimeout(() => this.drawArrows(matches), 350);
+                // Fine-tune alignment by checking actual positions (only for alignment matches)
+                setTimeout(() => {
+                    alignmentMatches.forEach(match => {
+                        const dvdEl = this.dvdContent.querySelector(`[data-index="${match.dvd}"]`);
+                        const dplusEl = this.dplusContent.querySelector(`[data-index="${match.dplus}"]`);
+
+                        if (dvdEl && dplusEl) {
+                            const dvdRect = dvdEl.getBoundingClientRect();
+                            const dplusRect = dplusEl.getBoundingClientRect();
+                            const diff = dplusRect.top - dvdRect.top;
+
+                            if (Math.abs(diff) > 10) {
+                                const spacer = document.createElement('div');
+                                spacer.className = 'spacer';
+                                spacer.style.height = Math.abs(diff) + 'px';
+
+                                if (diff > 0) {
+                                    // Disney+ is lower, add spacer before DVD element
+                                    dvdEl.parentNode.insertBefore(spacer, dvdEl);
+                                } else {
+                                    // DVD is lower, add spacer before Disney+ element
+                                    dplusEl.parentNode.insertBefore(spacer, dplusEl);
+                                }
+                            }
+                        }
+                    });
+
+                    // Draw arrows for ALL matches (including reordered ones)
+                    setTimeout(() => this.drawArrows(matches), 100);
+                }, 50);
             }
 
             drawArrows(matches) {
@@ -412,7 +479,105 @@
                     const className = match.matchType === 'same' ? 'arrow-line strong-match' : 'arrow-line';
                     path.setAttribute('class', className);
 
+                    // Store connection info for hover/click interactions
+                    path.setAttribute('data-dvd', match.dvd);
+                    path.setAttribute('data-dplus', match.dplus);
+
                     this.arrowLayer.appendChild(path);
+                });
+            }
+
+            setupInteractions(matches) {
+                const allEntries = document.querySelectorAll('.entry');
+                const allArrows = this.arrowLayer.querySelectorAll('.arrow-line');
+
+                // Build lookup maps for which arrows connect to which entries
+                const dvdToArrows = {};
+                const dplusToArrows = {};
+
+                allArrows.forEach(arrow => {
+                    const dvdIdx = arrow.getAttribute('data-dvd');
+                    const dplusIdx = arrow.getAttribute('data-dplus');
+
+                    if (!dvdToArrows[dvdIdx]) dvdToArrows[dvdIdx] = [];
+                    if (!dplusToArrows[dplusIdx]) dplusToArrows[dplusIdx] = [];
+
+                    dvdToArrows[dvdIdx].push(arrow);
+                    dplusToArrows[dplusIdx].push(arrow);
+                });
+
+                // Build lookup map for corresponding entries
+                const dvdToDplus = {};
+                const dplusToDvd = {};
+
+                matches.forEach(match => {
+                    if (!dvdToDplus[match.dvd]) dvdToDplus[match.dvd] = [];
+                    if (!dplusToDvd[match.dplus]) dplusToDvd[match.dplus] = [];
+
+                    dvdToDplus[match.dvd].push(match.dplus);
+                    dplusToDvd[match.dplus].push(match.dvd);
+                });
+
+                // Add hover and click listeners to all entries
+                allEntries.forEach(entry => {
+                    const index = entry.dataset.index;
+                    const column = entry.dataset.column;
+
+                    // Hover to highlight arrows
+                    entry.addEventListener('mouseenter', () => {
+                        const relevantArrows = column === 'dvd' ? dvdToArrows[index] : dplusToArrows[index];
+
+                        if (relevantArrows && relevantArrows.length > 0) {
+                            // Dim all arrows
+                            allArrows.forEach(arrow => arrow.classList.add('dimmed'));
+                            // Highlight relevant arrows
+                            relevantArrows.forEach(arrow => {
+                                arrow.classList.remove('dimmed');
+                                arrow.classList.add('highlighted');
+                            });
+                        }
+                    });
+
+                    entry.addEventListener('mouseleave', () => {
+                        // Remove all highlighting
+                        allArrows.forEach(arrow => {
+                            arrow.classList.remove('dimmed');
+                            arrow.classList.remove('highlighted');
+                        });
+                    });
+
+                    // Click to scroll to corresponding entry
+                    entry.addEventListener('click', () => {
+                        const correspondingIndices = column === 'dvd' ? dvdToDplus[index] : dplusToDvd[index];
+
+                        if (correspondingIndices && correspondingIndices.length > 0) {
+                            // Scroll to the first corresponding entry
+                            const targetIndex = correspondingIndices[0];
+                            const targetColumn = column === 'dvd' ? 'dplus' : 'dvd';
+                            const targetEl = document.querySelector(`[data-index="${targetIndex}"][data-column="${targetColumn}"]`);
+
+                            if (targetEl) {
+                                // Remove previous highlight
+                                document.querySelectorAll('.highlight-target').forEach(el => {
+                                    el.classList.remove('highlight-target');
+                                });
+
+                                // Add highlight to target
+                                targetEl.classList.add('highlight-target');
+
+                                // Scroll to center
+                                targetEl.scrollIntoView({
+                                    behavior: 'smooth',
+                                    block: 'center'
+                                });
+
+                                // Remove highlight after 2 seconds
+                                setTimeout(() => {
+                                    targetEl.classList.remove('highlight-target');
+                                }, 2000);
+                            }
+                        }
+                    });
                 });
             }
 
@@ -448,12 +613,18 @@
                         this.alignAndDrawArrows(matches, dvdEntries.length, dplusEntries.length);
                     }, 100);
 
+                    // Setup hover and click interactions
+                    setTimeout(() => {
+                        this.setupInteractions(matches);
+                    }, 200);
+
                     // Redraw arrows on window resize
                     let resizeTimeout;
                     window.addEventListener('resize', () => {
                         clearTimeout(resizeTimeout);
                         resizeTimeout = setTimeout(() => {
                             this.drawArrows(matches);
+                            this.setupInteractions(matches);
                         }, 200);
                     });
 
@@ -467,6 +638,15 @@
 
         // Initialize when page loads
         window.addEventListener('DOMContentLoaded', () => {
+            // Add debug indicator to title if enabled
+            if (SHOW_INDICES) {
+                const h1 = document.querySelector('h1');
+                const indicator = document.createElement('span');
+                indicator.className = 'debug-indicator';
+                indicator.textContent = 'DEBUG MODE';
+                h1.appendChild(indicator);
+            }
+
             const renderer = new TranscriptRenderer(document.getElementById('container'));
             renderer.render();
         });

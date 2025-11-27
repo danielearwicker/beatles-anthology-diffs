@@ -196,7 +196,7 @@ Ring: Rory and I, or the band, we were staying in one room in the German Seaman'
 
 45:24 George: "I think that's where we found our style, we defeloped our style because fellow who used to say 'You've got to make a show for the people', he used to come up every night, shouting 'Mach shau!', so we used to mach shau, John used to dance around like a gorilla, and we'd all knock our heads together, things like that.
 
-45:48: Ringo: "By the time we all met up in Germany we were playing one club, they were playing another. They were just great by then. And I used to like, because we used to do long hours, we used to do 12 hours in a weekend between two bands, and ended up on the same club and that, so if they had the last set, I'd sort of be semi-drunk, and demanding they play slow songs."
+45:48 Ringo: "By the time we all met up in Germany we were playing one club, they were playing another. They were just great by then. And I used to like, because we used to do long hours, we used to do 12 hours in a weekend between two bands, and ended up on the same club and that, so if they had the last set, I'd sort of be semi-drunk, and demanding they play slow songs."
 
 46:12 Paul: "And he'd come to our club, real late at night, and he used to like the sort of blues feel of the late night sessions, when there was hardly anybody there, and we were getting down, I could see what he liked about it it, we were playing stuff a bit more for ourselves by that time of night, particularly 'cause there was no one in, and this was all sort of bluesy, and B-sides, lesser known tracks, a thing we used to do, his particular favourite, he used to request it, was _Three Thirty Blues_.
 
@@ -204,7 +204,7 @@ Ring: Rory and I, or the band, we were staying in one room in the German Seaman'
 
 46:52 George: "We made friends with a lot of people... and Astrid, who took all the famous photographs of us of that period."
 
-47:11 Paul: "They liked all the rock and roll stuff, the quiffed-back hair-dos, all that kind of thing, the leather outfits, the shades. They weren't really rockers, or mods..." leading to long montage of Astrid's photos over sound clips of Beatles in Hamburg.
+47:11 Paul: "**They liked all the rock and roll stuff, the quiffed-back hair-dos, all that kind of thing, the leather outfits, the shades.** They weren't really rockers, or mods..." leading to long montage of Astrid's photos over sound clips of Beatles in Hamburg.
 
 48:42 John: "Our best work was never recorded, y'know. We were performers in Liverpool, Hamburg and 'round the dance halls. What we generated was fantastic."
 
