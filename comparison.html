@@ -210,7 +210,7 @@
 
         <script>
             // DEBUG: Set to true to show index numbers next to entries
-            const SHOW_INDICES = true;
+            const SHOW_INDICES = false;
 
             class TranscriptParser {
                 parse(text) {
@@ -379,6 +379,7 @@
                     // Now further filter to avoid aligning isolated matches that create huge gaps
                     // Calculate "cost" for each potential alignment match
                     const alignmentMatches = [];
+                    const diagnostics = [];
 
                     for (let i = 0; i < monotonic.length; i++) {
                         const current = monotonic[i];
@@ -420,17 +421,35 @@
                             if (j !== i) nearbyMatches++;
                         }
 
-                        // Skip this match if:
-                        // 1. It's very isolated (no nearby matches) AND creates large mismatch
-                        // 2. OR the mismatch is extreme (would create very large gaps)
+                        // Skip this match if it creates significant mismatch
+                        // Tighter thresholds to avoid aligning items that create large gaps
                         const isIsolated = nearbyMatches < 2;
-                        const hasLargeMismatch = totalMismatch > 15;
-                        const hasExtremeMismatch = totalMismatch > 30;
+                        const hasModerateMismatch = totalMismatch > 10;
+                        const hasLargeMismatch = totalMismatch > 12;
 
-                        if (
-                            hasExtremeMismatch ||
-                            (isIsolated && hasLargeMismatch)
-                        ) {
+                        const shouldSkip =
+                            hasLargeMismatch ||
+                            (isIsolated && hasModerateMismatch);
+
+                        // Record diagnostics
+                        diagnostics.push({
+                            dvd: current.dvd,
+                            dplus: current.dplus,
+                            dvdGapBefore,
+                            dplusGapBefore,
+                            dvdGapAfter,
+                            dplusGapAfter,
+                            mismatchBefore,
+                            mismatchAfter,
+                            totalMismatch,
+                            nearbyMatches,
+                            isIsolated,
+                            hasModerateMismatch,
+                            hasLargeMismatch,
+                            decision: shouldSkip ? "SKIP" : "ALIGN",
+                        });
+
+                        if (shouldSkip) {
                             // Skip this match for alignment (but still draw arrow)
                             continue;
                         }
@@ -441,6 +460,40 @@
                     console.log(
                         `Total matches: ${matches.length}, Monotonic: ${monotonic.length}, Alignment matches: ${alignmentMatches.length}`
                     );
+
+                    // Log diagnostics table
+                    console.log("\n=== ALIGNMENT DIAGNOSTICS ===");
+                    console.table(diagnostics);
+
+                    // Find and highlight problematic alignments
+                    const problematic = diagnostics
+                        .filter(
+                            (d) =>
+                                d.decision === "ALIGN" && d.totalMismatch > 10
+                        )
+                        .sort((a, b) => b.totalMismatch - a.totalMismatch);
+
+                    if (problematic.length > 0) {
+                        console.warn(
+                            "\n⚠️ POTENTIALLY PROBLEMATIC ALIGNMENTS (sorted by mismatch):"
+                        );
+                        console.table(problematic);
+                    }
+
+                    // Calculate total alignment cost
+                    const totalCost = alignmentMatches.reduce(
+                        (sum, match, i) => {
+                            const diag = diagnostics.find(
+                                (d) =>
+                                    d.dvd === match.dvd &&
+                                    d.dplus === match.dplus
+                            );
+                            return sum + (diag ? diag.totalMismatch : 0);
+                        },
+                        0
+                    );
+
+                    console.log(`\n📊 Total alignment cost: ${totalCost}`);
 
                     // Build set of matched indices (for all matches, not just alignment)
                     const dvdMatched = new Set(matches.map((m) => m.dvd));
@@ -542,7 +595,11 @@
                         });
 
                         // Draw arrows for ALL matches (including reordered ones)
-                        setTimeout(() => this.drawArrows(matches), 100);
+                        setTimeout(() => {
+                            this.drawArrows(matches);
+                            // Setup interactions after arrows are drawn
+                            this.setupInteractions(matches);
+                        }, 100);
                     }, 50);
                 }
 
@@ -765,6 +822,7 @@
                         this.container.style.display = "block";
 
                         // Align and draw arrows after render
+                        // (setupInteractions is called automatically after arrows are drawn)
                         setTimeout(() => {
                             this.alignAndDrawArrows(
                                 matches,
@@ -772,11 +830,6 @@
                                 dplusEntries.length
                             );
                         }, 100);
-
-                        // Setup hover and click interactions
-                        setTimeout(() => {
-                            this.setupInteractions(matches);
-                        }, 200);
 
                         // Redraw arrows on window resize
                         let resizeTimeout;
