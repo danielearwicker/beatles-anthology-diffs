@@ -68,7 +68,7 @@ Anthology, 2003 DVD Version: Episode 1
 
 11:24 Paul: "One of our favourite records around that time was one called _Searchin'_, by the Coasters"
 
-11:26: _Searchin'_
+11:26 _Searchin'_
 
 11:49 George: "We got to hear people like Big Bill Broonzy, I think he might even have done a tour of England."
 

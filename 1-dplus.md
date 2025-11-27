@@ -184,7 +184,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 33:50 Ringo: "By the time we all met up in Germany we were playing one club, they were playing another. They were just great by then. "
 
-33:54: John: "Ringo was a professional drummer who sang and performed, and had 'Ringo Starr Time', and he was in one of the top groups in Liverpool before we even had a drummer."
+33:54 John: "Ringo was a professional drummer who sang and performed, and had 'Ringo Starr Time', and he was in one of the top groups in Liverpool before we even had a drummer."
 
 34:02 Ringo: "Because we used to do long hours, we used to do 12 hours in a weekend between two bands, and ended up on the same club and that, so if they had the last set, I'd sort of be semi-drunk, and demanding they play slow songs."
 
