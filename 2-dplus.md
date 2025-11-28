@@ -82,6 +82,8 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 31:40 _Long Tall Sally_ live performance on Swedish TV show, **cuts before awkward clapping exercise**.
 
+33:01 Brian Matthew over footage of the Beatles returning from Sweden, up to Derek Taylor on Ringo's "perfect quote: want to play me drums for the Queen Mum."
+
 33:58 John: "We were the first working-class singers, that stayed working-class, and pronounced it, didn't try and change our accents, which in England are looked - were looked down upon, probably still are."
 
 34:11 John interviewed, "We're not going to vote for Ted", to Paul being interviewed while John pokes him in the back of the head.

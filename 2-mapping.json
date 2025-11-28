@@ -112,7 +112,7 @@
         },
         {
             "dvd": 21,
-            "dplus": 41,
+            "dplus": 42,
             "matchType": "same",
             "note": "John: first working-class singers"
         },
@@ -171,139 +171,145 @@
             "note": "Long Tall Sally on Swedish TV"
         },
         {
+            "dvd": 36,
+            "dplus": 41,
+            "matchType": "same",
+            "note": "Derek Taylor, Ringo Queen Mum"
+        },
+        {
             "dvd": 37,
-            "dplus": 42,
+            "dplus": 43,
             "matchType": "same",
             "note": "John interviewed, not going to vote for Ted"
         },
         {
             "dvd": 40,
-            "dplus": 43,
+            "dplus": 44,
             "matchType": "same",
             "note": "Royal Variety: cheaper seats + Twist and Shout",
             "aligned": true
         },
         {
             "dvd": 41,
-            "dplus": 52,
+            "dplus": 53,
             "matchType": "same",
             "note": "All My Loving over animated headshots"
         },
         {
             "dvd": 42,
-            "dplus": 53,
+            "dplus": 54,
             "matchType": "same",
             "note": "John: giving people their money's worth"
         },
         {
             "dvd": 43,
-            "dplus": 45,
+            "dplus": 46,
             "matchType": "same",
             "note": "George Martin: With the Beatles, first songbook"
         },
         {
             "dvd": 44,
-            "dplus": 47,
+            "dplus": 48,
             "matchType": "same",
             "note": "George Martin: not thinking of album as entity"
         },
         {
             "dvd": 45,
-            "dplus": 51,
+            "dplus": 52,
             "matchType": "similar",
             "note": "George Martin: record singles, put on album"
         },
         {
             "dvd": 46,
-            "dplus": 49,
+            "dplus": 50,
             "matchType": "same",
             "note": "Please Mister Postman"
         },
         {
             "dvd": 47,
-            "dplus": 55,
+            "dplus": 56,
             "matchType": "same",
             "note": "George: Robert Freeman, Astrid Kirchherr"
         },
         {
             "dvd": 48,
-            "dplus": 54,
+            "dplus": 55,
             "matchType": "same",
             "note": "Roll over Beethoven live TV",
             "aligned": true
         },
         {
             "dvd": 49,
-            "dplus": 56,
+            "dplus": 57,
             "matchType": "same",
             "note": "Brian Matthew: With The Beatles advance sales records",
             "aligned": true
         },
         {
             "dvd": 50,
-            "dplus": 58,
+            "dplus": 59,
             "matchType": "different",
             "note": "Paul: not going to America till number one (edited on Disney+)",
             "aligned": true
         },
         {
             "dvd": 51,
-            "dplus": 61,
+            "dplus": 62,
             "matchType": "different",
             "note": "George Martin: trying to get into America (edited/reordered)",
             "aligned": true
         },
         {
             "dvd": 52,
-            "dplus": 62,
+            "dplus": 63,
             "matchType": "similar",
             "note": "Paul: Please Please Me, From Me to You - all flops"
         },
         {
             "dvd": 53,
-            "dplus": 66,
+            "dplus": 67,
             "matchType": "different",
             "note": "George Martin: Capitol forced to release (reordered)"
         },
         {
             "dvd": 54,
-            "dplus": 64,
+            "dplus": 65,
             "matchType": "similar",
             "note": "George Martin: I Want to Hold Your Hand not designed for America"
         },
         {
             "dvd": 55,
-            "dplus": 65,
+            "dplus": 66,
             "matchType": "same",
             "note": "I Want to Hold Your Hand lip sync"
         },
         {
             "dvd": 56,
-            "dplus": 68,
+            "dplus": 69,
             "matchType": "different",
             "note": "Paul: France, boys screaming (edited on Disney+)"
         },
         {
             "dvd": 57,
-            "dplus": 70,
+            "dplus": 71,
             "matchType": "different",
             "note": "Ringo French boys"
         },
         {
             "dvd": 58,
-            "dplus": 69,
+            "dplus": 70,
             "matchType": "different",
             "note": "George: French girls, boys shouting Ringo (edited)"
         },
         {
             "dvd": 59,
-            "dplus": 71,
+            "dplus": 72,
             "matchType": "same",
             "note": "Paul: didn't go down that well, built it up"
         },
         {
             "dvd": 60,
-            "dplus": 72,
+            "dplus": 73,
             "matchType": "same",
             "note": "Paul: telegram in the evening, big crowd waiting"
         }
