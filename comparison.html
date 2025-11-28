@@ -245,6 +245,39 @@
             // DEBUG: Set to true to show index numbers next to entries
             const SHOW_INDICES = false;
 
+            // Parse episode and item from URL hash
+            // Format: #dvd54 (episode 1, backward compat) or #3&dvd54 (episode 3, item dvd54)
+            function parseHash(hash) {
+                if (!hash) return { episode: 1, itemId: null };
+
+                const cleaned = hash.startsWith('#') ? hash.substring(1) : hash;
+
+                if (cleaned.includes('&')) {
+                    const [episodeStr, itemId] = cleaned.split('&');
+                    return {
+                        episode: parseInt(episodeStr) || 1,
+                        itemId: itemId || null
+                    };
+                } else {
+                    // Backward compat: no ampersand means episode 1
+                    return {
+                        episode: 1,
+                        itemId: cleaned || null
+                    };
+                }
+            }
+
+            // Format episode and item into URL hash
+            function formatHash(episode, itemId) {
+                if (episode === 1) {
+                    // Episode 1: use backward-compatible format (no episode number)
+                    return itemId ? `#${itemId}` : '';
+                } else {
+                    // Other episodes: include episode number
+                    return itemId ? `#${episode}&${itemId}` : `#${episode}`;
+                }
+            }
+
             class TranscriptParser {
                 parse(text) {
                     const lines = text.split("\n");
@@ -300,8 +333,9 @@
             }
 
             class TranscriptRenderer {
-                constructor(container) {
+                constructor(container, episode = 1) {
                     this.container = container;
+                    this.episode = episode;
                     this.dvdContent = document.getElementById("dvd-content");
                     this.dplusContent =
                         document.getElementById("dplus-content");
@@ -867,7 +901,7 @@
                                     targetEl.classList.add("highlight-target");
 
                                     // Update URL hash for deep linking
-                                    window.history.replaceState(null, null, `#${targetEl.id}`);
+                                    window.history.replaceState(null, null, formatHash(this.episode, targetEl.id));
 
                                     // Scroll to center
                                     targetEl.scrollIntoView({
@@ -884,7 +918,7 @@
                                 }
                             } else {
                                 // No match - just update hash to this item
-                                window.history.replaceState(null, null, `#${entry.id}`);
+                                window.history.replaceState(null, null, formatHash(this.episode, entry.id));
                             }
                         });
                     });
@@ -892,16 +926,18 @@
 
                 async render() {
                     try {
-                        // Load both transcript files and mapping
+                        // Load both transcript files and mapping for this episode
                         const [dvdText, dplusText, mappingResponse] =
                             await Promise.all([
-                                this.loadFile("1-dvd.md"),
-                                this.loadFile("1-dplus.md"),
-                                fetch("mapping.json"),
+                                this.loadFile(`${this.episode}-dvd.md`),
+                                this.loadFile(`${this.episode}-dplus.md`),
+                                fetch(`${this.episode}-mapping.json`),
                             ]);
 
                         const mappingData = await mappingResponse.json();
                         const matches = mappingData.mappings;
+
+                        console.log(`Loading Episode ${this.episode}`);
 
                         // Parse entries
                         const dvdEntries = this.parser.parse(dvdText);
@@ -939,17 +975,19 @@
                             // Handle deep linking from URL hash
                             setTimeout(() => {
                                 if (window.location.hash) {
-                                    const targetId = window.location.hash.substring(1); // Remove the '#'
-                                    const targetEl = document.getElementById(targetId);
-                                    if (targetEl) {
-                                        targetEl.classList.add("highlight-target");
-                                        targetEl.scrollIntoView({
-                                            behavior: "smooth",
-                                            block: "center",
-                                        });
-                                        setTimeout(() => {
-                                            targetEl.classList.remove("highlight-target");
-                                        }, 3000);
+                                    const { itemId } = parseHash(window.location.hash);
+                                    if (itemId) {
+                                        const targetEl = document.getElementById(itemId);
+                                        if (targetEl) {
+                                            targetEl.classList.add("highlight-target");
+                                            targetEl.scrollIntoView({
+                                                behavior: "smooth",
+                                                block: "center",
+                                            });
+                                            setTimeout(() => {
+                                                targetEl.classList.remove("highlight-target");
+                                            }, 3000);
+                                        }
                                     }
                                 }
                             }, 500);
@@ -984,8 +1022,16 @@
                     h1.appendChild(indicator);
                 }
 
+                // Parse episode from URL hash
+                const { episode } = parseHash(window.location.hash);
+
+                // Update title to show episode number
+                const h1 = document.querySelector("h1");
+                h1.childNodes[0].textContent = `Beatles Anthology Episode ${episode} - Comparison`;
+
                 const renderer = new TranscriptRenderer(
-                    document.getElementById("container")
+                    document.getElementById("container"),
+                    episode
                 );
                 renderer.render();
             });
