@@ -22,9 +22,43 @@
 
             h1 {
                 text-align: center;
-                margin-bottom: 30px;
+                margin-bottom: 15px;
                 color: #fff;
                 font-size: 2em;
+            }
+
+            .episode-nav {
+                text-align: center;
+                margin-bottom: 30px;
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                flex-wrap: wrap;
+            }
+
+            .episode-link {
+                display: inline-block;
+                padding: 8px 16px;
+                background: #2a2a2a;
+                color: #e0e0e0;
+                text-decoration: none;
+                border-radius: 6px;
+                border: 2px solid #555;
+                transition: all 0.2s;
+                font-weight: 500;
+            }
+
+            .episode-link:hover {
+                background: #333;
+                border-color: #4caf50;
+                transform: translateY(-2px);
+            }
+
+            .episode-link.active {
+                background: #4caf50;
+                border-color: #4caf50;
+                color: #1a1a1a;
+                font-weight: bold;
             }
 
             p {
@@ -144,6 +178,17 @@
                 font-weight: bold;
             }
 
+            .content a {
+                color: #4caf50;
+                text-decoration: underline;
+                cursor: pointer;
+                transition: color 0.2s;
+            }
+
+            .content a:hover {
+                color: #66bb6a;
+            }
+
             .spacer {
                 height: 0;
                 transition: height 0.3s;
@@ -210,7 +255,11 @@
         </style>
     </head>
     <body>
-        <h1>Beatles Anthology - Comparison</h1>
+        <h1>Beatles Anthology</h1>
+        <nav class="episode-nav" id="episode-nav">
+            <a href="#" class="episode-link" data-episode="1">Episode 1</a>
+            <a href="#2" class="episode-link" data-episode="2">Episode 2</a>
+        </nav>
         <p>
             Are you wondering how has the Beatles Anthology documentary changed
             between the 2003 DVD version and the 2025 Disney+ version? Here is
@@ -332,6 +381,7 @@
                 formatContent(text) {
                     // Convert markdown-like formatting to HTML
                     return text
+                        .replace(/\[([^\]]+)\]\(#([^)]+)\)/g, '<a href="#$2">$1</a>') // Links
                         .replace(/_([^_]+)_/g, "<em>$1</em>") // Italics
                         .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>") // Bold
                         .replace(/\[edit\]/g, "<strong>[edit]</strong>")
@@ -876,7 +926,12 @@
                         });
 
                         // Click to scroll to corresponding entry (or self if unmatched)
-                        entry.addEventListener("click", () => {
+                        entry.addEventListener("click", (e) => {
+                            // Don't interfere with links inside the entry
+                            if (e.target.tagName === 'A' || e.target.closest('a')) {
+                                return;
+                            }
+
                             const correspondingIndices =
                                 column === "dvd"
                                     ? dvdToDplus[index]
@@ -934,6 +989,39 @@
                                     null,
                                     formatHash(this.episode, entry.id)
                                 );
+                            }
+                        });
+                    });
+
+                    // Handle clicks on links within entry content
+                    document.querySelectorAll('.content a').forEach((link) => {
+                        link.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            const hash = link.getAttribute('href');
+
+                            if (hash && hash.startsWith('#')) {
+                                const { episode: targetEpisode, itemId } = parseHash(hash);
+
+                                if (targetEpisode !== this.episode) {
+                                    // Different episode - reload page with new episode
+                                    window.location.hash = hash.substring(1); // Remove leading #
+                                    window.location.reload();
+                                } else if (itemId) {
+                                    // Same episode - scroll to target
+                                    const targetEl = document.getElementById(itemId);
+                                    if (targetEl) {
+                                        targetEl.classList.add("highlight-target");
+                                        targetEl.scrollIntoView({
+                                            behavior: "smooth",
+                                            block: "center",
+                                        });
+                                        // Update URL hash
+                                        window.history.replaceState(null, null, hash);
+                                        setTimeout(() => {
+                                            targetEl.classList.remove("highlight-target");
+                                        }, 2000);
+                                    }
+                                }
                             }
                         });
                     });
@@ -1047,9 +1135,24 @@
                 // Parse episode from URL hash
                 const { episode } = parseHash(window.location.hash);
 
-                // Update title to show episode number
-                const h1 = document.querySelector("h1");
-                h1.childNodes[0].textContent = `Beatles Anthology Episode ${episode} - Comparison`;
+                // Highlight the active episode link
+                document.querySelectorAll(".episode-link").forEach((link) => {
+                    const linkEpisode = parseInt(link.getAttribute("data-episode"));
+                    if (linkEpisode === episode) {
+                        link.classList.add("active");
+                    }
+                });
+
+                // Handle episode link clicks
+                document.querySelectorAll(".episode-link").forEach((link) => {
+                    link.addEventListener("click", (e) => {
+                        e.preventDefault();
+                        const targetEpisode = parseInt(link.getAttribute("data-episode"));
+                        // Navigate to the new episode
+                        window.location.hash = targetEpisode === 1 ? "" : `#${targetEpisode}`;
+                        window.location.reload();
+                    });
+                });
 
                 const renderer = new TranscriptRenderer(
                     document.getElementById("container"),

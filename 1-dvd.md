@@ -206,7 +206,7 @@ Ring: Rory and I, or the band, we were staying in one room in the German Seaman'
 
 47:11 Paul: "**They liked all the rock and roll stuff, the quiffed-back hair-dos, all that kind of thing, the leather outfits, the shades.** They weren't really rockers, or mods..." leading to long montage of Astrid's photos over sound clips of Beatles in Hamburg.
 
-48:42 John: "Our best work was never recorded, y'know. We were performers in Liverpool, Hamburg and 'round the dance halls. What we generated was fantastic."
+48:42 John: "**Our best work was never recorded, y'know.** [We were performers in Liverpool, Hamburg and 'round the dance halls. What we generated was fantastic.](#2&dplus20)"
 
 48:55 George: "I was 17 when we first went out there, **and we went to the Indra club and then got moved to the Kaiserkeller, and then that ended up with us getting the gig to go to the Top Ten Club, and right before that happened, I got busted for being underage.** Now they had this kind of situation in Germany, which I'd never come across before... they just booted me out."
 

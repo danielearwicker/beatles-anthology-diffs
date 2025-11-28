@@ -40,7 +40,7 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 06:34 Neil Aspinall: "When we used to tour, do those Arthur Howe touring shows..." up to George: "actually closing the first half of the show."
 
-07:52 John: "We were performers in Liverpool, Hamburg and round the dance halls, y'know, and what we generated was fantastic. And there was nobody to touch us in Britain."
+07:52 John: "[We were performers in Liverpool, Hamburg and round the dance halls, y'know, and what we generated was fantastic](#1&dvd102). **And there was nobody to touch us in Britain.**"
 
 08:02 _There's a Place_ (gig locations fly up the screen as newly-rendered faux road signs), up to _It Won't Be Long_ montage of home movies during early tours, ending 12:42.
 
