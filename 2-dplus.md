@@ -4,7 +4,7 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 01:03 George Martin: "**[edit]** But before they showed evidence of that, I still had to have an album out, and so what I did was, I mean, I'd been up to the Cavern and I'd seen what they could do, I knew their repertoire, I knew what they were able to perform, _[cut to still photos, GM continues in VO]_ and I said 'Let's record every song you've got. Come down to the studio and we'll just whistle through them in a day.'"
 
-01:21 Studio chatter,"Don't be nervous John," "I'm not nervous"
+01:21 Studio chatter, "Don't be nervous John," "I'm not nervous"
 
 01:32 Montage of snippets from finished LP over contemporary photos/footage, but much digital clean-up
 

@@ -273,6 +273,11 @@
             click on an item to follow the link to see where it appears in the
             other version.
         </p>
+        <p>
+            There are many changes that apply across the whole series,
+            especially the widespread use of AI to clean up footage and emulate
+            detail, and the elimination of fades between clips.
+        </p>
         <div class="loading" id="loading">Loading transcripts...</div>
         <div class="container" id="container" style="display: none">
             <svg id="arrow-layer"></svg>
@@ -381,7 +386,10 @@
                 formatContent(text) {
                     // Convert markdown-like formatting to HTML
                     return text
-                        .replace(/\[([^\]]+)\]\(#([^)]+)\)/g, '<a href="#$2">$1</a>') // Links
+                        .replace(
+                            /\[([^\]]+)\]\(#([^)]+)\)/g,
+                            '<a href="#$2">$1</a>'
+                        ) // Links
                         .replace(/_([^_]+)_/g, "<em>$1</em>") // Italics
                         .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>") // Bold
                         .replace(/\[edit\]/g, "<strong>[edit]</strong>")
@@ -928,7 +936,10 @@
                         // Click to scroll to corresponding entry (or self if unmatched)
                         entry.addEventListener("click", (e) => {
                             // Don't interfere with links inside the entry
-                            if (e.target.tagName === 'A' || e.target.closest('a')) {
+                            if (
+                                e.target.tagName === "A" ||
+                                e.target.closest("a")
+                            ) {
                                 return;
                             }
 
@@ -994,13 +1005,14 @@
                     });
 
                     // Handle clicks on links within entry content
-                    document.querySelectorAll('.content a').forEach((link) => {
-                        link.addEventListener('click', (e) => {
+                    document.querySelectorAll(".content a").forEach((link) => {
+                        link.addEventListener("click", (e) => {
                             e.preventDefault();
-                            const hash = link.getAttribute('href');
+                            const hash = link.getAttribute("href");
 
-                            if (hash && hash.startsWith('#')) {
-                                const { episode: targetEpisode, itemId } = parseHash(hash);
+                            if (hash && hash.startsWith("#")) {
+                                const { episode: targetEpisode, itemId } =
+                                    parseHash(hash);
 
                                 if (targetEpisode !== this.episode) {
                                     // Different episode - reload page with new episode
@@ -1008,17 +1020,26 @@
                                     window.location.reload();
                                 } else if (itemId) {
                                     // Same episode - scroll to target
-                                    const targetEl = document.getElementById(itemId);
+                                    const targetEl =
+                                        document.getElementById(itemId);
                                     if (targetEl) {
-                                        targetEl.classList.add("highlight-target");
+                                        targetEl.classList.add(
+                                            "highlight-target"
+                                        );
                                         targetEl.scrollIntoView({
                                             behavior: "smooth",
                                             block: "center",
                                         });
                                         // Update URL hash
-                                        window.history.replaceState(null, null, hash);
+                                        window.history.replaceState(
+                                            null,
+                                            null,
+                                            hash
+                                        );
                                         setTimeout(() => {
-                                            targetEl.classList.remove("highlight-target");
+                                            targetEl.classList.remove(
+                                                "highlight-target"
+                                            );
                                         }, 2000);
                                     }
                                 }
@@ -1137,7 +1158,9 @@
 
                 // Highlight the active episode link
                 document.querySelectorAll(".episode-link").forEach((link) => {
-                    const linkEpisode = parseInt(link.getAttribute("data-episode"));
+                    const linkEpisode = parseInt(
+                        link.getAttribute("data-episode")
+                    );
                     if (linkEpisode === episode) {
                         link.classList.add("active");
                     }
@@ -1147,9 +1170,12 @@
                 document.querySelectorAll(".episode-link").forEach((link) => {
                     link.addEventListener("click", (e) => {
                         e.preventDefault();
-                        const targetEpisode = parseInt(link.getAttribute("data-episode"));
+                        const targetEpisode = parseInt(
+                            link.getAttribute("data-episode")
+                        );
                         // Navigate to the new episode
-                        window.location.hash = targetEpisode === 1 ? "" : `#${targetEpisode}`;
+                        window.location.hash =
+                            targetEpisode === 1 ? "" : `#${targetEpisode}`;
                         window.location.reload();
                     });
                 });
