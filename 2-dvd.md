@@ -16,7 +16,7 @@ Anthology, 2003 DVD Version: Episode 2
 
 05:23 _Thank You Girl_ (tour photo montage)
 
-05:38 George Martin: "**Let's go back a bit, you remember, the very first record issued was _Love Me Do_, second record was _Please Please Me_, which was only arrived at after much doubt on my part that they could ever write a hit song. From that moment onward, they blossomed and become wonderful songwriters.** But before they showed evidence of that, I still had to have an album out. And so what I did was, I mean, I'd been up to the Cavern and I'd seen what they could do, I knew their repertoire, I knew what they were able to perform, _[cut still photos, GM continues in VO]_ and I said 'Let's record every song you've got. Come down to the studio and we'll just whistle through them in a day.'"
+05:38 George Martin: "**Let's go back a bit, you remember, the very first record issued was _Love Me Do_, second record was _Please Please Me_, which was only arrived at after much doubt on my part that they could ever write a hit song. From that moment onward, they blossomed and become wonderful songwriters.** But before they showed evidence of that, I still had to have an album out. And so what I did was, I mean, I'd been up to the Cavern and I'd seen what they could do, I knew their repertoire, I knew what they were able to perform, _[cut to still photos, GM continues in VO]_ and I said 'Let's record every song you've got. Come down to the studio and we'll just whistle through them in a day.'"
 
 06:15 Montage of snippets from finished LP over contemporary photos/footage
 
@@ -44,17 +44,13 @@ Anthology, 2003 DVD Version: Episode 2
 
 22:31 John: "We were the first working-class singers, that stayed working-class, and pronounced it, didn't try and change our accents, which in England are looked - were looked down upon, probably still are."
 
-22:44 Cathy of the Cavern: "They Beatlees, they are Liverpudlians, and they belong to us, they belong to the Cavern. And yes, let the rest of the country have them, let them enjoy them, but please, let them come back to us, at least once, just to be the same as they used to be, with no changes at all. It'd be fantastic."
+22:44 Cathy of the Cavern: "The Beatles, they are Liverpudlians, and they belong to us, they belong to the Cavern. And yes, let the rest of the country have them, let them enjoy them, but please, let them come back to us, at least once, just to be the same as they used to be, with no changes at all. It'd be fantastic."
 
 23:05 Ringo: "It was impossible to go home. And also, it's very true, if you're in our business, you go to London,.." up to John's "We were very close to the Stones." at 24:11.
 
 24:13 John: "This song we're gonna play, _I Wanna Be Your Man_, which we virtually finished off in front of them, because they needed a record, they'd put out _Come On_ by Chuck Berry and they needed a quick follow-up."
 
-24:24 _I Wanna Be Your Man_ (Rolling Stones, live TV performance)
-
-24:54 John: "They did it first, we did it with Ringo after."
-
-24:59 _I Wanna Be Your Man_ (Beatles, recorded track over footage, most of the track)
+24:24 _I Wanna Be Your Man_ (Rolling Stones, live TV performance), up to the end of the same song performed by The Beatles.
 
 24:36 George: "We were always kinda, y'know, a little nervous, before each step we went up the ladder. We were a little nervous but we always had that confidence."
 
@@ -64,7 +60,7 @@ Anthology, 2003 DVD Version: Episode 2
 
 27:32 _Morecambe and Wise_ from dialogue, "Hello Bongo!" to _Moonlight Bay_ in straw boaters ending 30:18.
 
-30:19 (Studio outtakes, somewhat anachronistic, no commentary or V/O, _One After 909_, _Saw Her Standing There_, _This Boy_, _Should Have Known Better_, _Tell Me Why_, _I Want To Hold Your Hand_, _I'll Be Back_, _Mister Moonlight_, _No Reply_, _What You're Doing_, _This Boy_ again with lyric confusion)
+30:19 Studio outtakes, somewhat anachronistic, no commentary or V/O, _One After 909_, _Saw Her Standing There_, _This Boy_, _Should Have Known Better_, _Tell Me Why_, _I Want To Hold Your Hand_, _I'll Be Back_, _Mister Moonlight_, _No Reply_, _What You're Doing_, second round of _This Boy_ with lyric confusion from John.
 
 35:15 _This Boy_ (whole song, lip sync)
 
@@ -118,7 +114,7 @@ Anthology, 2003 DVD Version: Episode 2
 
 1:04:32 Paul: "The funny thing about France is it was boys screaming. **And I think the girls were under heavy chaperone, because** it was boys. So we got 'Le Beatle! Le Beatle' (speaks in mock French) 'Paul! John!' It was like, 'Oui, yeah, okay', y'know, like, dear me. **Funny crowd. But um, so we went down kind of medium. We were on a bill with Trini Lopez. If he had a hammer, you remember?**"
 
-1:05:04 Ringo: "I didn't know Trini was on that show. I thought it was Sylvie Vartan and a few other people. It was very strange because, uh, suddenly we had, as you said, all these boys, and they were chasing us all over Paris, and we'd been so used to the girls, y'know."
+1:05:04 Ringo: "**I didn't know Trini was on that show. I thought it was Sylvie Vartan and a few other people.** It was very strange because, uh, suddenly we had, as you said, all these boys, and they were chasing us all over Paris, and we'd been so used to the girls, y'know."
 
 1:05:18 George: "We had visions of all these French girls, y'know, "ooh la la" and all that, and instead, the audience, at least on the opening night, **was all tuxedoed elderly French people, and hanging round the stage door** all seemed to be **a bunch of slightly gay-looking** boys shouting 'Ringo! Ringo!'"
 

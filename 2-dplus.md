@@ -2,7 +2,7 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 00:53 Paul: "Probably the thing that John and I will do, will be write songs, as we have been doing, as a sort of sideline now. We'll probably develop that a bit more."
 
-01:03 George Martin: "**[edit]** But before they showed evidence of that, I still had to have an album out, and so what I did was, I mean, I'd been up to the Cavern and I'd seen what they could do, I knew their repertoire, I knew what they were able to perform, _[cut still photos, GM continues in VO]_ and I said 'Let's record every song you've got. Come down to the studio and we'll just whistle through them in a day.'"
+01:03 George Martin: "**[edit]** But before they showed evidence of that, I still had to have an album out, and so what I did was, I mean, I'd been up to the Cavern and I'd seen what they could do, I knew their repertoire, I knew what they were able to perform, _[cut to still photos, GM continues in VO]_ and I said 'Let's record every song you've got. Come down to the studio and we'll just whistle through them in a day.'"
 
 01:21 Studio chatter,"Don't be nervous John," "I'm not nervous"
 
@@ -24,7 +24,7 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 03:23 Studio chatter, "Shall we just do it on the second verse..."
 
-03:31 _Do You Want to Know a Secret_ 
+03:31 _Do You Want to Know a Secret_
 
 03:42 John: "The first album was recorded in a, one long 12-hour session, which, the last song to be done was a song called _Twist and Shout_, which nearly killed me. You can hear that I'm some frantic guy, y'know, doing his best, it's about the nearest it could get to knowing what we sounded like before we became the clever Beatles."
 
@@ -42,7 +42,7 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 07:52 John: "We were performers in Liverpool, Hamburg and round the dance halls, y'know, and what we generated was fantastic. And there was nobody to touch us in Britain."
 
-08:02 _There's a Place_ (gig locations fly up the screen in crummy overlaid text), up to _It Won't Be Long_ montage of home movies during early tours, ending 12:42.
+08:02 _There's a Place_ (gig locations fly up the screen as newly-rendered faux road signs), up to _It Won't Be Long_ montage of home movies during early tours, ending 12:42.
 
 12:43 Paul: "One of the things I was grateful for was, we had a kind of staircase to climb".
 
@@ -64,9 +64,9 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 23:22 _I Wanna Be Your Man_ (Rolling Stones, live TV performance) up to the end of the same song performed by The Beatles, except George speaks over the ending.
 
-24:36 George: "We were always kinda, y'know, a little nervous, before each step we went up the ladder. We were a little nervous but we always had that confidence." (Jools - shush!)
+24:36 George: "We were always kinda, y'know, a little nervous, before each step we went up the ladder. We were a little nervous but we always had that confidence." _(Jools - shush!)_
 
-24:45 _The Morecambe and Wise Show_ but now cut off at 26:06 before costume change and so no _Moonlight Bay_.
+24:45 _The Morecambe and Wise Show_ **but now cut off at 26:06 before costume change** and so no _Moonlight Bay_.
 
 26:06 George: "And that was the good thing about being four together, not like Elvis, which, y'know, I always felt sorry later for Elvis 'cause he was on his own, he had his guys with him, but, there was only one Elvis, nobody else knew what he felt like, but for us we all shared the experience."
 
@@ -74,19 +74,19 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 26:44 George Martin: "We had a great time in the studio. They were enormously happy times. And uh, they would fool around a lot, y'know, and have a bit of a laugh, particularly when overdubbing voices. But my memory of those times, were very happy ones.
 
-26:57 Studio outtake and chatter from  _This Boy_.
+26:57 Studio outtake and chatter from _This Boy_.
 
 27:37 _This Boy_ (whole song, lip sync)
 
-29:34 George: "We do like the fans and enjoy reading the publicity about us..." up to Ringo's "arrow in the brain" ending 31:39 (Jools, begone!)
+29:34 George: "We do like the fans and enjoy reading the publicity about us..." up to Ringo's "arrow in the brain" ending 31:39 _(Jools, begone!)_
 
-31:40 _Long Tall Sally_ live performance on Swedish TV show, cuts before awkward clapping exercise.
+31:40 _Long Tall Sally_ live performance on Swedish TV show, **cuts before awkward clapping exercise**.
 
 33:58 John: "We were the first working-class singers, that stayed working-class, and pronounced it, didn't try and change our accents, which in England are looked - were looked down upon, probably still are."
 
 34:11 John interviewed, "We're not going to vote for Ted", to Paul being interviewed while John pokes him in the back of the head.
 
-34:51 Royal Variety Performance: edited down to just John's "cheaper seats" bit followed by  _Twist and Shout_.
+34:51 Royal Variety Performance: edited down to just John's "cheaper seats" bit followed by _Twist and Shout_.
 
 38:23 _It Won't Be Long_ (over animated _With The Beatles_ headshots)
 
@@ -114,9 +114,9 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 40:49 Brian Matthew reports on _With The Beatles_ breaking advance sales records
 
-41:11 John: "Y'know, our goal was to be as big as Elvis, but we didn't actually think we were gonna do it. We couldn't think in terms of going to America. I mean, that was like a dream. I mean, you think locally, and first of all it was making it big in Liverpool, and being the best group in the county, y'know, then being the best group in England, and then we go up to Scotland and break them in, and things like that. And your goal was always, y'know, just a few yards ahead, rather than right up there."
+41:11 John: "**Y'know, our goal was to be as big as Elvis, but we didn't actually think we were gonna do it. We couldn't think in terms of going to America. I mean, that was like a dream. I mean, you think locally, and** first of all it was making it big in Liverpool, and being the best group in the county, y'know, then being the best group in England, and then we go up to Scotland and break them in, and things like that. And your goal was always, y'know, just a few yards ahead, rather than right up there."
 
-41:33 Paul: "I think one of the cheekiest things we ever did was to say to Brian Epstein we're not going to America till we've got a number one. And the reason we did that, we'd seen a lot of people like, Adam Faith, Cliff Richard, British stars, quite big stars over in Britain, go over to America and be like, third or fourth on the bill to people like Frakie Avalon. **[edit]**"
+41:33 Paul: "I think one of the cheekiest things we ever did was to say to Brian Epstein we're not going to America till we've got a number one. And the reason we did that, we'd seen a lot of people like, Adam Faith, Cliff Richard, British stars, quite big stars over in Britain, go over to America and be like, third or fourth on the bill to people like Frankie Avalon. **[edit]**"
 
 41:53 Ringo: "George had been over there, to America, a little before we'd gone and nobody knew about us, and he came back and got us all worried, 'cause he'd gone into record shops saying 'Have you got the Beatles records?' and they'd say 'Who?'"
 
@@ -127,7 +127,7 @@ Anthology, 2025 Disney+ Version: Episode 2
 42:58 Paul: "And that was the way it worked out. We released _Please Please Me_ **[inserted quick blast of the track being performed live]** - flop. _From Me To You_ **[similarly inserted clip]** - flop. Changed record labels. **[_She Loves You_ clip]** Released _She Loves You_, they'd all been big hits in England, all been number one - all of them flops, nothing."
 
 43:20 Studio outtake chatter, takes of _I Want To Hold Your Hand_ intro.
- 
+
 44:23 George Martin: "**_I Want To Hold Your Hand_** wasn't designed specifically for the American market, but like the ones before it, it was a great record."
 
 44:29 _I Want to Hold Your Hand_ (lip sync, joined by George Martin and George in VO)

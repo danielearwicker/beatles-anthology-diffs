@@ -4,7 +4,308 @@
             "dvd": 0,
             "dplus": 0,
             "matchType": "same",
-            "note": "Paul on songwriting"
+            "note": "Paul: write songs as a sideline"
+        },
+        {
+            "dvd": 1,
+            "dplus": 28,
+            "matchType": "same",
+            "note": "Ringo: going home, drums out, being noticed"
+        },
+        {
+            "dvd": 2,
+            "dplus": 22,
+            "matchType": "same",
+            "note": "Paul: staircase to climb"
+        },
+        {
+            "dvd": 3,
+            "dplus": 57,
+            "matchType": "similar",
+            "note": "John: making it big in Liverpool (combined with other material on Disney+)"
+        },
+        {
+            "dvd": 4,
+            "dplus": 24,
+            "matchType": "same",
+            "note": "Paul: Well, what's left? Well, radio..."
+        },
+        {
+            "dvd": 5,
+            "dplus": 57,
+            "matchType": "similar",
+            "note": "John: goal always a few yards ahead (part of longer clip on Disney+)"
+        },
+        {
+            "dvd": 6,
+            "dplus": 19,
+            "matchType": "same",
+            "note": "Neil Aspinall: Arthur Howe touring shows"
+        },
+        {
+            "dvd": 8,
+            "dplus": 1,
+            "matchType": "different",
+            "note": "George Martin: album recording (heavily edited on Disney+)"
+        },
+        {
+            "dvd": 9,
+            "dplus": 3,
+            "matchType": "similar",
+            "note": "Montage of snippets from LP"
+        },
+        {
+            "dvd": 10,
+            "dplus": 4,
+            "matchType": "same",
+            "note": "Ringo: we knew those songs"
+        },
+
+        {
+            "dvd": 12,
+            "dplus": 10,
+            "matchType": "similar",
+            "note": "George: what we did live in the clubs"
+        },
+        {
+            "dvd": 14,
+            "dplus": 15,
+            "matchType": "similar",
+            "note": "Paul: Twist and Shout, rip his throat"
+        },
+        {
+            "dvd": 15,
+            "dplus": 13,
+            "matchType": "similar",
+            "note": "John: first album, nearly killed me"
+        },
+        {
+            "dvd": 16,
+            "dplus": 14,
+            "matchType": "same",
+            "note": "Twist and Shout performance"
+        },
+        {
+            "dvd": 17,
+            "dplus": 25,
+            "matchType": "same",
+            "note": "Derek Taylor segment, ends with Ringo salmon"
+        },
+        {
+            "dvd": 18,
+            "dplus": 21,
+            "matchType": "same",
+            "note": "There's a Place / It Won't Be Long montage",
+            "aligned": true
+        },
+        {
+            "dvd": 19,
+            "dplus": 26,
+            "matchType": "same",
+            "note": "John: record in 12 hours"
+        },
+        {
+            "dvd": 20,
+            "dplus": 27,
+            "matchType": "same",
+            "note": "She Loves You live at ABC Cinema"
+        },
+        {
+            "dvd": 21,
+            "dplus": 41,
+            "matchType": "same",
+            "note": "John: first working-class singers"
+        },
+        {
+            "dvd": 23,
+            "dplus": 29,
+            "matchType": "same",
+            "note": "Ringo: impossible to go home, close to the Stones"
+        },
+        {
+            "dvd": 24,
+            "dplus": 30,
+            "matchType": "similar",
+            "note": "John: I Wanna Be Your Man (edited/reordered on Disney+)"
+        },
+        {
+            "dvd": 25,
+            "dplus": 31,
+            "matchType": "similar",
+            "note": "I Wanna Be Your Man (Stones and Beatles combined on Disney+)"
+        },
+        {
+            "dvd": 26,
+            "dplus": 32,
+            "matchType": "same",
+            "note": "George: always a little nervous"
+        },
+        {
+            "dvd": 27,
+            "dplus": 34,
+            "matchType": "same",
+            "note": "George: good thing about being four together, Elvis"
+        },
+        {
+            "dvd": 29,
+            "dplus": 33,
+            "matchType": "different",
+            "note": "Morecambe and Wise (cut shorter on Disney+)"
+        },
+        {
+            "dvd": 31,
+            "dplus": 38,
+            "matchType": "same",
+            "note": "This Boy (whole song, lip sync)"
+        },
+        {
+            "dvd": 33,
+            "dplus": 39,
+            "matchType": "same",
+            "note": "George: We do like the fans, arrow in the brain"
+        },
+        {
+            "dvd": 35,
+            "dplus": 40,
+            "matchType": "same",
+            "note": "Long Tall Sally on Swedish TV"
+        },
+        {
+            "dvd": 37,
+            "dplus": 42,
+            "matchType": "same",
+            "note": "John interviewed, not going to vote for Ted"
+        },
+        {
+            "dvd": 40,
+            "dplus": 43,
+            "matchType": "same",
+            "note": "Royal Variety: cheaper seats + Twist and Shout",
+            "aligned": true
+        },
+        {
+            "dvd": 41,
+            "dplus": 52,
+            "matchType": "same",
+            "note": "All My Loving over animated headshots"
+        },
+        {
+            "dvd": 42,
+            "dplus": 53,
+            "matchType": "same",
+            "note": "John: giving people their money's worth"
+        },
+        {
+            "dvd": 43,
+            "dplus": 45,
+            "matchType": "same",
+            "note": "George Martin: With the Beatles, first songbook"
+        },
+        {
+            "dvd": 44,
+            "dplus": 47,
+            "matchType": "same",
+            "note": "George Martin: not thinking of album as entity"
+        },
+        {
+            "dvd": 45,
+            "dplus": 51,
+            "matchType": "similar",
+            "note": "George Martin: record singles, put on album"
+        },
+        {
+            "dvd": 46,
+            "dplus": 49,
+            "matchType": "same",
+            "note": "Please Mister Postman"
+        },
+        {
+            "dvd": 47,
+            "dplus": 55,
+            "matchType": "same",
+            "note": "George: Robert Freeman, Astrid Kirchherr"
+        },
+        {
+            "dvd": 48,
+            "dplus": 54,
+            "matchType": "same",
+            "note": "Roll over Beethoven live TV",
+            "aligned": true
+        },
+        {
+            "dvd": 49,
+            "dplus": 56,
+            "matchType": "same",
+            "note": "Brian Matthew: With The Beatles advance sales records",
+            "aligned": true
+        },
+        {
+            "dvd": 50,
+            "dplus": 58,
+            "matchType": "different",
+            "note": "Paul: not going to America till number one (edited on Disney+)",
+            "aligned": true
+        },
+        {
+            "dvd": 51,
+            "dplus": 61,
+            "matchType": "different",
+            "note": "George Martin: trying to get into America (edited/reordered)",
+            "aligned": true
+        },
+        {
+            "dvd": 52,
+            "dplus": 62,
+            "matchType": "similar",
+            "note": "Paul: Please Please Me, From Me to You - all flops"
+        },
+        {
+            "dvd": 53,
+            "dplus": 66,
+            "matchType": "different",
+            "note": "George Martin: Capitol forced to release (reordered)"
+        },
+        {
+            "dvd": 54,
+            "dplus": 64,
+            "matchType": "similar",
+            "note": "George Martin: I Want to Hold Your Hand not designed for America"
+        },
+        {
+            "dvd": 55,
+            "dplus": 65,
+            "matchType": "same",
+            "note": "I Want to Hold Your Hand lip sync"
+        },
+        {
+            "dvd": 56,
+            "dplus": 68,
+            "matchType": "different",
+            "note": "Paul: France, boys screaming (edited on Disney+)"
+        },
+        {
+            "dvd": 57,
+            "dplus": 70,
+            "matchType": "different",
+            "note": "Ringo French boys"
+        },
+        {
+            "dvd": 58,
+            "dplus": 69,
+            "matchType": "different",
+            "note": "George: French girls, boys shouting Ringo (edited)"
+        },
+        {
+            "dvd": 59,
+            "dplus": 71,
+            "matchType": "same",
+            "note": "Paul: didn't go down that well, built it up"
+        },
+        {
+            "dvd": 60,
+            "dplus": 72,
+            "matchType": "same",
+            "note": "Paul: telegram in the evening, big crowd waiting"
         }
     ]
 }

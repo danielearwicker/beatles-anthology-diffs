@@ -210,7 +210,7 @@
         </style>
     </head>
     <body>
-        <h1>Beatles Anthology Episode 1 - Comparison</h1>
+        <h1>Beatles Anthology - Comparison</h1>
         <p>
             Are you wondering how has the Beatles Anthology documentary changed
             between the 2003 DVD version and the 2025 Disney+ version? Here is
@@ -246,23 +246,30 @@
             const SHOW_INDICES = false;
 
             // Parse episode and item from URL hash
-            // Format: #dvd54 (episode 1, backward compat) or #3&dvd54 (episode 3, item dvd54)
+            // Format: #dvd54 (episode 1, backward compat), #2 (episode 2), or #3&dvd54 (episode 3, item dvd54)
             function parseHash(hash) {
                 if (!hash) return { episode: 1, itemId: null };
 
-                const cleaned = hash.startsWith('#') ? hash.substring(1) : hash;
+                const cleaned = hash.startsWith("#") ? hash.substring(1) : hash;
 
-                if (cleaned.includes('&')) {
-                    const [episodeStr, itemId] = cleaned.split('&');
+                if (cleaned.includes("&")) {
+                    // Format: #3&dvd54
+                    const [episodeStr, itemId] = cleaned.split("&");
                     return {
                         episode: parseInt(episodeStr) || 1,
-                        itemId: itemId || null
+                        itemId: itemId || null,
+                    };
+                } else if (/^\d+$/.test(cleaned)) {
+                    // Just a number: treat as episode number (e.g., #2)
+                    return {
+                        episode: parseInt(cleaned) || 1,
+                        itemId: null,
                     };
                 } else {
-                    // Backward compat: no ampersand means episode 1
+                    // Backward compat: no ampersand and not just a number means episode 1 with itemId
                     return {
                         episode: 1,
-                        itemId: cleaned || null
+                        itemId: cleaned || null,
                     };
                 }
             }
@@ -271,7 +278,7 @@
             function formatHash(episode, itemId) {
                 if (episode === 1) {
                     // Episode 1: use backward-compatible format (no episode number)
-                    return itemId ? `#${itemId}` : '';
+                    return itemId ? `#${itemId}` : "";
                 } else {
                     // Other episodes: include episode number
                     return itemId ? `#${episode}&${itemId}` : `#${episode}`;
@@ -901,7 +908,11 @@
                                     targetEl.classList.add("highlight-target");
 
                                     // Update URL hash for deep linking
-                                    window.history.replaceState(null, null, formatHash(this.episode, targetEl.id));
+                                    window.history.replaceState(
+                                        null,
+                                        null,
+                                        formatHash(this.episode, targetEl.id)
+                                    );
 
                                     // Scroll to center
                                     targetEl.scrollIntoView({
@@ -918,7 +929,11 @@
                                 }
                             } else {
                                 // No match - just update hash to this item
-                                window.history.replaceState(null, null, formatHash(this.episode, entry.id));
+                                window.history.replaceState(
+                                    null,
+                                    null,
+                                    formatHash(this.episode, entry.id)
+                                );
                             }
                         });
                     });
@@ -975,17 +990,24 @@
                             // Handle deep linking from URL hash
                             setTimeout(() => {
                                 if (window.location.hash) {
-                                    const { itemId } = parseHash(window.location.hash);
+                                    const { itemId } = parseHash(
+                                        window.location.hash
+                                    );
                                     if (itemId) {
-                                        const targetEl = document.getElementById(itemId);
+                                        const targetEl =
+                                            document.getElementById(itemId);
                                         if (targetEl) {
-                                            targetEl.classList.add("highlight-target");
+                                            targetEl.classList.add(
+                                                "highlight-target"
+                                            );
                                             targetEl.scrollIntoView({
                                                 behavior: "smooth",
                                                 block: "center",
                                             });
                                             setTimeout(() => {
-                                                targetEl.classList.remove("highlight-target");
+                                                targetEl.classList.remove(
+                                                    "highlight-target"
+                                                );
                                             }, 3000);
                                         }
                                     }
