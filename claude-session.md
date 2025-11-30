@@ -1,31 +1,5 @@
 Processed 503 messages from 543 entries
 
-# Claude Session
-
-_Converted from: 759e2f1d-0f58-47a3-8fdb-90edbdf6bf8a.jsonl_
-
----
-
-### 📝 Summary
-
-API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth authentication is currently not supported."},"request_id":"req_011CVXSGLhXkgodoPpAuHGBE"} · Please run /login
-
----
-
-### 📝 Summary
-
-API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth authentication is currently not supported."},"request_id":"req_011CVXSGMmmioAaNgy6m36it"} · Please run /login
-
----
-
-## 🔧 Tool
-
-_11/27/2025, 12:19:56 AM_
-
-Warmup
-
----
-
 ## 🤖 Assistant
 
 _11/27/2025, 12:19:58 AM_
