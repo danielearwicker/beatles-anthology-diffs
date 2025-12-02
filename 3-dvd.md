@@ -30,7 +30,7 @@ Anthology, 2003 DVD Version: Episode 3
 
 15:45 _She Loves You_ Live at Washington Coliseum
 
-18:11 Paul: "The song we'd like to carry on with now, is one which we recorded on an LP that we made, that's English for album, an album that we made, we'd like you, like you, if you would, to join in, and clap your hands, y'knoW, and stamp your feet _[John demonstrates, but is somehow unable to clap his hands or stamp his feet very well 🤔]_ The song's called _I Saw Here Standing There_."
+18:11 Paul: "The song we'd like to carry on with now, is one which we recorded on an LP that we made, that's English for album, an album that we made, we'd like you, like you, if you would, to join in, and clap your hands, y'know, and stamp your feet _[John demonstrates, but is somehow unable to clap his hands or stamp his feet very well 🤔]_ The song's called _I Saw Here Standing There_."
 
 18:45 _I Saw Her Standing There_ Live at Washington Coliseum
 
@@ -38,7 +38,7 @@ Anthology, 2003 DVD Version: Episode 3
 
 18:45 _Please Please Me_ Live at Washington Coliseum
 
-24:23 Paul: "Yeah, the British Embassy, it was, there was a kind of party, y'know, so this was one of the things..." up to John storming after Ringo's unwanted haircut.
+24:23 Paul: "Yeah, the British Embassy, it was, there was a kind of party, y'know, so this was one of the things..." up to John storming out after Ringo's unwanted haircut.
 
 25:29 Paul: (on camera) "And then we eventually, as you say, got down to Miami, which was, well, I mean, that was just like Paradise. Because, I mean, we'd never been to anywhere where there was palm trees. And we took a lot of photos, y'know, we were like tourists, and we had our _[cheesy effect of camera flashing]_ Pentax cameras."
 

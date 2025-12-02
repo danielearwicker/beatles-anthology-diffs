@@ -44,7 +44,7 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 19:32 John: "We didn't think if, whether we were that good or not. You've got to think you're good to do what we did, y'know. Last thing I remember is playing music in a club and the next minute, this. But we never thought about it too much, because it was an ongoing thing, it was happening to us, and it was hard to see, y'know, we were just in the middle being ushered from room to room."
 
-19:50 Paul: "Yeah, the British Embassy, it was, there was a kind of party, y'know, so this was one of the things..." up to John storming after Ringo's unwanted haircut.
+19:50 Paul: "Yeah, the British Embassy, it was, there was a kind of party, y'know, so this was one of the things..." up to John storming out after Ringo's unwanted haircut.
 
 20:59 _I'll Follow the Sun_ (over Miami holiday photos)
 
@@ -82,7 +82,7 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 37:59 _Can't Buy Me Love_ continues, up to John reading _The Wrestling Dog_ on _Not Only But Also_.
 
-40:42 Dudley Moore: "Mr. John Lennon... **[edit]**"
+40:42 Dudley Moore: "Mr. John Lennon **[edit]**"
 
 40:42 John interviewed about how long he'd been writing, and is dismissive of the interviewer's attempts at wordplay.
 
