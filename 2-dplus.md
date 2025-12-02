@@ -40,7 +40,7 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 06:34 Neil Aspinall: "When we used to tour, do those Arthur Howe touring shows..." up to George: "actually closing the first half of the show."
 
-07:52 John: "[We were performers in Liverpool, Hamburg and round the dance halls, y'know, and what we generated was fantastic](#1&dvd102). **And there was nobody to touch us in Britain.**"
+07:52 John: "[We were performers in Liverpool, Hamburg and round the dance halls, y'know, and what we generated was fantastic](#1&dvd102). **And there was nobody to touch us in Britain.**" (Moved from Episode 1)
 
 08:02 _There's a Place_ (gig locations fly up the screen as newly-rendered faux road signs), up to _It Won't Be Long_ montage of home movies during early tours, ending 12:42.
 
@@ -148,4 +148,4 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 47:11 Paul: "We got a telegram in the evening..." up to "Tell the boys there's a big crowd waiting for them there" at 50:20.
 
-50:21 Brian Epstein: "There was a turning point in their career. A specific date on which the breadth and scope of their future was to be altered. And it was the day their Pan-Am jet touched down at Kennedy International in New York to a welcome which has seldom been equalled anywhere in history."
+50:21 Brian Epstein: "[There was a turning point in their career. A specific date on which the breadth and scope of their future was to be altered. And it was the day their Pan-Am jet touched down at Kennedy International in New York to a welcome which has seldom been equalled anywhere in history.](#3&dvd5)" (Brought forward from early in Episode 3)
