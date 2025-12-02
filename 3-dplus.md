@@ -6,7 +6,7 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 01:02 John: "When we arrived here, we knew how to handle press, the British press, are the toughest in the world, we could handle anything. We were all right."
 
-01:13 Ringo: "The press, they started shouting at us. They liked being just shouted back at, you know, and we did do it with humour."
+01:13 Ringo: "The press, they started shouting at us. They liked being just shouted back at, y'know, and we did do it with humour."
 
 01:20 Press Conference, US. Greatly enhanced sound of questions from reporters.
 
@@ -36,7 +36,7 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 16:28 John: (shouting to be heard from the stage) "He's gotta turn his drums round!"
 
-16:36 Neil Aspinall: "You know, so there's all this chaos going on and whatever. But it was a good show."
+16:36 Neil Aspinall: "Y'know, so there's all this chaos going on and whatever. But it was a good show."
 
 16:49 _I Saw Her Standing There_ Live at Washington Coliseum
 
@@ -44,13 +44,13 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 19:32 John: "We didn't think if, whether we were that good or not. You've got to think you're good to do what we did, y'know. Last thing I remember is playing music in a club and the next minute, this. But we never thought about it too much, because it was an ongoing thing, it was happening to us, and it was hard to see, y'know, we were just in the middle being ushered from room to room."
 
-19:50 Paul: "Yeah, the British Embassy, it was, there was a kind of party, you know, so this was one of the things..." up to John storming after Ringo's unwanted haircut.
+19:50 Paul: "Yeah, the British Embassy, it was, there was a kind of party, y'know, so this was one of the things..." up to John storming after Ringo's unwanted haircut.
 
 20:59 _I'll Follow the Sun_ (over Miami holiday photos)
 
 21:05 Paul: (VO) "And then we eventually, as you say, got down to Miami, which was, well, I mean, that was just like paradise. 'Cause we'd never been to anywhere where there was, like, palm trees. And we took a lot of photos, y'know, we were like tourists and we had our Pentax cameras."
 
-22:01 Ringo: "This was just the most brilliant place I'd ever been to, and people were lending us yachts or anything we wanted. I mean, this family lent us their boat, and they let me drive a 60-foot yacht. You know, a speedboat, which I proceeded to bring in to port, head-on, not really knowing much about driving speedboats. And so y'know they have those pretty rails on the front hanging out, well this was... and just bent the bugger all over the place. But they didn't seem to mind, they were just happy."
+22:01 Ringo: "This was just the most brilliant place I'd ever been to, and people were lending us yachts or anything we wanted. I mean, this family lent us their boat, and they let me drive a 60-foot yacht. Y'know, a speedboat, which I proceeded to bring in to port, head-on, not really knowing much about driving speedboats. And so y'know they have those pretty rails on the front hanging out, well this was... and just bent the bugger all over the place. But they didn't seem to mind, they were just happy."
 
 22:37 Paul: "We had a great time there, we stayed in a hotel most of the time and sort of looked down on the sand where the kids, the fans would write I LOVE JOHN on the sand, y'know, so you could read it from your hotel room. I remember playing at one of the hotels, and they always have cabarets."
 
@@ -58,7 +58,7 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 28:16 _A Hard Day's Night_ movie opening titles clip
 
-28:17 Paul: "We'd always, you know, I'm talking about this progression with the Beatles from, you know, little Stevedores and Dockers Union" up to where Spike Milligan walks slowly to the camera and is then punched in the face, and Paul continues talking about Richard Lester.
+28:17 Paul: "We'd always, y'know, I'm talking about this progression with the Beatles from, y'know, little Stevedores and Dockers Union" up to where Spike Milligan walks slowly to the camera and is then punched in the face, and Paul continues talking about Richard Lester.
 
 30:27 Paul: "... And he got hold of Alan Owen, who was a Welsh playwright. **[edit]** And so he was a very likeable Welsh bloke, and he came and he hung out with us for a few days..." up to the end of _If I Fell_ from the film.
 
@@ -74,11 +74,11 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 37:15 Ringo: "I found it exciting. I loved it."
 
-37:18 John: "**[edit]** Because there was a lot of comedy in it, people were saying, 'Oh, you know, they're the young Marx brothers.' I think there's nothing else, there'd never been a group of four people, I suppose, doing comedy besides them."
+37:18 John: "**[edit]** Because there was a lot of comedy in it, people were saying, 'Oh, y'know, they're the young Marx brothers.' I think there's nothing else, there'd never been a group of four people, I suppose, doing comedy besides them."
 
 37:27 George: "But I think that was part of the thing, that the Beatles were very funny. I mean, they actually were funny."
 
-37:34 John: "All of us like the bit in the field, we all jump about like lunatics, because that's pure film, as the director told us. You know, it's just pure filming, and we could have been anybody, but we enjoy that."
+37:34 John: "All of us like the bit in the field, we all jump about like lunatics, because that's pure film, as the director told us. Y'know, it's just pure filming, and we could have been anybody, but we enjoy that."
 
 37:59 _Can't Buy Me Love_ continues, up to John reading _The Wrestling Dog_ on _Not Only But Also_.
 
@@ -108,7 +108,7 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 43:54 _Long Tall Sally_ with Jimmie Nicol up to _You Can't Do That_ live in Australia with Ringo (this sequence trims off Paul introducing _All My Loving_ and drops a whole verse/chorus of _You Can't Do That_ but otherwise retains all commentary.)
 
-54:42 Ringo: "Even though we felt, yes, we're established and we've conquered all these countries and we're selling a lot of records and they all love us, you know, I don't think we... I didn't feel like it's still gonna go on forever."
+54:42 Ringo: "Even though we felt, yes, we're established and we've conquered all these countries and we're selling a lot of records and they all love us, y'know, I don't think we... I didn't feel like it's still gonna go on forever."
 
 54:57 _A Hard Day's Night_ over footage of premieres in London and then Liverpool
 
