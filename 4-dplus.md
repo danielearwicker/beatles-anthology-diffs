@@ -72,7 +72,7 @@
 
 11:52 Ringo: "Bel Air, actually. And, y'know, this meet was arranged. We were going to go and see him. I was pretty excited about it all, and we arrived."
 
-12:03 George: "We pulled up, and there was these big gates, and somebody says, 'Oh, yeah, we're going to see Elvis!' And then we all fell out. Just like in a Beatle cartoon, we all fell out the car, all hee-hee, in hysterics, trying to pretend we weren't silly And then we went in the house, and there's Elvis sitting on the couch playing a Fender bass, plugged in an amplifier watching the TV. I was, 'Oh, it's Elvis.'"
+12:03 George: "We pulled up, and there was these big gates, and somebody says, 'Oh, yeah, we're going to see Elvis!' And then we all fell out. Just like in a Beatle cartoon, we all fell out the car, all hee-hee, in hysterics, trying to pretend we weren't silly. And then we went in the house, and there's Elvis sitting on the couch playing a Fender bass, plugged in an amplifier watching the TV. I was, 'Oh, it's Elvis.'"
 
 12:28 Paul: "I mean, it was Elvis. He just looked like Elvis."
 
@@ -80,8 +80,7 @@
 
 12:35 Ringo: "This is Mr. Hips, y'know. Hip-swivelling... man."
 
-12:39 Paul: "Wow, y'know, that's Elvis. And he was playing _Mohair Sam_ all evening. He had it on Jukebox. He just played it, like, endlessly. That was, like, the record of the moment for him.
-So it was great to see, oh, he's a music fan. Y'know, he's not just, because that was one of our big records at the moment, too."
+12:39 Paul: "Wow, y'know, that's Elvis. And he was playing _Mohair Sam_ all evening. He had it on Jukebox. He just played it, like, endlessly. That was, like, the record of the moment for him. So it was great to see, oh, he's a music fan. Y'know, he's not just, because that was one of our big records at the moment, too."
 
 12:58 John: "He had a TV going all the time, which is what I do anyway. And in front of the TV he had a massive big bass amplifier, Fender bass amplifier, or just a Fender amplifier. Oh yeah, it was a bass with a bass plugged in it. And he was playing bass all the time with the picture up on the TV. So we just got in there and played with him. We all plugged in what was ever around and we all played and sang."
 
@@ -117,7 +116,7 @@ So it was great to see, oh, he's a music fan. Y'know, he's not just, because tha
 
 14:21 George: "Y'know, all his gang, the Memphis Mafia, whatever they call them, all those guys."
 
-14:26 Ringo: "Y'know, he just was surrounded by these sycophants. 'I'm going to go to the loo,' 'Okay, we'll all go to the loo with you." Y'know, it was just so strange. And I was just so angry because he wasn't making any music. He was not doing what he should have been doing.
+14:26 Ringo: "Y'know, he just was surrounded by these sycophants. 'I'm going to go to the loo,' 'Okay, we'll all go to the loo with you." Y'know, it was just so strange. And I was just so angry because he wasn't making any music. He was not doing what he should have been doing."
 
 14:43 John: "We were asking him about just making movies and, y'know, not doing any personal appearances or TV. And he seems to enjoy, y'know, I think he enjoys making movies so much. Because we couldn't stand not doing personal appearances, y'know. We'd get bored, we'd get bored quickly. He says he misses it a bit, y'know. He's just, no, it was great, y'know, it's just I expected him.
 
