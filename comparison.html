@@ -97,6 +97,18 @@
                 position: relative;
             }
 
+            #dvd-content,
+            #dplus-content {
+                position: relative;
+            }
+
+            #dvd-content > div,
+            #dplus-content > div {
+                position: absolute;
+                left: 0;
+                right: 0;
+            }
+
             .column-header {
                 position: sticky;
                 top: 0;
@@ -193,11 +205,6 @@
                 color: #66bb6a;
             }
 
-            .spacer {
-                height: 0;
-                transition: height 0.3s;
-            }
-
             #arrow-layer {
                 position: absolute;
                 top: 0;
@@ -265,6 +272,7 @@
             <a href="#2" class="episode-link" data-episode="2">Episode 2</a>
             <a href="#3" class="episode-link" data-episode="3">Episode 3</a>
             <a href="#4" class="episode-link" data-episode="4">Episode 4</a>
+            <a href="#5" class="episode-link" data-episode="5">Episode 5</a>
         </nav>
         <p>
             Are you wondering how has the Beatles Anthology documentary changed
@@ -471,14 +479,10 @@
                 }
 
                 alignAndDrawArrows(matches, dvdCount, dplusCount) {
-                    // Clear existing spacers
-                    document
-                        .querySelectorAll(".spacer")
-                        .forEach((el) => el.remove());
-
-                    // Mark matched entries and collect all elements
+                    // Collect all elements
                     const dvdElements = [];
                     const dplusElements = [];
+                    const MARGIN = 12;
 
                     for (let i = 0; i < dvdCount; i++) {
                         const el = this.dvdContent.querySelector(
@@ -494,6 +498,67 @@
                         dplusElements.push(el);
                     }
 
+                    // Clear all absolute positions to get natural layout
+                    dvdElements.forEach((el) => {
+                        if (el) el.style.top = "";
+                    });
+                    dplusElements.forEach((el) => {
+                        if (el) el.style.top = "";
+                    });
+
+                    // Force reflow to get accurate heights after text reflow
+                    void this.dvdContent.offsetHeight;
+                    void this.dplusContent.offsetHeight;
+
+                    // Now measure heights with natural layout
+                    const dvdHeights = [];
+                    const dplusHeights = [];
+
+                    for (let i = 0; i < dvdCount; i++) {
+                        const height = dvdElements[i]
+                            ? dvdElements[i].offsetHeight
+                            : 0;
+                        dvdHeights.push(height);
+                        // Check for NaN heights
+                        if (
+                            isNaN(height) ||
+                            height === undefined ||
+                            height === null
+                        ) {
+                            console.error(
+                                `DVD height[${i}] is invalid:`,
+                                height,
+                                "element:",
+                                dvdElements[i]
+                            );
+                        }
+                    }
+
+                    for (let i = 0; i < dplusCount; i++) {
+                        const height = dplusElements[i]
+                            ? dplusElements[i].offsetHeight
+                            : 0;
+                        dplusHeights.push(height);
+                        if (
+                            isNaN(height) ||
+                            height === undefined ||
+                            height === null
+                        ) {
+                            console.error(
+                                `D+ height[${i}] is invalid:`,
+                                height,
+                                "element:",
+                                dplusElements[i]
+                            );
+                        }
+                    }
+
+                    // Log heights around the problem area
+                    console.log(
+                        "DVD heights [84-89]:",
+                        dvdHeights.slice(84, 90)
+                    );
+
                     // Build sets of matched indices
                     const dvdMatchedSet = new Set(matches.map((m) => m.dvd));
                     const dplusMatchedSet = new Set(
@@ -508,23 +573,19 @@
                             dplusElements[match.dplus].classList.add("matched");
                     });
 
-                    // Mark dropped DVD entries (no mapping to Disney+)
+                    // Mark dropped/added entries
                     for (let i = 0; i < dvdCount; i++) {
                         if (!dvdMatchedSet.has(i) && dvdElements[i]) {
                             dvdElements[i].classList.add("dropped");
                         }
                     }
-
-                    // Mark added Disney+ entries (no mapping from DVD)
                     for (let i = 0; i < dplusCount; i++) {
                         if (!dplusMatchedSet.has(i) && dplusElements[i]) {
                             dplusElements[i].classList.add("added");
                         }
                     }
 
-                    // Filter out matches that represent extreme reordering
-                    // Only use matches for alignment where both indices increase monotonically
-                    // EXCEPT for forced alignments which are always included
+                    // Filter to monotonic matches
                     const monotonic = [];
                     let lastDvd = -1;
                     let lastDplus = -1;
@@ -534,7 +595,6 @@
                     );
 
                     sortedMatches.forEach((match) => {
-                        // Always include forced alignments, or matches where both indices are increasing
                         const isForced = match.aligned === true;
                         const isMonotonic =
                             match.dvd > lastDvd && match.dplus > lastDplus;
@@ -548,8 +608,7 @@
                         }
                     });
 
-                    // Now further filter to avoid aligning isolated matches that create huge gaps
-                    // Calculate "cost" for each potential alignment match
+                    // Filter to alignment matches (skip isolated/problematic ones)
                     const alignmentMatches = [];
                     const diagnostics = [];
 
@@ -558,14 +617,12 @@
                         const prev = monotonic[i - 1];
                         const next = monotonic[i + 1];
 
-                        // Calculate gap sizes on both sides
                         const dvdGapBefore = prev
                             ? current.dvd - prev.dvd - 1
                             : current.dvd;
                         const dplusGapBefore = prev
                             ? current.dplus - prev.dplus - 1
                             : current.dplus;
-
                         const dvdGapAfter = next
                             ? next.dvd - current.dvd - 1
                             : dvdCount - current.dvd - 1;
@@ -573,7 +630,6 @@
                             ? next.dplus - current.dplus - 1
                             : dplusCount - current.dplus - 1;
 
-                        // Calculate the "mismatch" - how different the gaps are
                         const mismatchBefore = Math.abs(
                             dvdGapBefore - dplusGapBefore
                         );
@@ -582,7 +638,6 @@
                         );
                         const totalMismatch = mismatchBefore + mismatchAfter;
 
-                        // Calculate density - how many matches are nearby
                         const windowSize = 10;
                         let nearbyMatches = 0;
                         for (
@@ -593,13 +648,9 @@
                             if (j !== i) nearbyMatches++;
                         }
 
-                        // Skip this match if it creates significant mismatch
-                        // Tighter thresholds to avoid aligning items that create large gaps
                         const isIsolated = nearbyMatches < 2;
                         const hasModerateMismatch = totalMismatch > 10;
                         const hasLargeMismatch = totalMismatch > 12;
-
-                        // Check if this is a forced alignment anchor
                         const isForced = current.aligned === true;
 
                         const shouldSkip =
@@ -607,21 +658,11 @@
                             (hasLargeMismatch ||
                                 (isIsolated && hasModerateMismatch));
 
-                        // Record diagnostics
                         diagnostics.push({
                             dvd: current.dvd,
                             dplus: current.dplus,
-                            dvdGapBefore,
-                            dplusGapBefore,
-                            dvdGapAfter,
-                            dplusGapAfter,
-                            mismatchBefore,
-                            mismatchAfter,
                             totalMismatch,
                             nearbyMatches,
-                            isIsolated,
-                            hasModerateMismatch,
-                            hasLargeMismatch,
                             isForced,
                             decision: shouldSkip
                                 ? "SKIP"
@@ -630,187 +671,198 @@
                                 : "ALIGN",
                         });
 
-                        if (shouldSkip) {
-                            // Skip this match for alignment (but still draw arrow)
-                            continue;
+                        if (!shouldSkip) {
+                            alignmentMatches.push(current);
                         }
-
-                        alignmentMatches.push(current);
                     }
 
-                    console.log(
-                        `Total matches: ${matches.length}, Monotonic: ${monotonic.length}, Alignment matches: ${alignmentMatches.length}`
-                    );
-
-                    // Log diagnostics table
-                    console.log("\n=== ALIGNMENT DIAGNOSTICS ===");
-                    console.table(diagnostics);
-
-                    // Highlight forced alignments
-                    const forced = diagnostics.filter((d) => d.isForced);
-                    if (forced.length > 0) {
-                        console.log("\n🔒 FORCED ALIGNMENT ANCHORS:");
-                        console.table(forced);
-                    }
-
-                    // Find and highlight problematic alignments
-                    const problematic = diagnostics
-                        .filter(
-                            (d) =>
-                                d.decision === "ALIGN" && d.totalMismatch > 10
-                        )
-                        .sort((a, b) => b.totalMismatch - a.totalMismatch);
-
-                    if (problematic.length > 0) {
-                        console.warn(
-                            "\n⚠️ POTENTIALLY PROBLEMATIC ALIGNMENTS (sorted by mismatch):"
-                        );
-                        console.table(problematic);
-                    }
-
-                    // Calculate total alignment cost
-                    const totalCost = alignmentMatches.reduce(
-                        (sum, match, i) => {
-                            const diag = diagnostics.find(
-                                (d) =>
-                                    d.dvd === match.dvd &&
-                                    d.dplus === match.dplus
-                            );
-                            return sum + (diag ? diag.totalMismatch : 0);
-                        },
-                        0
-                    );
-
-                    console.log(`\n📊 Total alignment cost: ${totalCost}`);
-
-                    // Build set of matched indices (for all matches, not just alignment)
-                    const dvdMatched = new Set(matches.map((m) => m.dvd));
-                    const dplusMatched = new Set(matches.map((m) => m.dplus));
-
-                    // Sort alignmentMatches to ensure we process them in a sensible order
-                    // This prevents forced alignments from breaking the sequential processing
+                    // Sort alignment matches
                     const sortedAlignments = [...alignmentMatches].sort(
                         (a, b) => {
-                            // Primary sort by DVD index
                             if (a.dvd !== b.dvd) return a.dvd - b.dvd;
-                            // Secondary sort by Disney+ index
                             return a.dplus - b.dplus;
                         }
                     );
 
-                    // Track the last processed indices
+                    // Check if any mappings reference indices beyond our counts
+                    const maxDvdIndex = Math.max(...matches.map((m) => m.dvd));
+                    const maxDplusIndex = Math.max(
+                        ...matches.map((m) => m.dplus)
+                    );
+                    console.log(
+                        `Max mapped indices: DVD=${maxDvdIndex}, D+=${maxDplusIndex}`
+                    );
+                    console.log(
+                        `Actual counts: DVD=${dvdCount}, D+=${dplusCount}`
+                    );
+
+                    if (maxDvdIndex >= dvdCount) {
+                        console.error(
+                            `⚠️ Mapping references DVD index ${maxDvdIndex} but only have ${dvdCount} entries!`
+                        );
+                    }
+                    if (maxDplusIndex >= dplusCount) {
+                        console.error(
+                            `⚠️ Mapping references D+ index ${maxDplusIndex} but only have ${dplusCount} entries!`
+                        );
+                    }
+
+                    // Calculate absolute positions
+                    const dvdPositions = new Array(dvdCount).fill(0);
+                    const dplusPositions = new Array(dplusCount).fill(0);
+
+                    let dvdCurrentTop = 0;
+                    let dplusCurrentTop = 0;
                     let lastDvdIdx = -1;
                     let lastDplusIdx = -1;
 
-                    // Use only sortedAlignments for creating spacers
-                    sortedAlignments.forEach((match, matchIdx) => {
-                        // Skip if this alignment would go backwards (only possible with forced alignments)
+                    sortedAlignments.forEach((match, matchNum) => {
+                        // Skip backwards alignments
                         if (
                             match.dvd <= lastDvdIdx ||
                             match.dplus <= lastDplusIdx
                         ) {
                             console.warn(
-                                `⚠️ Skipping out-of-order forced alignment: DVD ${match.dvd} → Disney+ ${match.dplus}`
+                                `⚠️ Skipping out-of-order: DVD ${match.dvd} → D+ ${match.dplus}`
                             );
                             return;
                         }
-                        // Calculate height of ALL items between last alignment match and this one
-                        // (This includes matched items that were skipped for alignment)
-                        let dvdHeight = 0;
+
+                        // Position items between last alignment and this one
                         for (let i = lastDvdIdx + 1; i < match.dvd; i++) {
-                            if (dvdElements[i]) {
-                                dvdHeight += dvdElements[i].offsetHeight + 12; // Include margin
+                            dvdPositions[i] = dvdCurrentTop;
+                            dvdCurrentTop += dvdHeights[i] + MARGIN;
+                            // Check for NaN propagation
+                            if (isNaN(dvdCurrentTop)) {
+                                console.error(
+                                    `NaN detected at DVD[${i}]: height=${
+                                        dvdHeights[i]
+                                    }, was ${
+                                        dvdCurrentTop - dvdHeights[i] - MARGIN
+                                    }, added ${dvdHeights[i]} + ${MARGIN}`
+                                );
                             }
                         }
-
-                        // Calculate height of ALL Disney+ items between last alignment match and this one
-                        let dplusHeight = 0;
                         for (let i = lastDplusIdx + 1; i < match.dplus; i++) {
-                            if (dplusElements[i]) {
-                                dplusHeight +=
-                                    dplusElements[i].offsetHeight + 12; // Include margin
-                            }
+                            dplusPositions[i] = dplusCurrentTop;
+                            dplusCurrentTop += dplusHeights[i] + MARGIN;
                         }
 
-                        // Insert spacer on the side with less content
-                        const heightDiff = Math.abs(dvdHeight - dplusHeight);
-                        if (heightDiff > 10) {
-                            // Only if difference is significant
-                            const spacer = document.createElement("div");
-                            spacer.className = "spacer";
-                            spacer.style.height = heightDiff + "px";
+                        // Align the matched items at the same top position
+                        const alignTop = Math.max(
+                            dvdCurrentTop,
+                            dplusCurrentTop
+                        );
+                        dvdPositions[match.dvd] = alignTop;
+                        dplusPositions[match.dplus] = alignTop;
 
-                            if (dvdHeight < dplusHeight) {
-                                // DVD side has less content, add spacer before this DVD match
-                                const dvdEl = dvdElements[match.dvd];
-                                if (dvdEl) {
-                                    dvdEl.parentNode.insertBefore(
-                                        spacer,
-                                        dvdEl
-                                    );
-                                }
-                            } else {
-                                // Disney+ side has less content, add spacer before this Disney+ match
-                                const dplusEl = dplusElements[match.dplus];
-                                if (dplusEl) {
-                                    dplusEl.parentNode.insertBefore(
-                                        spacer,
-                                        dplusEl
-                                    );
-                                }
-                            }
+                        // Advance both sides
+                        const dvdHeight = dvdHeights[match.dvd];
+                        const dplusHeight = dplusHeights[match.dplus];
+
+                        if (isNaN(dvdHeight) || dvdHeight === undefined) {
+                            console.error(
+                                `Match ${matchNum}: DVD height[${match.dvd}] is invalid:`,
+                                dvdHeight
+                            );
+                        }
+                        if (isNaN(dplusHeight) || dplusHeight === undefined) {
+                            console.error(
+                                `Match ${matchNum}: D+ height[${match.dplus}] is invalid:`,
+                                dplusHeight
+                            );
+                        }
+
+                        dvdCurrentTop = alignTop + dvdHeight + MARGIN;
+                        dplusCurrentTop = alignTop + dplusHeight + MARGIN;
+
+                        if (isNaN(dvdCurrentTop)) {
+                            console.error(
+                                `NaN after match ${matchNum} (DVD ${match.dvd}): alignTop=${alignTop}, height=${dvdHeight}`
+                            );
                         }
 
                         lastDvdIdx = match.dvd;
                         lastDplusIdx = match.dplus;
                     });
 
-                    // Fine-tune alignment by checking actual positions (only for alignment matches)
-                    setTimeout(() => {
-                        alignmentMatches.forEach((match) => {
-                            const dvdEl = this.dvdContent.querySelector(
-                                `[data-index="${match.dvd}"]`
-                            );
-                            const dplusEl = this.dplusContent.querySelector(
-                                `[data-index="${match.dplus}"]`
-                            );
+                    // Position remaining items after last alignment
+                    for (let i = lastDvdIdx + 1; i < dvdCount; i++) {
+                        dvdPositions[i] = dvdCurrentTop;
+                        dvdCurrentTop += dvdHeights[i] + MARGIN;
+                    }
+                    for (let i = lastDplusIdx + 1; i < dplusCount; i++) {
+                        dplusPositions[i] = dplusCurrentTop;
+                        dplusCurrentTop += dplusHeights[i] + MARGIN;
+                    }
 
-                            if (dvdEl && dplusEl) {
-                                const dvdRect = dvdEl.getBoundingClientRect();
-                                const dplusRect =
-                                    dplusEl.getBoundingClientRect();
-                                const diff = dplusRect.top - dvdRect.top;
+                    // Apply absolute positions
+                    console.log(
+                        `Applying positions: DVD count=${dvdCount}, positions length=${dvdPositions.length}`
+                    );
+                    console.log(`Last DVD index: ${lastDvdIdx}`);
 
-                                if (Math.abs(diff) > 10) {
-                                    const spacer =
-                                        document.createElement("div");
-                                    spacer.className = "spacer";
-                                    spacer.style.height = Math.abs(diff) + "px";
+                    // Check if positions after index 85 are being set
+                    const positionsAfter85 = dvdPositions.slice(86, 90);
+                    console.log("DVD positions [86-89]:", positionsAfter85);
 
-                                    if (diff > 0) {
-                                        // Disney+ is lower, add spacer before DVD element
-                                        dvdEl.parentNode.insertBefore(
-                                            spacer,
-                                            dvdEl
-                                        );
-                                    } else {
-                                        // DVD is lower, add spacer before Disney+ element
-                                        dplusEl.parentNode.insertBefore(
-                                            spacer,
-                                            dplusEl
-                                        );
-                                    }
+                    let missingCount = 0;
+                    dvdElements.forEach((el, i) => {
+                        if (el) {
+                            if (dvdPositions[i] === undefined) {
+                                console.error(
+                                    `DVD position[${i}] is undefined!`
+                                );
+                                missingCount++;
+                            } else {
+                                el.style.top = dvdPositions[i] + "px";
+                                // Log a few examples
+                                if (i >= 84 && i <= 88) {
+                                    console.log(
+                                        `Set DVD[${i}].style.top = ${dvdPositions[i]}px`
+                                    );
                                 }
                             }
-                        });
+                        } else {
+                            console.warn(`DVD element[${i}] is null/undefined`);
+                        }
+                    });
 
-                        // Draw arrows for ALL matches (including reordered ones)
-                        setTimeout(() => {
-                            this.drawArrows(matches);
-                            // Setup interactions after arrows are drawn
-                            this.setupInteractions(matches);
-                        }, 100);
-                    }, 50);
+                    if (missingCount > 0) {
+                        console.error(
+                            `${missingCount} DVD positions were undefined!`
+                        );
+                    }
+
+                    dplusElements.forEach((el, i) => {
+                        if (el) {
+                            el.style.top = dplusPositions[i] + "px";
+                        }
+                    });
+
+                    // Set minimum heights on containers
+                    const dvdTotalHeight =
+                        Math.max(...dvdPositions) +
+                        (dvdHeights[dvdCount - 1] || 0);
+                    const dplusTotalHeight =
+                        Math.max(...dplusPositions) +
+                        (dplusHeights[dplusCount - 1] || 0);
+                    this.dvdContent.style.minHeight = dvdTotalHeight + "px";
+                    this.dplusContent.style.minHeight = dplusTotalHeight + "px";
+
+                    // Force a reflow to ensure positions are applied before measuring for arrows
+                    void this.dvdContent.offsetHeight;
+                    void this.dplusContent.offsetHeight;
+
+                    // Draw arrows after one animation frame to ensure paint is complete
+                    requestAnimationFrame(() => {
+                        // Force one more reflow before measuring element positions
+                        void this.dvdContent.offsetHeight;
+                        void this.dplusContent.offsetHeight;
+
+                        this.drawArrows(matches);
+                        this.setupInteractions(matches);
+                    });
                 }
 
                 drawArrows(matches) {
@@ -1135,13 +1187,16 @@
                             }, 500);
                         }, 100);
 
-                        // Redraw arrows on window resize
+                        // Recalculate positions and redraw arrows on window resize
                         let resizeTimeout;
                         window.addEventListener("resize", () => {
                             clearTimeout(resizeTimeout);
                             resizeTimeout = setTimeout(() => {
-                                this.drawArrows(matches);
-                                this.setupInteractions(matches);
+                                this.alignAndDrawArrows(
+                                    matches,
+                                    dvdEntries.length,
+                                    dplusEntries.length
+                                );
                             }, 200);
                         });
                     } catch (error) {

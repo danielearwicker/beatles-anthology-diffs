@@ -150,7 +150,8 @@
             "dvd": 29,
             "dplus": 33,
             "matchType": "different",
-            "note": "Morecambe and Wise (cut shorter on Disney+)"
+            "note": "Morecambe and Wise (cut shorter on Disney+)",
+            "aligned": true
         },
         {
             "dvd": 31,

@@ -4,19 +4,19 @@
             "dvd": 0,
             "dplus": 0,
             "matchType": "similar",
-            "note": "Recreation bedroom (DVD black and white, D+ in colour)"
+            "note": "Recreation bedroom (DVD black & white, D+ colour)"
         },
         {
             "dvd": 1,
             "dplus": 1,
             "matchType": "similar",
-            "note": "John: Eye of the hurricane (D+ has longer version)"
+            "note": "John: Eye of the hurricane (D+ longer version)"
         },
         {
             "dvd": 2,
             "dplus": 2,
             "matchType": "similar",
-            "note": "Rock and Roll Music ends (D+ jumps abruptly)"
+            "note": "Rock and Roll Music ends"
         },
         {
             "dvd": 8,
@@ -34,7 +34,7 @@
             "dvd": 35,
             "dplus": 5,
             "matchType": "similar",
-            "note": "George Martin: Three-ring circus (D+ edited version)"
+            "note": "George Martin: Three-ring circus (D+ edited)"
         },
         {
             "dvd": 52,
@@ -70,19 +70,13 @@
             "dvd": 16,
             "dplus": 11,
             "matchType": "similar",
-            "note": "All My Loving introduction (D+ starts performance earlier)"
-        },
-        {
-            "dvd": 16,
-            "dplus": 13,
-            "matchType": "similar",
-            "note": "All My Loving continues (D+ intercut with new material)"
+            "note": "All My Loving at Hollywood Bowl (D+ starts performance earlier)"
         },
         {
             "dvd": 12,
             "dplus": 14,
             "matchType": "similar",
-            "note": "Paul: Girls screaming (D+ different version about covering sins)"
+            "note": "Paul: Girls screaming, multitude of sins"
         },
         {
             "dvd": 15,
@@ -94,7 +88,7 @@
             "dvd": 14,
             "dplus": 16,
             "matchType": "similar",
-            "note": "George: Playing repetition of singles (D+ snippet only)"
+            "note": "George: Playing repetition of singles"
         },
         {
             "dvd": 17,
@@ -106,12 +100,12 @@
             "dvd": 18,
             "dplus": 19,
             "matchType": "similar",
-            "note": "George Martin: Hollywood Bowl recording (D+ edited, removes opening)"
+            "note": "George Martin: Hollywood Bowl recording (D+ edited)"
         },
         {
             "dvd": 19,
             "dplus": 22,
-            "matchType": "same",
+            "matchType": "similar",
             "note": "She Loves You excerpt from Hollywood Bowl"
         },
         {
@@ -153,8 +147,8 @@
         {
             "dvd": 30,
             "dplus": 30,
-            "matchType": "same",
-            "note": "Paul: Great honour to meet him"
+            "matchType": "similar",
+            "note": "Paul: Great honour to meet him (D+ edited)"
         },
         {
             "dvd": 34,
@@ -170,237 +164,237 @@
         },
         {
             "dvd": 57,
-            "dplus": 65,
+            "dplus": 34,
             "matchType": "same",
             "note": "Brian Matthew: Beatles returned from America, 32 shows in 34 days"
         },
         {
             "dvd": 41,
-            "dplus": 66,
+            "dplus": 35,
             "matchType": "same",
             "note": "Paul: We've got to have a day off, man"
         },
         {
             "dvd": 42,
-            "dplus": 67,
+            "dplus": 36,
             "matchType": "same",
             "note": "Neil: We didn't get any time off"
         },
         {
             "dvd": 58,
-            "dplus": 68,
+            "dplus": 37,
             "matchType": "same",
             "note": "George Martin: John had mucked around with feedback"
         },
         {
             "dvd": 59,
-            "dplus": 70,
+            "dplus": 39,
             "matchType": "same",
             "note": "Paul: John and George had Everly Brothers Gibsons"
         },
         {
             "dvd": 60,
-            "dplus": 71,
+            "dplus": 40,
             "matchType": "same",
             "note": "George: Big Gibson round sound-hole electric ones"
         },
         {
             "dvd": 63,
-            "dplus": 72,
+            "dplus": 41,
             "matchType": "same",
-            "note": "Paul: John leaned his against the amp (long quote)"
+            "note": "Paul: John leaned his against the amp"
         },
         {
             "dvd": 65,
-            "dplus": 74,
+            "dplus": 43,
             "matchType": "similar",
-            "note": "I Feel Fine (D+ uses Twickenham promo, edited shorter)"
+            "note": "I Feel Fine (D+ Twickenham promo, edited)"
         },
         {
             "dvd": 66,
-            "dplus": 75,
-            "matchType": "same",
-            "note": "Brian Matthew: Funny chaps, who are they?"
+            "dplus": 44,
+            "matchType": "similar",
+            "note": "Brian Matthew: Funny chaps"
         },
         {
             "dvd": 75,
-            "dplus": 88,
+            "dplus": 57,
             "matchType": "same",
-            "note": "Help! film opening title and song to falling in snow"
+            "note": "Help! film opening title to falling in snow"
         },
         {
             "dvd": 78,
-            "dplus": 89,
+            "dplus": 58,
             "matchType": "similar",
-            "note": "Paul: Herbal jazz cigarettes (D+ edited shorter)"
+            "note": "Paul: Herbal jazz cigarettes (D+ shorter)"
         },
         {
             "dvd": 76,
-            "dplus": 91,
+            "dplus": 60,
             "matchType": "same",
-            "note": "You're Gonna Lose That Girl scene from Help!"
+            "note": "You're Gonna Lose That Girl scene"
         },
         {
             "dvd": 77,
-            "dplus": 92,
+            "dplus": 61,
             "matchType": "same",
             "note": "Producer: Boys, are you buzzing?"
         },
         {
             "dvd": 79,
-            "dplus": 93,
+            "dplus": 62,
             "matchType": "same",
             "note": "John: Smoking marijuana for breakfast"
         },
         {
             "dvd": 80,
-            "dplus": 94,
+            "dplus": 63,
             "matchType": "same",
             "note": "George: We had fun in those days"
         },
         {
             "dvd": 81,
-            "dplus": 95,
+            "dplus": 64,
             "matchType": "same",
             "note": "Paul: Reason for not learning the script"
         },
         {
             "dvd": 82,
-            "dplus": 96,
+            "dplus": 65,
             "matchType": "similar",
-            "note": "Card game scene (D+ starts later, from 'need one card')"
+            "note": "Card game scene (D+ starts at 'need one card')"
         },
         {
             "dvd": 83,
-            "dplus": 97,
+            "dplus": 66,
             "matchType": "same",
-            "note": "George: Difficult when four people have to say lines"
+            "note": "George: Difficult when four people have lines"
         },
         {
             "dvd": 97,
-            "dplus": 103,
+            "dplus": 72,
             "matchType": "same",
             "note": "John: Slightly a new sound, heavy record"
         },
         {
             "dvd": 86,
-            "dplus": 107,
+            "dplus": 76,
             "matchType": "same",
             "note": "Paul: John's state of mind, feeling constricted"
         },
         {
             "dvd": 87,
-            "dplus": 108,
+            "dplus": 77,
             "matchType": "same",
             "note": "George: He said it retrospectively, he was plump"
         },
         {
             "dvd": 88,
-            "dplus": 109,
+            "dplus": 78,
             "matchType": "similar",
             "note": "Neil: Fat Elvis period (D+ edited)"
         },
         {
             "dvd": 89,
-            "dplus": 110,
+            "dplus": 79,
             "matchType": "same",
-            "note": "John: I go into these troughs, up to Yesterday"
+            "note": "John: I go into these troughs to Yesterday"
         },
         {
             "dvd": 91,
-            "dplus": 111,
+            "dplus": 80,
             "matchType": "same",
-            "note": "George Martin: John listening to it, up to Paul on R&B combo"
+            "note": "George Martin: John listening to it, R&B combo"
         },
         {
             "dvd": 90,
-            "dplus": 112,
+            "dplus": 81,
             "matchType": "same",
             "note": "Yesterday TV debut from Blackpool Night Out"
         },
         {
             "dvd": 95,
-            "dplus": 114,
+            "dplus": 83,
             "matchType": "similar",
             "note": "George Martin: George's songwriting was painful (D+ edited)"
         },
         {
             "dvd": 96,
-            "dplus": 117,
+            "dplus": 86,
             "matchType": "similar",
-            "note": "John: Carved up the empire, to Act Naturally (D+ truncated)"
+            "note": "John: Carved up the empire to Act Naturally (D+ truncated)"
         },
         {
             "dvd": 99,
-            "dplus": 118,
+            "dplus": 87,
             "matchType": "similar",
             "note": "Interviewer: George Harrison MBE (D+ adds intro)"
         },
         {
             "dvd": 118,
-            "dplus": 119,
+            "dplus": 88,
             "matchType": "same",
             "note": "ABC news reporter outside Buckingham Palace"
         },
         {
             "dvd": 119,
-            "dplus": 120,
+            "dplus": 89,
             "matchType": "same",
-            "note": "Eight Days a Week over footage of the day"
+            "note": "Eight Days a Week over footage"
         },
         {
             "dvd": 117,
-            "dplus": 121,
+            "dplus": 90,
             "matchType": "same",
-            "note": "Ringo: Going to meet the Queen, give us a badge"
+            "note": "Ringo: Going to meet the Queen"
         },
         {
             "dvd": 120,
-            "dplus": 122,
+            "dplus": 91,
             "matchType": "same",
-            "note": "Paul: Good fun at palace, to Ringo too stoned to remember"
+            "note": "Paul: Good fun at palace to Ringo too stoned"
         },
         {
             "dvd": 102,
-            "dplus": 123,
+            "dplus": 92,
             "matchType": "same",
-            "note": "Ringo: Daily Mirror reaction, to chap about pop singer"
+            "note": "Ringo: Daily Mirror reaction to chap about pop singer"
         },
         {
-            "dvd": 112,
-            "dplus": 124,
+            "dvd": 107,
+            "dplus": 93,
             "matchType": "same",
             "note": "Paul: I'm glad everyone's delighted"
         },
         {
             "dvd": 110,
-            "dplus": 125,
+            "dplus": 94,
             "matchType": "same",
             "note": "Man with moustache: MBE is a bit of a joke"
         },
         {
             "dvd": 114,
-            "dplus": 126,
+            "dplus": 95,
             "matchType": "same",
             "note": "Middle-aged lady: Young, vital, give country a kick"
         },
         {
             "dvd": 115,
-            "dplus": 127,
+            "dplus": 96,
             "matchType": "same",
             "note": "Interviewer: How do you feel about MBE?"
         },
         {
             "dvd": 116,
-            "dplus": 128,
+            "dplus": 97,
             "matchType": "same",
             "note": "John: I feel great, we're honoured"
         },
         {
             "dvd": 121,
-            "dplus": 131,
+            "dplus": 100,
             "matchType": "same",
-            "note": "George: After all we did, bloody old leather medal"
+            "note": "George: Bloody old leather medal"
         }
     ]
 }
