@@ -1,0 +1,366 @@
+{
+    "mappings": [
+        {
+            "dvd": 0,
+            "dplus": 0,
+            "matchType": "similar",
+            "note": "Ed Sullivan, Shea Stadium, Twist and Shout (D+ removes screaming from soundtrack)"
+        },
+        {
+            "dvd": 5,
+            "dplus": 1,
+            "matchType": "same",
+            "note": "Paul: Baseball stadium PA"
+        },
+        {
+            "dvd": 3,
+            "dplus": 2,
+            "matchType": "same",
+            "note": "George: Vox 100 watt amps"
+        },
+        {
+            "dvd": 4,
+            "dplus": 3,
+            "matchType": "same",
+            "note": "Neil: Mic'd to big speakers, PA system"
+        },
+        {
+            "dvd": 6,
+            "dplus": 4,
+            "matchType": "similar",
+            "note": "John Baby's In Black intro, to Ringo: John cracked up (D+ edits out pitch invader)"
+        },
+        {
+            "dvd": 8,
+            "dplus": 5,
+            "matchType": "similar",
+            "note": "John: I'm Down organ (DVD black & white, D+ colour slow-motion)"
+        },
+        {
+            "dvd": 9,
+            "dplus": 6,
+            "matchType": "same",
+            "note": "I'm Down up to Paul: 56,000"
+        },
+        {
+            "dvd": 11,
+            "dplus": 7,
+            "matchType": "same",
+            "note": "Ringo: 60,000 people"
+        },
+        {
+            "dvd": 12,
+            "dplus": 8,
+            "matchType": "same",
+            "note": "George: Told me it was 70"
+        },
+        {
+            "dvd": 13,
+            "dplus": 9,
+            "matchType": "similar",
+            "note": "Help (D+ starts after first verse, commentary over verses)"
+        },
+        {
+            "dvd": 20,
+            "dplus": 13,
+            "matchType": "same",
+            "note": "Paul: I don't think it was that bad"
+        },
+        {
+            "dvd": 19,
+            "dplus": 14,
+            "matchType": "same",
+            "note": "Paul: Big band that shook our heads"
+        },
+        {
+            "dvd": 18,
+            "dplus": 16,
+            "matchType": "same",
+            "note": "Ringo: Realization nobody was listening, playing so bad"
+        },
+        {
+            "dvd": 22,
+            "dplus": 18,
+            "matchType": "same",
+            "note": "Ringo: Why I joined Beatles, best band in Liverpool"
+        },
+        {
+            "dvd": 23,
+            "dplus": 19,
+            "matchType": "similar",
+            "note": "George Martin: Musical creativity, finding new frontiers (D+ adds extra)"
+        },
+        {
+            "dvd": 26,
+            "dplus": 21,
+            "matchType": "same",
+            "note": "Paul: Dylan starting to influence us"
+        },
+        {
+            "dvd": 27,
+            "dplus": 22,
+            "matchType": "same",
+            "note": "John: Rubber Soul when it started happening"
+        },
+        {
+            "dvd": 36,
+            "dplus": 25,
+            "matchType": "similar",
+            "note": "George: Rubber Soul favourite, best one we made (D+ edited)"
+        },
+        {
+            "dvd": 30,
+            "dplus": 30,
+            "matchType": "same",
+            "note": "Paul: George's became Indian, listening to other music",
+            "aligned": true
+        },
+        {
+            "dvd": 31,
+            "dplus": 31,
+            "matchType": "similar",
+            "note": "George: Ravi Shankar, Norwegian Wood sitar (D+ edits opening)"
+        },
+        {
+            "dvd": 32,
+            "dplus": 32,
+            "matchType": "same",
+            "note": "Norwegian Wood excerpt"
+        },
+        {
+            "dvd": 33,
+            "dplus": 33,
+            "matchType": "same",
+            "note": "George Martin: Interested in unusual sounds"
+        },
+        {
+            "dvd": 35,
+            "dplus": 35,
+            "matchType": "same",
+            "note": "George Martin: Rubber Soul indication, favourite album"
+        },
+        {
+            "dvd": 24,
+            "dplus": 36,
+            "matchType": "similar",
+            "note": "Ringo: Attitude changing, grass influential (D+ edited)"
+        },
+        {
+            "dvd": 39,
+            "dplus": 41,
+            "matchType": "similar",
+            "note": "George: Rubber Soul and Revolver volume 1 and 2 (D+ edited)"
+        },
+        {
+            "dvd": 41,
+            "dplus": 44,
+            "matchType": "similar",
+            "note": "George Martin: Ideas becoming more potent (D+ edited)"
+        },
+        {
+            "dvd": 42,
+            "dplus": 48,
+            "matchType": "same",
+            "note": "Ringo: Three quarters through album, have you got a song"
+        },
+        {
+            "dvd": 43,
+            "dplus": 53,
+            "matchType": "similar",
+            "note": "Paul: Yellow Submarine, twilight moment (D+ edited)"
+        },
+        {
+            "dvd": 44,
+            "dplus": 54,
+            "matchType": "similar",
+            "note": "Yellow Submarine (DVD with animated characters, D+ only home movies)"
+        },
+        {
+            "dvd": 45,
+            "dplus": 55,
+            "matchType": "same",
+            "note": "Ringo writing, to George: heavy penalty for making money"
+        },
+        {
+            "dvd": 46,
+            "dplus": 57,
+            "matchType": "same",
+            "note": "George Martin: Revolver, Tomorrow Never Knows innovation"
+        },
+        {
+            "dvd": 47,
+            "dplus": 58,
+            "matchType": "similar",
+            "note": "John: Tibetan book, Ringo's malapropism (D+ complex splicing)"
+        },
+        {
+            "dvd": 48,
+            "dplus": 59,
+            "matchType": "similar",
+            "note": "Paul: John's song on C chord (D+ edited)"
+        },
+        {
+            "dvd": 49,
+            "dplus": 60,
+            "matchType": "similar",
+            "note": "Tomorrow Never Knows to Nowhere Man live (D+ interrupts before solo)"
+        },
+        {
+            "dvd": 50,
+            "dplus": 61,
+            "matchType": "same",
+            "note": "George: Dentist day, suddenly all crazy"
+        },
+        {
+            "dvd": 51,
+            "dplus": 62,
+            "matchType": "similar",
+            "note": "Paul: Frightened of that stuff (D+ edited)"
+        },
+        {
+            "dvd": 52,
+            "dplus": 64,
+            "matchType": "same",
+            "note": "Paul: Delayed, peer pressure - the Beatles"
+        },
+        {
+            "dvd": 55,
+            "dplus": 66,
+            "matchType": "same",
+            "note": "Brian Matthews: Last Saturday Club"
+        },
+        {
+            "dvd": 56,
+            "dplus": 67,
+            "matchType": "similar",
+            "note": "We Can Work It Out (DVD two performances, D+ one)"
+        },
+        {
+            "dvd": 57,
+            "dplus": 68,
+            "matchType": "same",
+            "note": "George: Mania difficult, to Ringo: Rain and Paperback Writer"
+        },
+        {
+            "dvd": 58,
+            "dplus": 69,
+            "matchType": "similar",
+            "note": "Paperback Writer promo (D+ truncated)"
+        },
+        {
+            "dvd": 59,
+            "dplus": 70,
+            "matchType": "same",
+            "note": "George: We invented MTV"
+        },
+        {
+            "dvd": 60,
+            "dplus": 71,
+            "matchType": "similar",
+            "note": "Rain promo (D+ interrupted by new John VO)"
+        },
+        {
+            "dvd": 61,
+            "dplus": 73,
+            "matchType": "similar",
+            "note": "John: First record with backwards music (D+ adds 'before any fucker')"
+        },
+        {
+            "dvd": 62,
+            "dplus": 74,
+            "matchType": "same",
+            "note": "Got To Get You Into My Life begins"
+        },
+        {
+            "dvd": 69,
+            "dplus": 75,
+            "matchType": "same",
+            "note": "Paul: Locked in hotel, to George: 5.35 in car park"
+        },
+        {
+            "dvd": 72,
+            "dplus": 76,
+            "matchType": "same",
+            "note": "Paul: Fans organized with police patrols, to Budokan intro"
+        },
+        {
+            "dvd": 73,
+            "dplus": 77,
+            "matchType": "similar",
+            "note": "Rock and Roll Music live Budokan (D+ edits middle)"
+        },
+        {
+            "dvd": 74,
+            "dplus": 78,
+            "matchType": "same",
+            "note": "Paul: Close harmonies Paperback Writer, to George: no way on stage"
+        },
+        {
+            "dvd": 75,
+            "dplus": 79,
+            "matchType": "similar",
+            "note": "Paperback Writer live Budokan (DVD 1 minute, D+ 7 seconds)"
+        },
+        {
+            "dvd": 76,
+            "dplus": 80,
+            "matchType": "same",
+            "note": "George: Particularly bad, screaming covered moments"
+        },
+        {
+            "dvd": 77,
+            "dplus": 81,
+            "matchType": "similar",
+            "note": "Neil: Scream covered sins (D+ different version)"
+        },
+        {
+            "dvd": 81,
+            "dplus": 82,
+            "matchType": "similar",
+            "note": "Yesterday live Budokan (D+ excerpt only)"
+        },
+        {
+            "dvd": 63,
+            "dplus": 83,
+            "matchType": "same",
+            "note": "George: Demonstrations, Budokan martial arts"
+        },
+        {
+            "dvd": 64,
+            "dplus": 84,
+            "matchType": "same",
+            "note": "Reporter: Violate the Budokan question"
+        },
+        {
+            "dvd": 65,
+            "dplus": 85,
+            "matchType": "same",
+            "note": "Paul: Dancing troupe from Japan, we're just singing"
+        },
+        {
+            "dvd": 66,
+            "dplus": 86,
+            "matchType": "same",
+            "note": "John: Better to watch singing than wrestling"
+        },
+        {
+            "dvd": 68,
+            "dplus": 88,
+            "matchType": "same",
+            "note": "Ringo: Any town someone had a grievance"
+        },
+        {
+            "dvd": 83,
+            "dplus": 89,
+            "matchType": "similar",
+            "note": "Moved",
+            "aligned": true
+        },
+        {
+            "dvd": 84,
+            "dplus": 91,
+            "matchType": "same",
+            "note": "And Your Bird Can Sing over end credits"
+        }
+    ]
+}

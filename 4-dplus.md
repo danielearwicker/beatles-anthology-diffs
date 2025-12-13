@@ -64,69 +64,7 @@
 
 10:32 Paul: "I thought I got the meaning to life that night... And I'd written: There are seven levels."
 
-11:20 George: "One trip or another, we met Elvis. It was one of the highlights _[ironic laughter]_ of our visit." **Note: the entire Elvis story has been moved back from Episode 5 to here, although that meeting occurred after the Shea Stadium concert that opens Episode 5.**
-
-11:27 _Mohair Sam_
-
-11:40 George: "We were in this Cadillac limousine. We had a couple of cups of tea in the back of the car. And by the time we got to Elvis' house, we forgot where we were going. It didn't really matter where we were going.
-
-11:52 Ringo: "Bel Air, actually. And, y'know, this meet was arranged. We were going to go and see him. I was pretty excited about it all, and we arrived."
-
-12:03 George: "We pulled up, and there was these big gates, and somebody says, 'Oh, yeah, we're going to see Elvis!' And then we all fell out. Just like in a Beatle cartoon, we all fell out the car, all hee-hee, in hysterics, trying to pretend we weren't silly. And then we went in the house, and there's Elvis sitting on the couch playing a Fender bass, plugged in an amplifier watching the TV. I was, 'Oh, it's Elvis.'"
-
-12:28 Paul: "I mean, it was Elvis. He just looked like Elvis."
-
-12:32 Neil Aspinall: "He was the King, wasn't he? It was Elvis."
-
-12:35 Ringo: "This is Mr. Hips, y'know. Hip-swivelling... man."
-
-12:39 Paul: "Wow, y'know, that's Elvis. And he was playing _Mohair Sam_ all evening. He had it on Jukebox. He just played it, like, endlessly. That was, like, the record of the moment for him. So it was great to see, oh, he's a music fan. Y'know, he's not just, because that was one of our big records at the moment, too."
-
-12:58 John: "He had a TV going all the time, which is what I do anyway. And in front of the TV he had a massive big bass amplifier, Fender bass amplifier, or just a Fender amplifier. Oh yeah, it was a bass with a bass plugged in it. And he was playing bass all the time with the picture up on the TV. So we just got in there and played with him. We all plugged in what was ever around and we all played and sang."
-
-13:24 George: "I never jammed with Elvis at all."
-
-13:26 Paul: "John said he'd...
-
-13:28 Ringo: "John jammed with Elvis."
-
-13:30 George: "Yeah, it must have been when we went out of the room."
-
-13:32 Ringo: "... secretly at night."
-
-13:33 Paul: "I think it was because he had a bass there, y'know..."
-
-13:35 Ringo: "In the basement."
-
-13:36 Paul (ignoring this pun): "So I thought, right, well, y'know, bass, hey, he's interested in bass.
-
-13:39 George: "Ringo was playing football with him there."
-
-13:41 Ringo: "Yeah, I played football with Elvis."
-
-13:43 Paul: "And around about 10 or 10.30, Priscilla was brought in."
-
-13:50 Neil Aspinall: "I think she had a long thing on, and a tiara."
-
-13:53 Paul: "I've got this picture of, like, as a sort of Barbie doll with, like, gingham kind of purple gingham and a bow, a gingham bow in a very beehive hair."
-
-14:04 George: "I don't remember. I spent most of the party trying to suss out from his gang if anybody had any reefer."
-
-14:10 Ringo: "Well, I think it wouldn't have mattered to me if she was there just, y'know, because it was him I came to see. And I don't remember the boys he had with him."
-
-14:21 George: "Y'know, all his gang, the Memphis Mafia, whatever they call them, all those guys."
-
-14:26 Ringo: "Y'know, he just was surrounded by these sycophants. 'I'm going to go to the loo,' 'Okay, we'll all go to the loo with you." Y'know, it was just so strange. And I was just so angry because he wasn't making any music. He was not doing what he should have been doing."
-
-14:43 John: "We were asking him about just making movies and, y'know, not doing any personal appearances or TV. And he seems to enjoy, y'know, I think he enjoys making movies so much. Because we couldn't stand not doing personal appearances, y'know. We'd get bored, we'd get bored quickly. He says he misses it a bit, y'know. He's just, no, it was great, y'know, it's just I expected him.
-
-15:05 Ringo: "And it just sort of faded out, y'know, it's, you couldn't get close. Y'know, it's not like we could have become good friends, it was impossible."
-
-15:15 Paul: "It was great, it was great, y'know, it was one of the great meetings in my life."
-
-15:20 Ringo: "I mean, the saddest part is now years and years later we found out that he tried to, I was banished from America. He was very big with the CIA and everything, and that's very sad to me, that he felt so threatened, y'know, that he thought like a lot of people that we were bad for the American youth."
-
-15:45 Elvis, from _Hound Dog_: "You never caught a rabbit, you ain't no friend of mine."
+11:20 George: "One trip or another, we met Elvis. It was one of the highlights _[ironic laughter]_ of our visit." **Note: the entire Elvis story has been [moved back from Episode 5 to here](#5&dvd14), although that meeting occurred after the Shea Stadium concert that opens Episode 5. The structure and content is largely retained, with minor reordering, and the removal of Neil Aspinall's "We weren't buddies or anything, you know. But he was really nice, he was a nice guy, he was very slim and, you know, he was really good. I'm glad I met him."**
 
 15:48 Brian Matthew: "Today the Beatles returned from America where they played 32 shows in 34 days, in 24 different cities. But there's no rest for the boys. In two weeks they'll be back out on the road here in the UK."
 
