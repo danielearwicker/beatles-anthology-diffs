@@ -30,7 +30,8 @@ function addIndices(inputFile, outputFile) {
         }
 
         // Check if this is a timecode line (supports both MM:SS and HH:MM:SS)
-        const timecodeMatch = trimmed.match(/^(\d{1,2}:\d{2}(?::\d{2})?)/);
+        // Also supports EP7-prefixed timestamps like "EP7 00:27"
+        const timecodeMatch = trimmed.match(/^(EP\d+\s+)?(\d{1,2}:\d{2}(?::\d{2})?)/);
 
         if (timecodeMatch) {
             // Add index prefix before the timecode

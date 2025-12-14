@@ -32,6 +32,6 @@ The output files for episode `N` will be:
 
 These will have the positional index as a prefix at the start of each item, in square brackets. You should work from these "indexed" files to generate the `N-mapping.json` file for the episode.
 
-DO NOT include mapping items for items that only appear in `dvd` but not `dplus`, or `dplus` but not dvd. ONLY include mapping items where both those properties are populated. If you find an item for which there is nothing sufficiently similar in the opposite file, do not add anything for that item to the mapping file.
+DO NOT include mapping items for items that only appear in `dvd` but not `dplus`, or `dplus` but not `dvd`. ONLY include mapping items where both those properties are populated. If you find an item for which there is nothing sufficiently similar in the opposite file, do not add anything for that item to the mapping file.
 
 Once the mapping file is created, you can update `comparison.html` so that there is a button to display the new episode.

@@ -64,7 +64,7 @@
 
 10:32 Paul: "I thought I got the meaning to life that night... And I'd written: There are seven levels."
 
-11:20 George: "One trip or another, we met Elvis. It was one of the highlights _[ironic laughter]_ of our visit." **Note: the entire Elvis story has been [moved back from Episode 5 to here](#5&dvd14), although that meeting occurred after the Shea Stadium concert that opens Episode 5. The structure and content is largely retained, with minor reordering, and the removal of Neil Aspinall's "We weren't buddies or anything, you know. But he was really nice, he was a nice guy, he was very slim and, you know, he was really good. I'm glad I met him."**
+11:20 George: "One trip or another, we met Elvis. It was one of the highlights _[ironic laughter]_ of our visit." **Note: the entire Elvis story has been [moved back from Episode 5 to here](#5&dvd14), although that meeting occurred after the Shea Stadium concert that opens Episode 5. The structure and content is largely retained, with minor reordering, and the removal of Neil Aspinall's "We weren't buddies or anything, y'know. But he was really nice, he was a nice guy, he was very slim and, y'know, he was really good. I'm glad I met him."**
 
 15:48 Brian Matthew: "Today the Beatles returned from America where they played 32 shows in 34 days, in 24 different cities. But there's no rest for the boys. In two weeks they'll be back out on the road here in the UK."
 

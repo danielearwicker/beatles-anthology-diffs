@@ -74,11 +74,11 @@
 
 12:42 George: "Yeah there was all kinds of stuff, y'know, we flew out of Montreal in order to avoid Ringo getting killed."
 
-12:52 Ringo: "We were playing Canada and they decided to make an example of me as an English Jew... one major fault is I'm not Jewish and I was, we were on, we were playing the gig and I, y'know, I was always on that on a high riser and I had a cop, plain clothes policemen sitting there with me. Now I was worried, it's the first time, it's one of the times I was really worried, because I had the cymbals a bit like this _[indicates vertical]_ y'know, so, give me a bit of protection, y'know, usually they're like this _[indicates more flat]_, but I had them up, but this guy, and then I started getting hysterical because I thought, well y'know if someone in the audience pop, has a pop at me, I mean, what is this guy gonna do? I mean he's gonna catch the bullet? What is he gonna do, y'know, and that I just found this, it was getting funnier and funnier all the time, and this guy was just sitting there.
+12:52 Ringo: "**We were playing Canada and they decided to make an example of me as an English Jew... one major fault is I'm not Jewish and I was, we were on, we were playing the gig and I,** y'know, I was always on a high riser..." up to "and this guy was just sitting there." [This anecdote has moved to episode 6.](#6&dplus10)
 
-13:49 George: "That kind of stuff was happening all the time he was terrifying and yeah some people would set up firecrackers in the hall and you'd think someone of the others got shot or something."
+13:49 George: "**That kind of stuff was happening all the time, it was terrifying, and yeah,** some people would set up firecrackers in the hall and you'd think someone of the others got shot, or something."
 
-14:05 John: "On stage I always feel safety, and when they break through, I don't know, it must be some kind of, y'know, I just feel as though I'm all right when I'm plugged in and I don't feel as though they'll get me." _Significant slow fade, a few seconds silence_
+14:05 John: "On stage I always feel safety, and when they break through, I don't know, it must be some kind of, y'know, I just feel as though I'm all right when I'm plugged in, and I don't feel as though they'll get me." _Significant slow fade, a few seconds silence_ [This quote has moved to episode 6.](#6&dplus12)
 
 14:21 Paul: "If you look at any of those books that say where the Beatles were working... we were having to say, we've got to have a day off, man."
 

@@ -273,6 +273,7 @@
             <a href="#3" class="episode-link" data-episode="3">Episode 3</a>
             <a href="#4" class="episode-link" data-episode="4">Episode 4</a>
             <a href="#5" class="episode-link" data-episode="5">Episode 5</a>
+            <a href="#6" class="episode-link" data-episode="6">Episode 6</a>
         </nav>
         <p>
             Are you wondering how has the Beatles Anthology documentary changed
@@ -371,8 +372,9 @@
                         if (!line || line.startsWith("Anthology,")) continue;
 
                         // Check if this is a timecode line (supports both MM:SS and HH:MM:SS)
+                        // Also supports EP7-prefixed timestamps like "EP7 00:27"
                         const timecodeMatch = line.match(
-                            /^(\d{1,2}:\d{2}(?::\d{2})?)/
+                            /^(EP\d+\s+)?(\d{1,2}:\d{2}(?::\d{2})?)/
                         );
 
                         if (timecodeMatch) {
@@ -383,7 +385,7 @@
 
                             // Start new entry
                             currentEntry = {
-                                timecode: timecodeMatch[1],
+                                timecode: timecodeMatch[0], // Full match includes EP7 prefix if present
                                 content: line
                                     .substring(timecodeMatch[0].length)
                                     .trim(),

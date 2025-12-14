@@ -48,7 +48,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 07:24 John: "And then unfortunately she was run over by an off-duty policeman who was drunk at the time."
 
-07:29 Paul: "My mum had died, actually, at this point, I think mum died when I was 14, which is, you know, the big shock in my teenage years, she died of cancer. And John's mum having died, this was always a very big bond between John and I.
+07:29 Paul: "My mum had died, actually, at this point, I think mum died when I was 14, which is, y'know, the big shock in my teenage years, she died of cancer. And John's mum having died, this was always a very big bond between John and I.
 
 07:44 _C'mon Everybody_ (identical John V/O)
 
@@ -190,7 +190,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 34:17 George: "We made friends with a lot of people... and Astrid, who took all the famous photographs of us of that period."
 
-34:32 George: "Well, She was the one that made us look good. You know those early Beatles photographs, the Beatles look great. She was dressed like that, the leather kecks, y'know, and the hair, like the Beatle haircuts, so they gave us the confidence to like, leave it that way."
+34:32 George: "Well, She was the one that made us look good. Y'know those early Beatles photographs, the Beatles look great. She was dressed like that, the leather kecks, y'know, and the hair, like the Beatle haircuts, so they gave us the confidence to like, leave it that way."
 
 34:48 Paul: "They weren't really rockers, or mods..." leading to truncated montage of Astrid's photos over sound clips of Beatles in Hamburg.
 
@@ -224,7 +224,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 45:04 John: "If he hadn't gone round London on foot, with the tapes under his arm, and gone from place to place, to place to place, and finally to George Martin, we would never have made it, because we didn't have the push to do it on our own."
 
-45:31 George Martin: "And they came down here, and I spent some time with them, went through all their stuff, and tried to make up my mind which was the Cliff Richard of the group, you know. Because one gets, one was focused, in those days, on a lead singer and a backing group. And suddenly realised at the end of it all, it was nonsense, it was a group that I had to take as it was."
+45:31 George Martin: "And they came down here, and I spent some time with them, went through all their stuff, and tried to make up my mind which was the Cliff Richard of the group, y'know. Because one gets, one was focused, in those days, on a lead singer and a backing group. And suddenly realised at the end of it all, it was nonsense, it was a group that I had to take as it was."
 
 45:51 John: "George had done little... no rock and roll when we met him..." to Paul: "But the thing he didn't like was our drummer."
 

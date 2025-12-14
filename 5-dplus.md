@@ -12,7 +12,7 @@
 
 07:18 _I'm Down_, up to Paul: "I mean, now it's a kind of a big crowd, even, 56,000."
 
-09:59 Ringo: "You know, 60,000 people."
+09:59 Ringo: "Y'know, 60,000 people."
 
 10:01 George: "Told me it was 70."
 
@@ -20,9 +20,9 @@
 
 10:23 George: "It was like we felt totally isolated from the crowd, and it was like we were just playing to ourselves, even though you could see these flash bulbs going off, and hear this screeching going on in the distance."
 
-10:36 John: "It was a great experience, you know, I mean, it was just incredible, the first one, you know, all that just happening going on, you know, you'd be yelling and shouting."
+10:36 John: "It was a great experience, y'know, I mean, it was just incredible, the first one, y'know, all that just happening going on, y'know, you'd be yelling and shouting."
 
-10:56 John: "For us, it was just a drag, you know, we knew that they wouldn't hear anything, because it's just, you know, like a riot and not sort of like a show, you know."
+10:56 John: "For us, it was just a drag, y'know, we knew that they wouldn't hear anything, because it's just, y'know, like a riot and not sort of like a show, y'know."
 
 11:05 Paul: "I personally, as I say, I don't really think it was that bad."
 
@@ -30,11 +30,11 @@
 
 11:14 John: "It got a little boring. I mean, it was great when it first happened, when you'd come on, there'd just be nothing but 'Wah!', y'know?"
 
-11:34 Ringo: "The realisation, you know, is really kicking in that nobody was listening. And that was OK at the beginning. But even worse than that is we were playing so bad."
+11:34 Ringo: "The realisation, y'know, is really kicking in that nobody was listening. And that was OK at the beginning. But even worse than that is we were playing so bad."
 
-11:44 John: "We just became, like, lip-syncing, you know? Miming. And we didn't... We almost... Sometimes things would break down and nobody would know. And so it wasn't... It wasn't doing the music any good."
+11:44 John: "We just became, like, lip-syncing, y'know? Miming. And we didn't... We almost... Sometimes things would break down and nobody would know. And so it wasn't... It wasn't doing the music any good."
 
-11:57 Ringo: "And, you know, why I joined the Beatles was because they were the best band in Liverpool. And I always wanted to play with good players. That's what it was all about, you see? First and foremost, we were musicians."
+11:57 Ringo: "And, y'know, why I joined the Beatles was because they were the best band in Liverpool. And I always wanted to play with good players. That's what it was all about, you see? First and foremost, we were musicians."
 
 12:15 George Martin: "They'd shared no signs of flagging as far as their musical creativity was concerned. On the contrary, they were becoming more and more productive and the work they were giving me was much more interesting. They were finding new frontiers all the time **and their success gave them confidence to do things which they wouldn't dare do before.**"
 
@@ -70,11 +70,11 @@
 
 16:53 George Martin: "And Rubber Soul was an indication of the way things were going to go. It's one of my favourite albums. I think it's a great album."
 
-16:59 Ringo: "Our whole attitude was changing. We'd grown up a little, I think grass was really influential in a lot of our changes. Especially with the writers, you know, so because they were writing different stuff, we were playing differently. **[edit]**"
+16:59 Ringo: "Our whole attitude was changing. We'd grown up a little, I think grass was really influential in a lot of our changes. Especially with the writers, y'know, so because they were writing different stuff, we were playing differently. **[edit]**"
 
 17:22 _I'm Looking Through You_ clip
 
-17:27 Paul: "The title, Rubber Soul, was kind of, hey, man, it's got soul. It's a lot of soul, a lot of soul, that music. It was a spoof on that, you know. Seemed nice and amusing. Very us, you know, very wacky."
+17:27 Paul: "The title, Rubber Soul, was kind of, hey, man, it's got soul. It's a lot of soul, a lot of soul, that music. It was a spoof on that, y'know. Seemed nice and amusing. Very us, y'know, very wacky."
 
 17:41 Paul: (in a studio out-take) "Plastic soul, man. Plastic soul."
 
@@ -92,9 +92,9 @@
 
 19:19 More out-take chatter
 
-19:37 Paul: "And one day, a tape-op got a tape on backwards. He went to play it, and it's... _[mimics backward tape sound, not as well as John]_ Bloody hell, sounds Indian!"
+19:37 Paul: "And one day, a tape-op got a tape on backwards. He went to play it, and it's... _[mimics backward tape sound, though not as well as John will about 18 minutes from now]_ Bloody hell, sounds Indian!"
 
-19:50 Ringo: "We'd be well into the album, and we all knew that, you know, I'd be doing a number somewhere. It's just about three quarters of the way through, so we'd either say, 'Have you got a song, you know, we've got this for you.'"
+19:50 Ringo: "We'd be well into the album, and we all knew that, y'know, I'd be doing a number somewhere. It's just about three quarters of the way through, so we'd either say, 'Have you got a song, y'know, we've got this for you.'"
 
 20:09 John's home demo, "In the place where I was born, no one cared, no one cared."
 
@@ -104,13 +104,13 @@
 
 20:48 Ringo: "I actually don't know where they got the idea for it from."
 
-20:52 Paul: "**[edit]** I just remember lying in bed, just that moment before you're going to sleep, that little twilight moment, when silly ideas come into your head anyway. And then I just thought of this thing, _Yellow Submarine_, yeah, you know."
+20:52 Paul: "**[edit]** I just remember lying in bed, just that moment before you're going to sleep, that little twilight moment, when silly ideas come into your head anyway. And then I just thought of this thing, _Yellow Submarine_, yeah, y'know."
 
 21:05 _Yellow Submarine_ over purely the home movies of the Beatles on vacation, no animated characters survive
 
 21:55 Ringo: "By then I'd started writing myself," up to George: "... a heavy penalty to pay for making money."
 
-23:49 Paul: "And, you know, they say, 'Look, when you're dead, you're going to pay taxes.' And I remember that. 'What? You can't even...' You know, 'Now, death duties, what?' And so, you know, he came up with that great thing, 'They tax the pennies on your eyes.'"
+23:49 Paul: "And, y'know, they say, 'Look, when you're dead, you're going to pay taxes.' And I remember that. 'What? You can't even...' Y'know, 'Now, death duties, what?' And so, y'know, he came up with that great thing, 'They tax the pennies on your eyes.'"
 
 24:21 George Martin: "And it was on Revolver that, of course, we have the track _Tomorrow Never Knows_, which was a great innovation."
 
@@ -126,7 +126,7 @@
 
 30:17 _Day Tripper_ begins
 
-30:44 Paul: "So I delayed and I was seen to sort of stall a little bit, I think, within the group, you know, 'cause there was a lot of peer pressure. I mean talk about peer pressure - the Beatles."
+30:44 Paul: "So I delayed and I was seen to sort of stall a little bit, I think, within the group, y'know, 'cause there was a lot of peer pressure. I mean talk about peer pressure - the Beatles."
 
 30:52 _Day Tripper_ continues, using footage from a single TV lip-sync appearance.
 
@@ -134,7 +134,7 @@
 
 32:43 _We Can Work It Out_, partial, using a single lip-sync performance (black roll-neck sweaters).
 
-33:20 George: "Well, the mania, you know, was, as we've talked about, was pretty difficult to get around..." up to Ringo in the clip for Ed Sullivan: "And one's called _Rain_ and one's called _Paperback Writer_."
+33:20 George: "Well, the mania, y'know, was, as we've talked about, was pretty difficult to get around..." up to Ringo in the clip for Ed Sullivan: "And one's called _Rain_ and one's called _Paperback Writer_."
 
 35:22 _Paperback Writer_ over the promo film, truncated.
 
@@ -154,17 +154,17 @@
 
 41:36 _Rock and Roll Music_, live at the Budokan, a section edited out of the middle.
 
-42:31 Paul: "The close harmonies on things like _Paperback Writer_..." up to George: "You know, there was way of doing it on stage, really."
+42:31 Paul: "The close harmonies on things like _Paperback Writer_..." up to George: "Y'know, there was way of doing it on stage, really."
 
 43:21 _Paperback Writer_, live at the Budokan, seven second clip of the chorus.
 
 43:28 George: "We'd get to the point where it was particularly bad... the screaming did cover a lot of worrying moments."
 
-43:45 Neil Aspinall: "Yeah, the scream used to cover a multitude of sins, right? And now, at those shows, it wasn't there. **For the first time in a long time, the audience were listening. There was no big scream. It came as a bit of a surprise because, you know, everybody suddenly realized they were out of tune or singing out - you know, they had to get their act together.**"
+43:45 Neil Aspinall: "Yeah, the scream used to cover a multitude of sins, right? And now, at those shows, it wasn't there. **For the first time in a long time, the audience were listening. There was no big scream. It came as a bit of a surprise because, y'know, everybody suddenly realized they were out of tune or singing out - y'know, they had to get their act together.**"
 
 44:25 _Yesterday_, live at the Budokan, excerpt.
 
-44:53 George: "This is a thing which we never really talked about, but everywhere we were going in these days it was a demonstration of one thing or another, it was, you know, riots were happening. Plus people were demonstrating because the Budokan was supposed to be a special spiritual hall and only reserved for martial arts."
+44:53 George: "This is a thing which we never really talked about, but everywhere we were going in these days it was a demonstration of one thing or another, it was, y'know, riots were happening. Plus people were demonstrating because the Budokan was supposed to be a special spiritual hall and only reserved for martial arts."
 
 45:15 Reporter at news conference: "Some Japanese say that your performances will violate the Budokan, which is devoted to traditional Japanese martial arts, and you've set a bad example for Japanese youth by leading them astray from traditional Japanese values. What do you think of all that?"
 
@@ -173,12 +173,12 @@ y'know, or trying to spoil anything. All we're doing is coming here and singing 
 
 45:46 John: "It's better to watch singing than wrestling anyway."
 
-45:49 George: "I don't know what martial arts has got to do with spirituality, but maybe it does. But, you know, I mean, only violence and spirituality, but not pop music."
+45:49 George: "I don't know what martial arts has got to do with spirituality, but maybe it does. But, y'know, I mean, only violence and spirituality, but not pop music."
 
-45:58 Ringo: "You know, in any town we went to, someone always had a grievance. Something was wrong."
+45:58 Ringo: "Y'know, in any town we went to, someone always had a grievance. Something was wrong."
 
-46:04 **Instead of being briefly trailed here, the Philippines sequence is included at this point, but with some lengthy commentary removed.** _(will be detailed in Episode 6)_
+46:04 **Instead of being briefly trailed here, the Philippines sequence is included at this point, but with some lengthy commentary removed.** [Appears at the start of Episode 6 in the DVD version.](#6&dvd0)
 
-51:46 George Martin: "When they got out of their country, they said, never again, You know, this is it. And they said to Brian then, they would not tour again. Brian said, 'Sorry, lads, we've got something fixed up for the Shea Stadium.' 'Cancel it.' 'I can't cancel it.' 'You've got to cancel it. We're not doing it anymore.' And he said, 'Well, if we cancel it, you're going to lose a million dollars'. Whoops."
+51:46 George Martin: "When they got out of their country, they said, never again, Y'know, this is it. And they said to Brian then, they would not tour again. Brian said, 'Sorry, lads, we've got something fixed up for the Shea Stadium.' 'Cancel it.' 'I can't cancel it.' 'You've got to cancel it. We're not doing it anymore.' And he said, 'Well, if we cancel it, you're going to lose a million dollars'. Whoops."
 
 01:09:10 _And Your Bird Can Sing_ alternate take over end credits

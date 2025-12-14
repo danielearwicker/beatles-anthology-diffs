@@ -1,0 +1,269 @@
+{
+    "mappings": [
+        {
+            "dvd": 26,
+            "dplus": 0,
+            "matchType": "similar",
+            "note": "Racist in stupid hat KKK threat (D+ heavily edited)"
+        },
+        {
+            "dvd": 19,
+            "dplus": 1,
+            "matchType": "same",
+            "note": "George Martin: Maureen Cleave interview, more popular than Jesus"
+        },
+        {
+            "dvd": 18,
+            "dplus": 2,
+            "matchType": "same",
+            "note": "Brian Epstein: Statement about quote taken out of context",
+            "aligned": true
+        },
+        {
+            "dvd": 20,
+            "dplus": 3,
+            "matchType": "similar",
+            "note": "Paul: Quote taken out of context over in America (D+ edited)"
+        },
+        {
+            "dvd": 23,
+            "dplus": 4,
+            "matchType": "same",
+            "note": "George: The repercussions were big, Alabama DJ"
+        },
+        {
+            "dvd": 21,
+            "dplus": 5,
+            "matchType": "similar",
+            "note": "George: Big palava, press conference (D+ edited)"
+        },
+        {
+            "dvd": 22,
+            "dplus": 6,
+            "matchType": "same",
+            "note": "John: Press conference, if it had said television"
+        },
+        {
+            "dvd": 30,
+            "dplus": 7,
+            "matchType": "same",
+            "note": "I'm Only Sleeping"
+        },
+        {
+            "dvd": 29,
+            "dplus": 8,
+            "matchType": "same",
+            "note": "John: I'm a most religious fellow"
+        },
+        {
+            "dvd": 52,
+            "dplus": 9,
+            "matchType": "same",
+            "note": "George Martin: Death threats they were getting"
+        },
+        {
+            "dvd": 34,
+            "dplus": 13,
+            "matchType": "same",
+            "note": "Reporter: Are you really a Beatles fan, Fan 1"
+        },
+        {
+            "dvd": 33,
+            "dplus": 17,
+            "matchType": "same",
+            "note": "George: Okay, I don't ever remember going there twice"
+        },
+        {
+            "dvd": 31,
+            "dplus": 19,
+            "matchType": "same",
+            "note": "Reporter at Shea Stadium: Bloom is off the Beatles"
+        },
+        {
+            "dvd": 32,
+            "dplus": 20,
+            "matchType": "similar",
+            "note": "Ringo: It's all over for the Beatles (D+ edited)"
+        },
+        {
+            "dvd": 49,
+            "dplus": 21,
+            "matchType": "same",
+            "note": "Reporter: Another group, Stooge: Herman and the Hermits"
+        },
+        {
+            "dvd": 36,
+            "dplus": 23,
+            "matchType": "same",
+            "note": "Fan 2: The Beatles all the time. I love them"
+        },
+        {
+            "dvd": 47,
+            "dplus": 25,
+            "matchType": "same",
+            "note": "Fan 5: Wish they'd last forever"
+        },
+        {
+            "dvd": 44,
+            "dplus": 27,
+            "matchType": "same",
+            "note": "Fan 3: As long as they keep playing, they'll last"
+        },
+        {
+            "dvd": 55,
+            "dplus": 32,
+            "matchType": "same",
+            "note": "Ringo: I don't think anyone didn't want to stop touring"
+        },
+        {
+            "dvd": 57,
+            "dplus": 33,
+            "matchType": "same",
+            "note": "Paul: Don't tell anyone, but this is probably our last gig"
+        },
+        {
+            "dvd": 59,
+            "dplus": 34,
+            "matchType": "same",
+            "note": "George: I certainly felt that that was it"
+        },
+        {
+            "dvd": 60,
+            "dplus": 35,
+            "matchType": "similar",
+            "note": "For No One (D+ shortened, skips horn solo)"
+        },
+        {
+            "dvd": 61,
+            "dplus": 36,
+            "matchType": "same",
+            "note": "Brian Epstein: Four lads on that rather dimly lit stage"
+        },
+        {
+            "dvd": 63,
+            "dplus": 37,
+            "matchType": "same",
+            "note": "Neil Aspinall: Ringo came to Spain, fictitious band"
+        },
+        {
+            "dvd": 65,
+            "dplus": 38,
+            "matchType": "same",
+            "note": "Paul: West Coast long-named group thing"
+        },
+        {
+            "dvd": 67,
+            "dplus": 39,
+            "matchType": "same",
+            "note": "Ringo: Sgt. Pepper concept, poetic jumble"
+        },
+        {
+            "dvd": 68,
+            "dplus": 40,
+            "matchType": "similar",
+            "note": "George Martin: A Day in the Life rehearsal take (D+ edited)"
+        },
+        {
+            "dvd": 69,
+            "dplus": 41,
+            "matchType": "similar",
+            "note": "A Day in the Life (D+ joins at last verse, shortened)"
+        },
+        {
+            "dvd": 70,
+            "dplus": 44,
+            "matchType": "same",
+            "note": "Ringo: The sleeve came and we wanted to dress up"
+        },
+        {
+            "dvd": 71,
+            "dplus": 46,
+            "matchType": "same",
+            "note": "Paul: The weekend it was released"
+        },
+        {
+            "dvd": 73,
+            "dplus": 47,
+            "matchType": "same",
+            "note": "George Martin: Mary Quentin miniskirts and dope"
+        },
+        {
+            "dvd": 75,
+            "dplus": 48,
+            "matchType": "same",
+            "note": "Paul: Biggest single sort of tribute for me"
+        },
+        {
+            "dvd": 76,
+            "dplus": 49,
+            "matchType": "similar",
+            "note": "Jimi Hendrix performing (D+ cut to last chorus)"
+        },
+        {
+            "dvd": 77,
+            "dplus": 52,
+            "matchType": "similar",
+            "note": "Ringo: Sgt. Pepper, learned to play chess (D+ edited)"
+        },
+        {
+            "dvd": 78,
+            "dplus": 53,
+            "matchType": "similar",
+            "note": "George: For me a bit tiring, didn't like album much (D+ edited)"
+        },
+        {
+            "dvd": 85,
+            "dplus": 54,
+            "matchType": "same",
+            "note": "Ringo: We did take certain substances"
+        },
+        {
+            "dvd": 84,
+            "dplus": 55,
+            "matchType": "same",
+            "note": "John: The press asked Paul, have you taken LSD"
+        },
+        {
+            "dvd": 82,
+            "dplus": 56,
+            "matchType": "same",
+            "note": "Paul: I did talk to him beforehand, all with love"
+        },
+        {
+            "dvd": 90,
+            "dplus": 57,
+            "matchType": "same",
+            "note": "John: World telly show, satellite link (EP7 content moved)"
+        },
+        {
+            "dvd": 92,
+            "dplus": 58,
+            "matchType": "same",
+            "note": "George Martin: Commission from Brian, write a song (EP7 content)"
+        },
+        {
+            "dvd": 94,
+            "dplus": 60,
+            "matchType": "same",
+            "note": "George: Don't know if song written before, fabulous time (EP7 content)"
+        },
+        {
+            "dvd": 96,
+            "dplus": 62,
+            "matchType": "same",
+            "note": "George Martin: Orchestra was live, one take (EP7 content)"
+        },
+        {
+            "dvd": 97,
+            "dplus": 63,
+            "matchType": "same",
+            "note": "All You Need Is Love live broadcast (EP7 content)"
+        },
+        {
+            "dvd": 93,
+            "dplus": 64,
+            "matchType": "same",
+            "note": "George: Mood of the time, subtle PR for God (EP7 content, moved to end)"
+        }
+    ]
+}
