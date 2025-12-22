@@ -178,7 +178,7 @@
 
 01:07:53 Ringo: "And it came to nothing. We didn't buy an island, we came home."
 
-EP7 00:27 **The _All You Need Is Love_ sequence, presented at the start of Episode 7 in the DVD version, has been both modified and moved to the end of Episode 6 for Disney+. It is included here for comparison.** John: "We're sorry, now, but there's plenty of people in England that haven't seen us unless we do a world telly show..." up to George: "And it was probably the very earliest technology that enabled that kind of satellite link."
+EP7 00:27 **The _All You Need Is Love_ sequence, presented at [the start of Episode 7](#7&dvd0) in the DVD version, has been both modified and moved to the end of Episode 6 for Disney+. It is included here for comparison.** John: "We're sorry, now, but there's plenty of people in England that haven't seen us unless we do a world telly show..." up to George: "And it was probably the very earliest technology that enabled that kind of satellite link."
 
 EP7 00:55 George Martin: "John wrote _All You Need Is Love_ especially for the television show."
 
