@@ -1,0 +1,515 @@
+{
+    "mappings": [
+        {
+            "dvd": 1,
+            "dplus": 0,
+            "matchType": "same",
+            "note": "John: I still believe all you need is love"
+        },
+        {
+            "dvd": 2,
+            "dplus": 1,
+            "matchType": "similar",
+            "note": "Ringo: And it was for love (D+ edited)"
+        },
+        {
+            "dvd": 3,
+            "dplus": 5,
+            "matchType": "same",
+            "note": "Music"
+        },
+        {
+            "dvd": 7,
+            "dplus": 6,
+            "matchType": "same",
+            "note": "Eight Miles High over Haight-Ashbury montage"
+        },
+        {
+            "dvd": 5,
+            "dplus": 7,
+            "matchType": "same",
+            "note": "John: I was all for going there and living on the Haight"
+        },
+        {
+            "dvd": 6,
+            "dplus": 8,
+            "matchType": "similar",
+            "note": "George: Haight-Ashbury, horrible spotty (D+ edited)"
+        },
+        {
+            "dvd": 8,
+            "dplus": 9,
+            "matchType": "same",
+            "note": "George: Drug cult, you should come get initiated"
+        },
+        {
+            "dvd": 12,
+            "dplus": 10,
+            "matchType": "same",
+            "note": "Maharishi: I'm very happy about it"
+        },
+        {
+            "dvd": 14,
+            "dplus": 12,
+            "matchType": "same",
+            "note": "Paul: It was like a school, to John: You don't will it"
+        },
+        {
+            "dvd": 15,
+            "dplus": 13,
+            "matchType": "similar",
+            "note": "George: I seem to recall it was a phone call"
+        },
+        {
+            "dvd": 20,
+            "dplus": 14,
+            "matchType": "same",
+            "note": "John: Well, I don't know what to say"
+        },
+        {
+            "dvd": 16,
+            "dplus": 15,
+            "matchType": "similar",
+            "note": "Paul: That he died, stunning (D+ edited)"
+        },
+        {
+            "dvd": 25,
+            "dplus": 16,
+            "matchType": "same",
+            "note": "Ringo: Our friend is gone, more our friend than anything"
+        },
+        {
+            "dvd": 17,
+            "dplus": 17,
+            "matchType": "same",
+            "note": "Neil Aspinall: I heard it on the radio"
+        },
+        {
+            "dvd": 18,
+            "dplus": 18,
+            "matchType": "same",
+            "note": "George Martin: The local shopkeeper said"
+        },
+        {
+            "dvd": 22,
+            "dplus": 19,
+            "matchType": "same",
+            "note": "George: I spoke to him Wednesday evening"
+        },
+        {
+            "dvd": 26,
+            "dplus": 20,
+            "matchType": "same",
+            "note": "Paul: I don't think there was anything sinister"
+        },
+        {
+            "dvd": 27,
+            "dplus": 22,
+            "matchType": "same",
+            "note": "Reporter: Have you a tribute to pay"
+        },
+        {
+            "dvd": 28,
+            "dplus": 23,
+            "matchType": "same",
+            "note": "John: Well, y'know, we don't know what to say"
+        },
+        {
+            "dvd": 29,
+            "dplus": 24,
+            "matchType": "same",
+            "note": "George: We can't pay tribute to him in words"
+        },
+        {
+            "dvd": 30,
+            "dplus": 25,
+            "matchType": "similar",
+            "note": "You've Got To Hide Your Love Away (DVD early take, D+ released version)"
+        },
+        {
+            "dvd": 32,
+            "dplus": 27,
+            "matchType": "same",
+            "note": "John: I didn't really have any misconceptions"
+        },
+        {
+            "dvd": 35,
+            "dplus": 28,
+            "matchType": "same",
+            "note": "Ringo: We're suddenly like chickens without heads"
+        },
+        {
+            "dvd": 36,
+            "dplus": 29,
+            "matchType": "same",
+            "note": "George: That's where Neil kind of stepped in"
+        },
+        {
+            "dvd": 37,
+            "dplus": 30,
+            "matchType": "same",
+            "note": "Neil Aspinall: As far as I was concerned"
+        },
+        {
+            "dvd": 39,
+            "dplus": 31,
+            "matchType": "same",
+            "note": "John: Paul made an attempt to carry on"
+        },
+        {
+            "dvd": 40,
+            "dplus": 32,
+            "matchType": "similar",
+            "note": "Paul: John got a bit annoyed, Paul's trying to be leader (D+ edited)"
+        },
+        {
+            "dvd": 41,
+            "dplus": 33,
+            "matchType": "same",
+            "note": "Magical Mystery Tour"
+        },
+        {
+            "dvd": 42,
+            "dplus": 34,
+            "matchType": "same",
+            "note": "George: It was Paul's idea, very flimsy"
+        },
+        {
+            "dvd": 48,
+            "dplus": 35,
+            "matchType": "similar",
+            "note": "You Made Me Love You (D+ cut earlier)"
+        },
+        {
+            "dvd": 49,
+            "dplus": 36,
+            "matchType": "same",
+            "note": "Paul: We knew we weren't doing a regular film"
+        },
+        {
+            "dvd": 52,
+            "dplus": 37,
+            "matchType": "same",
+            "note": "George: There was always good songs, spaghetti scene"
+        },
+        {
+            "dvd": 53,
+            "dplus": 38,
+            "matchType": "same",
+            "note": "Paul: That was an actual dream he'd had"
+        },
+        {
+            "dvd": 54,
+            "dplus": 40,
+            "matchType": "same",
+            "note": "Ringo: So that was really slated"
+        },
+        {
+            "dvd": 56,
+            "dplus": 41,
+            "matchType": "same",
+            "note": "John on Dennis Elsas show: Magical Mystery Tour"
+        },
+        {
+            "dvd": 57,
+            "dplus": 42,
+            "matchType": "similar",
+            "note": "I Am The Walrus (DVD complete, D+ first minute)"
+        },
+        {
+            "dvd": 55,
+            "dplus": 43,
+            "matchType": "similar",
+            "note": "Paul: I think we thought it was okay (D+ edited)"
+        },
+        {
+            "dvd": 59,
+            "dplus": 45,
+            "matchType": "similar",
+            "note": "Hello Goodbye promo (DVD slow/low pitch, D+ corrected)"
+        },
+        {
+            "dvd": 64,
+            "dplus": 48,
+            "matchType": "same",
+            "note": "Bob Danvers-Walker for Pathe News: Rishikesh"
+        },
+        {
+            "dvd": 65,
+            "dplus": 49,
+            "matchType": "similar",
+            "note": "Across the Universe (DVD Anthology 2, D+ Phil Spector)"
+        },
+        {
+            "dvd": 66,
+            "dplus": 50,
+            "matchType": "same",
+            "note": "Ringo: It was pretty exciting, to Dear Prudence"
+        },
+        {
+            "dvd": 67,
+            "dplus": 51,
+            "matchType": "similar",
+            "note": "Paul: I wrote a couple of little things (D+ removes Donovan)"
+        },
+        {
+            "dvd": 68,
+            "dplus": 52,
+            "matchType": "similar",
+            "note": "I Will (DVD reversed guitar shots, D+ consistent)"
+        },
+        {
+            "dvd": 69,
+            "dplus": 53,
+            "matchType": "similar",
+            "note": "Threetles in George's garden (D+ cuts Paul comment)"
+        },
+        {
+            "dvd": 70,
+            "dplus": 54,
+            "matchType": "same",
+            "note": "John: We were there four months (EP8 content)"
+        },
+        {
+            "dvd": 102,
+            "dplus": 55,
+            "matchType": "same",
+            "note": "George: I was still in India when it started"
+        },
+        {
+            "dvd": 71,
+            "dplus": 56,
+            "matchType": "same",
+            "note": "Paul: So the big theory, Apple would be a record label"
+        },
+        {
+            "dvd": 103,
+            "dplus": 57,
+            "matchType": "same",
+            "note": "Paul at Apple launch: It's just trying to mix business"
+        },
+        {
+            "dvd": 73,
+            "dplus": 58,
+            "matchType": "same",
+            "note": "Ringo: The sole purpose of Apple, you don't have to beg"
+        },
+        {
+            "dvd": 84,
+            "dplus": 59,
+            "matchType": "similar",
+            "note": "George: We had some kind of ideas (D+ edited)"
+        },
+        {
+            "dvd": 85,
+            "dplus": 60,
+            "matchType": "similar",
+            "note": "John at press conference: It's a business concerning records (D+ edited)"
+        },
+        {
+            "dvd": 94,
+            "dplus": 61,
+            "matchType": "same",
+            "note": "Something in the Way She Moves by James Taylor"
+        },
+        {
+            "dvd": 90,
+            "dplus": 62,
+            "matchType": "similar",
+            "note": "Neil Aspinall: Mal Evans found Badfinger"
+        },
+        {
+            "dvd": 96,
+            "dplus": 63,
+            "matchType": "same",
+            "note": "No Matter What by Badfinger"
+        },
+        {
+            "dvd": 92,
+            "dplus": 64,
+            "matchType": "same",
+            "note": "George: I produced Doris Troy and Jackie Lomax"
+        },
+        {
+            "dvd": 93,
+            "dplus": 65,
+            "matchType": "same",
+            "note": "Sour Milk Sea by Jackie Lomax"
+        },
+        {
+            "dvd": 88,
+            "dplus": 66,
+            "matchType": "same",
+            "note": "Neil Aspinall: Mary Hopkins came from Huey Green"
+        },
+        {
+            "dvd": 89,
+            "dplus": 67,
+            "matchType": "same",
+            "note": "Paul: Opportunity Knocks"
+        },
+        {
+            "dvd": 97,
+            "dplus": 68,
+            "matchType": "same",
+            "note": "Goodbye by Mary Hopkin"
+        },
+        {
+            "dvd": 101,
+            "dplus": 69,
+            "matchType": "same",
+            "note": "Neil Aspinall: It might have been exciting"
+        },
+        {
+            "dvd": 104,
+            "dplus": 70,
+            "matchType": "same",
+            "note": "Paul: We were just guys goofing off"
+        },
+        {
+            "dvd": 106,
+            "dplus": 71,
+            "matchType": "same",
+            "note": "Opening of Yellow Submarine movie"
+        },
+        {
+            "dvd": 107,
+            "dplus": 74,
+            "matchType": "same",
+            "note": "George: Yeah, I like the film, I think it's a classic"
+        },
+        {
+            "dvd": 109,
+            "dplus": 75,
+            "matchType": "same",
+            "note": "Clip: Yes deh do look very nice, don't dey?"
+        },
+        {
+            "dvd": 108,
+            "dplus": 76,
+            "matchType": "same",
+            "note": "Paul: Exaggerated Scouse accent"
+        },
+        {
+            "dvd": 110,
+            "dplus": 77,
+            "matchType": "same",
+            "note": "Ringo: The thing with that film to John meeting Yoko"
+        },
+        {
+            "dvd": 111,
+            "dplus": 78,
+            "matchType": "similar",
+            "note": "John: The naked album cover (D+ edited)"
+        },
+        {
+            "dvd": 113,
+            "dplus": 79,
+            "matchType": "same",
+            "note": "Ringo: They showed me this cover"
+        },
+        {
+            "dvd": 112,
+            "dplus": 80,
+            "matchType": "similar",
+            "note": "John: We felt like two virgins (D+ edited)"
+        },
+        {
+            "dvd": 114,
+            "dplus": 82,
+            "matchType": "same",
+            "note": "George: They were never to be seen without each other"
+        },
+        {
+            "dvd": 116,
+            "dplus": 83,
+            "matchType": "same",
+            "note": "John: Everybody seemed to be paranoid except for us"
+        },
+        {
+            "dvd": 115,
+            "dplus": 84,
+            "matchType": "similar",
+            "note": "Paul: Trouble was, it encroached (D+ adds Ringo)"
+        },
+        {
+            "dvd": 125,
+            "dplus": 87,
+            "matchType": "same",
+            "note": "Blackbird (EP8 content)"
+        },
+        {
+            "dvd": 118,
+            "dplus": 88,
+            "matchType": "similar",
+            "note": "George: Suddenly one day, Ringo's gone on holiday (EP8 content)"
+        },
+        {
+            "dvd": 119,
+            "dplus": 89,
+            "matchType": "same",
+            "note": "Ringo: I felt two things, I wasn't playing great (EP8 content)"
+        },
+        {
+            "dvd": 120,
+            "dplus": 90,
+            "matchType": "similar",
+            "note": "Paul: So we had to reassure him (EP8 content, D+ edited)"
+        },
+        {
+            "dvd": 122,
+            "dplus": 91,
+            "matchType": "same",
+            "note": "Ringo: I came back, flowers (EP8 content)"
+        },
+        {
+            "dvd": 121,
+            "dplus": 93,
+            "matchType": "similar",
+            "note": "Ringo: And I knew we were in a messed up stage (EP8 content, edited)"
+        },
+        {
+            "dvd": 123,
+            "dplus": 112,
+            "matchType": "similar",
+            "note": "Group activity"
+        },
+        {
+            "dvd": 124,
+            "dplus": 101,
+            "matchType": "same",
+            "note": "George: There was a lot more individual stuff (EP8 content)"
+        },
+        {
+            "dvd": 127,
+            "dplus": 113,
+            "matchType": "same",
+            "note": "George Martin: I think it was an album (EP8 content)",
+            "aligned": true
+        },
+        {
+            "dvd": 128,
+            "dplus": 114,
+            "matchType": "same",
+            "note": "Ringo: We should have put it out as two albums (EP8 content)"
+        },
+        {
+            "dvd": 130,
+            "dplus": 115,
+            "matchType": "similar",
+            "note": "Paul: Well you can always say that (EP8 content, edited)"
+        },
+        {
+            "dvd": 131,
+            "dplus": 116,
+            "matchType": "similar",
+            "note": "Revolution promo (EP8 content, D+ interrupted)"
+        },
+        {
+            "dvd": 117,
+            "dplus": 121,
+            "matchType": "same",
+            "note": "While My Guitar Gently Weeps acoustic demo over end credits"
+        }
+    ]
+}
