@@ -122,7 +122,7 @@
 
 33:18 _Something in the Way She Moves_ by James Taylor
 
-33:40 Neil Aspinall: "I think Mal Evans found a bad finger."
+33:40 Neil Aspinall: "I think Mal Evans found Badfinger. **[edit]**"
 
 33:43 _No Matter What_ by Badfinger
 

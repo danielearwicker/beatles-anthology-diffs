@@ -1,4 +1,4 @@
-00:26 **The Philippines sequence that starts this episode in the DVDs has been edited down and moved to the end of episode 5 in the Disney+ version. The surviving elements are sequenced identically. The elements below are only in the DVD version.**
+00:26 **The Philippines sequence that starts this episode in the DVDs has been edited down and moved to [the end of episode 5](#5&dplus89) in the Disney+ version. The surviving elements are sequenced identically. The elements below are only in the DVD version.**
 
 03:05 Ringo: "John and I were sharing the room after the gig, and then we woke up in the morning. And we phoned down for breakfast on the newspapers, because we always like to read about ourselves. I thought, 'Yeah, can we have, y'know, egg and bacon?' Whatever we were eating in those days. And the newspapers, all the newspapers, y'know. We were just hanging out in our beds, chatting, y'know. Doing whatever we were doing, and so time went by, so we called down again. 'Excuse me, y'know, can we have some breakfast?' Blah-de-blah. And still nothing happened..."
 

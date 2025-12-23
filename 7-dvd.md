@@ -180,7 +180,7 @@ I think it was a publishing company in an office on Baker Street."
 
 56:58 Paul: "Opportunity Knocks."
 
-57:00 Neil Aspinall: "I think Mal Evans found Badfinger, right, who were called the Ivy's at the time."
+57:00 Neil Aspinall: "I think Mal Evans found Badfinger, **right, who were called the Ivy's at the time.**"
 
 57:05 Ringo: "Badfinger, I thought, came through Paul."
 
