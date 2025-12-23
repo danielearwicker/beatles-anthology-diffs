@@ -409,8 +409,8 @@
                     // Convert markdown-like formatting to HTML
                     return text
                         .replace(
-                            /\[([^\]]+)\]\(#([^)]+)\)/g,
-                            '<a href="#$2">$1</a>'
+                            /\[([^\]]+)\]\(([^)]+)\)/g,
+                            '<a href="$2">$1</a>'
                         ) // Links
                         .replace(/_([^_]+)_/g, "<em>$1</em>") // Italics
                         .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>") // Bold
@@ -1073,16 +1073,17 @@
                     // Handle clicks on links within entry content
                     document.querySelectorAll(".content a").forEach((link) => {
                         link.addEventListener("click", (e) => {
-                            e.preventDefault();
-                            const hash = link.getAttribute("href");
+                            const href = link.getAttribute("href");
 
-                            if (hash && hash.startsWith("#")) {
+                            // Only intercept hash links - let external links work normally
+                            if (href && href.startsWith("#")) {
+                                e.preventDefault();
                                 const { episode: targetEpisode, itemId } =
-                                    parseHash(hash);
+                                    parseHash(href);
 
                                 if (targetEpisode !== this.episode) {
                                     // Different episode - reload page with new episode
-                                    window.location.hash = hash.substring(1); // Remove leading #
+                                    window.location.hash = href.substring(1); // Remove leading #
                                     window.location.reload();
                                 } else if (itemId) {
                                     // Same episode - scroll to target
@@ -1100,7 +1101,7 @@
                                         window.history.replaceState(
                                             null,
                                             null,
-                                            hash
+                                            href
                                         );
                                         setTimeout(() => {
                                             targetEl.classList.remove(
@@ -1110,6 +1111,7 @@
                                     }
                                 }
                             }
+                            // For non-hash links, do nothing - let default behavior happen
                         });
                     });
                 }

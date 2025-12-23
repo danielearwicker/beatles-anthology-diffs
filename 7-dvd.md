@@ -128,7 +128,7 @@ I think it was a publishing company in an office on Baker Street."
 
 43:29 Paul: "The building was very nice and the painting was gorgeous. The Fool did that. There was a group of artists basically from Holland put this beautiful big mural on the wall. But the council got all their knickers in a twist and said no you've got to paint it white again. We said are you kidding? It's beautiful. Everyone loves it. Some residents probably objected. So then we were going to project it, paint it white and project it from the opposite, y'know it was all full of that. It was good ideas y'know. Some of them you just didn't do. You never got round to them. But it was a great ideas time."
 
-44:06 Bob Danvers-Walker for Pathe News: "Far from the noise and pace of city life in the cool clear air of Rishikesh..." up to John: "They call it the foothills hanging over the Ganges."
+44:06 Bob Danvers-Walker for [Pathe News](https://youtu.be/aLeBZjPOJ-c): "Far from the noise and pace of city life in the cool clear air of Rishikesh..." up to John: "They call it the foothills hanging over the Ganges."
 
 45:06 _Across the Universe_, Anthology 2 version, Rishikesh home movies.
 

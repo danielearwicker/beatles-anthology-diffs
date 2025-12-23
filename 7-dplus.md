@@ -94,7 +94,7 @@
 
 22:55 Ringo: "I think we've got something there George."
 
-22:58 Bob Danvers-Walker for Pathe News: "Far from the noise and pace of city life in the cool clear air of Rishikesh..." up to John: "They call it the foothills hanging over the Ganges."
+22:58 Bob Danvers-Walker for [Pathe News](https://youtu.be/aLeBZjPOJ-c): "Far from the noise and pace of city life in the cool clear air of Rishikesh..." up to John: "They call it the foothills hanging over the Ganges."
 
 23:51 _Across the Universe_, Giles Martin remix of Phil Spector reproduction of George Martin production of Glyn Johns' recording, Rishikesh home movies.
 
