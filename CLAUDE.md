@@ -34,4 +34,4 @@ These will have the positional index as a prefix at the start of each item, in s
 
 DO NOT include mapping items for items that only appear in `dvd` but not `dplus`, or `dplus` but not `dvd`. ONLY include mapping items where both those properties are populated. If you find an item for which there is nothing sufficiently similar in the opposite file, do not add anything for that item to the mapping file.
 
-Once the mapping file is created, you can update `comparison.html` so that there is a button to display the new episode.
+Once the mapping file is created, you can update `index.html` so that there is a button to display the new episode.
