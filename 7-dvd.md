@@ -75,8 +75,7 @@ but I don't think the major worry was, 'Oh, what are we going to do now? We have
 
 21:54 Neil Aspinall: "As far as I was concerned, we had to get it together... What were the Beatles going to do?"
 
-22:16 Neil Aspinall: "And so there was a lot of, y'know, different sets of advice coming in at them about what they should do. But we decided we needed an office and an organisation of our own. And that's really why we expanded Apple, because Apple already existed.
-I think it was a publishing company in an office on Baker Street."
+22:16 Neil Aspinall: "And so there was a lot of, y'know, different sets of advice coming in at them about what they should do. But we decided we needed an office and an organisation of our own. And that's really why we expanded Apple, because Apple already existed. I think it was a publishing company in an office on Baker Street."
 
 22:43 John: "Paul made an attempt to carry on as if Brian hadn't died. I think Paul had an impression, we should be thankful for what he did, for keeping the Beatles going."
 

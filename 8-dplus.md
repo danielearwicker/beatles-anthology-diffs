@@ -106,7 +106,7 @@
 
 40:14 Paul: "He engineered a meeting via Derek Taylor, who was our publicist. Apparently he got hold of Derek and said I want to meet the Beatles, y'know. I think Derek got him to meet John and Yoko
 
-40:23 Alistair Taylor: "Within a couple of days, John came bounding into Apple, 'Right, OK, I don't care about the rest of you, I'm giving Klein everything. He's got me and he's got Yoko and that's it.' And it was more or less all go from there."
+40:23 Derek Taylor: "Within a couple of days, John came bounding into Apple, 'Right, OK, I don't care about the rest of you, I'm giving Klein everything. He's got me and he's got Yoko and that's it.' And it was more or less all go from there."
 
 40:37 George: "Klein had been managing the Rolling Stones, and I believe Donovan..." up to John: "I make a lot of mistakes character-wise, y'know? But now then, I make a good one, y'know?"
 
@@ -114,7 +114,7 @@
 
 41:23 Paul: "I'd put forward Lee Eastman, Linda's dad, as possible sort of lawyer..." up to "... so the three to one thing was very awkward."
 
-42:03,520 Neil Aspinall: "What changed at Apple after he arrived, everything. It was a completely different situation. Number one, right, first and foremost, Paul wasn't there."
+42:03 Neil Aspinall: "What changed at Apple after he arrived, everything. It was a completely different situation. Number one, right, first and foremost, Paul wasn't there."
 
 42:15 John: "Because there was a lot of tension around the Alan Klein coming in days and all that and we had to be together all the time, fighting and arguing and listening to all these different business things."
 

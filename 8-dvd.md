@@ -10,7 +10,7 @@
 
 13:52 Neil Aspinall: "That's it, y'know, and, we all went around the night before we gave everything away, y'know, and uh took what we felt we we wanted, y'know."
 
-14:05 Alistair Taylor: "I didn't go there and I had a half acquaintance I saw outside Apple. I said 'Where you going?' He said, 'Oh I'm off to the shop, I'm going to join the queue to get some of those clothes.' I thought that was awful, and I didn't want to close the shop, and I wrote an impassioned open letter, dear boys, y'know, if you do this and that about the der-der, because I dreaded to see the thing falling apart."
+14:05 Derek Taylor: "I didn't go there and I had a half acquaintance I saw outside Apple. I said 'Where you going?' He said, 'Oh I'm off to the shop, I'm going to join the queue to get some of those clothes.' I thought that was awful, and I didn't want to close the shop, and I wrote an impassioned open letter, dear boys, y'know, if you do this and that about the der-der, because I dreaded to see the thing falling apart."
 
 14:34 _Frost On Sunday_ theme tune, impromptu performance by the Beatles, as David Frost attempts to shut them up by smiling.
 

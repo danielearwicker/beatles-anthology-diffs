@@ -124,7 +124,7 @@ Anthology, 2003 DVD Version: Episode 1
 
 18:38 _Rock Around the Clock_
 
-18:49 Neil Aspinal memories of meeting Paul and George at school.
+18:49 Neil Aspinall's memories of meeting Paul and George at school.
 
 19:31 Paul: "George and I lived very near each other in Liverpool, in fact we were just a bus stop away from each other - I'd get on the bus, and then the stop after, George would get on. So being quite close in age we'd sit together and talk about stuff and that. **In fact, I think he was about one and a half years younger than me, that's quite a big age difference at that time**, so, I suppose I used to talk down to him a little bit, **as you do to a kid who's one and half years younger than you, he's 14 and a half, and I'm sort of, 16, y'know**, might have been a failing of mine, to talk down to him, 'cause I'd known him as a younger kid."
 
