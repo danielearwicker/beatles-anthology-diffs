@@ -1,0 +1,294 @@
+{
+    "mappings": [
+        {
+            "dvd": 11,
+            "dplus": 2,
+            "matchType": "same",
+            "note": "Paul on driving to John's house, writing Hey Jude"
+        },
+        {
+            "dvd": 12,
+            "dplus": 1,
+            "matchType": "similar",
+            "note": "Hey Jude on David Frost - D+ splits this across multiple items with voice-overs"
+        },
+        {
+            "dvd": 17,
+            "dplus": 6,
+            "matchType": "same",
+            "note": "George Martin on revolutionary period, rehearsing at Twickenham"
+        },
+        {
+            "dvd": 19,
+            "dplus": 8,
+            "matchType": "same",
+            "note": "Paul on the original idea for rehearsing and jamming"
+        },
+        {
+            "dvd": 20,
+            "dplus": 9,
+            "matchType": "similar",
+            "note": "Twickenham clip - D+ has more camera angles and cuts"
+        },
+        {
+            "dvd": 21,
+            "dplus": 11,
+            "matchType": "same",
+            "note": "George on new year, new approach becoming painful again"
+        },
+        {
+            "dvd": 22,
+            "dplus": 12,
+            "matchType": "same",
+            "note": "Ringo on long boring days at Twickenham"
+        },
+        {
+            "dvd": 24,
+            "dplus": 13,
+            "matchType": "same",
+            "note": "John on dreadful feeling to George leaving"
+        },
+        {
+            "dvd": 23,
+            "dplus": 14,
+            "matchType": "same",
+            "note": "George on winter of discontent after Woodstock"
+        },
+        {
+            "dvd": 25,
+            "dplus": 20,
+            "matchType": "similar",
+            "note": "John on pressure to Ringo on heated discussions - D+ includes re-cut For You Blue"
+        },
+        {
+            "dvd": 27,
+            "dplus": 22,
+            "matchType": "similar",
+            "note": "George on bringing Billy Preston in - D+ has additional content about seeing him with Ray Charles, edited"
+        },
+        {
+            "dvd": 26,
+            "dplus": 23,
+            "matchType": "similar",
+            "note": "George Martin on Billy Preston being a help - D+ edited"
+        },
+        {
+            "dvd": 28,
+            "dplus": 24,
+            "matchType": "similar",
+            "note": "John explaining to Billy about no overdubs - D+ has clearer audio and multiple angles"
+        },
+        {
+            "dvd": 30,
+            "dplus": 26,
+            "matchType": "similar",
+            "note": "Discussion about guitar solo in Get Back - D+ has better sound"
+        },
+        {
+            "dvd": 29,
+            "dplus": 27,
+            "matchType": "similar",
+            "note": "Ringo on working on good track - D+ edited"
+        },
+        {
+            "dvd": 31,
+            "dplus": 28,
+            "matchType": "same",
+            "note": "Paul on Beatles being a great little band"
+        },
+        {
+            "dvd": 32,
+            "dplus": 33,
+            "matchType": "similar",
+            "note": "The Long and Winding Road - DVD complete, D+ from instrumental break"
+        },
+        {
+            "dvd": 33,
+            "dplus": 34,
+            "matchType": "similar",
+            "note": "George on rehearsing new songs to rooftop Don't Let Me Down"
+        },
+        {
+            "dvd": 35,
+            "dplus": 35,
+            "matchType": "similar",
+            "note": "Get Back rooftop performance - D+ has alternate shots"
+        },
+        {
+            "dvd": 34,
+            "dplus": 36,
+            "matchType": "same",
+            "note": "Ringo on feeling let down about the police on the roof"
+        },
+        {
+            "dvd": 41,
+            "dplus": 38,
+            "matchType": "similar",
+            "note": "Let It Be - D+ has dialogue before it"
+        },
+        {
+            "dvd": 36,
+            "dplus": 39,
+            "matchType": "same",
+            "note": "John on couldn't play the game anymore"
+        },
+        {
+            "dvd": 37,
+            "dplus": 40,
+            "matchType": "same",
+            "note": "Paul on showing how break-up of a group works"
+        },
+        {
+            "dvd": 55,
+            "dplus": 41,
+            "matchType": "same",
+            "note": "George on Beatles becoming stifling, had to self-destruct"
+        },
+        {
+            "dvd": 39,
+            "dplus": 42,
+            "matchType": "similar",
+            "note": "Ringo on energy waning - D+ edited"
+        },
+        {
+            "dvd": 40,
+            "dplus": 45,
+            "matchType": "same",
+            "note": "Paul on army buddies, day had to come"
+        },
+        {
+            "dvd": 42,
+            "dplus": 46,
+            "matchType": "same",
+            "note": "Bob Danvers-Walker Pathe News on Paul's wedding"
+        },
+        {
+            "dvd": 52,
+            "dplus": 48,
+            "matchType": "same",
+            "note": "John on living with four people for years"
+        },
+        {
+            "dvd": 49,
+            "dplus": 50,
+            "matchType": "same",
+            "note": "John on wanting to get married on ferry, went to Gibraltar"
+        },
+        {
+            "dvd": 50,
+            "dplus": 51,
+            "matchType": "similar",
+            "note": "The Ballad of John and Yoko - D+ edited to skip to end"
+        },
+        {
+            "dvd": 56,
+            "dplus": 52,
+            "matchType": "same",
+            "note": "John on Apple business to Neil on Klein's opportunity",
+            "aligned": true
+        },
+        {
+            "dvd": 57,
+            "dplus": 55,
+            "matchType": "same",
+            "note": "George on Klein managing Stones to John on making mistakes",
+            "aligned": true
+        },
+        {
+            "dvd": 59,
+            "dplus": 57,
+            "matchType": "same",
+            "note": "Paul on putting forward Lee Eastman, three to one awkward"
+        },
+        {
+            "dvd": 61,
+            "dplus": 58,
+            "matchType": "same",
+            "note": "Neil on what changed at Apple - Paul wasn't there"
+        },
+        {
+            "dvd": 54,
+            "dplus": 60,
+            "matchType": "same",
+            "note": "Ringo on still working some days, still close friends"
+        },
+        {
+            "dvd": 62,
+            "dplus": 62,
+            "matchType": "similar",
+            "note": "George Martin on Let It Be being unhappy - D+ edited"
+        },
+        {
+            "dvd": 64,
+            "dplus": 63,
+            "matchType": "same",
+            "note": "George on getting back to finish it up, do one better album"
+        },
+        {
+            "dvd": 63,
+            "dplus": 64,
+            "matchType": "similar",
+            "note": "George Martin surprised when Paul rang - D+ edited"
+        },
+        {
+            "dvd": 66,
+            "dplus": 66,
+            "matchType": "similar",
+            "note": "Something promo film - D+ has different intro with Because/Come Together"
+        },
+        {
+            "dvd": 72,
+            "dplus": 69,
+            "matchType": "same",
+            "note": "Here Comes the Sun"
+        },
+        {
+            "dvd": 71,
+            "dplus": 70,
+            "matchType": "same",
+            "note": "Octopus's Garden"
+        },
+        {
+            "dvd": 65,
+            "dplus": 71,
+            "matchType": "similar",
+            "note": "Ringo on when excited the track's exciting - D+ longer, includes Abbey Road medley praise"
+        },
+        {
+            "dvd": 67,
+            "dplus": 79,
+            "matchType": "similar",
+            "note": "George Martin on everybody feeling it was the last - D+ edited"
+        },
+        {
+            "dvd": 70,
+            "dplus": 80,
+            "matchType": "same",
+            "note": "Golden Slumbers over studio photos"
+        },
+        {
+            "dvd": 69,
+            "dplus": 81,
+            "matchType": "same",
+            "note": "George on game was up after finishing Abbey Road"
+        },
+        {
+            "dvd": 74,
+            "dplus": 82,
+            "matchType": "similar",
+            "note": "Ringo on magical, loving moments - D+ edited"
+        },
+        {
+            "dvd": 75,
+            "dplus": 83,
+            "matchType": "same",
+            "note": "George on giving money and screams to Paul on good spirit"
+        },
+        {
+            "dvd": 82,
+            "dplus": 86,
+            "matchType": "same",
+            "note": "Compilation of studio out-takes over closing credits"
+        }
+    ]
+}

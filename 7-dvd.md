@@ -38,7 +38,7 @@
 
 14:58 Ringo: "Our friend is gone."
 
-15:00 John: "Well, I don't know what to say, you know..." up to "I mean, it's only just, we've only just heard."
+15:00 John: "Well, I don't know what to say, y'know..." up to "I mean, it's only just, we've only just heard."
 
 15:20 Ringo: "Yes, y'know, it's much news to us as it is to everybody else."
 
@@ -48,7 +48,7 @@
 
 16:39 Ringo: "Your belief system gets suspended because you don't want to hear it so bad. I don't know, you don't know what to do with it anyway. If you look at our faces in the film, we're all a bit like, "What does it mean, y'know?"
 
-16:54 Ringo: "Our friend is gone, you know. More our friend than anything else, you know. Brian was a friend of ours."
+16:54 Ringo: "Our friend is gone, y'know. More our friend than anything else, y'know. Brian was a friend of ours."
 
 17:02 Paul: "I don't think there was anything sinister..." up to Ringo: "I don't think any of them set out to die."
 
@@ -71,7 +71,7 @@ but I don't think the major worry was, 'Oh, what are we going to do now? We have
 
 21:44 Ringo: "We're suddenly like chickens without heads. What are we going to do? What are we going to do?"
 
-21:49 George: "You know, that's where Neil kind of stepped in and tried to figure out what was happening."
+21:49 George: "Y'know, that's where Neil kind of stepped in and tried to figure out what was happening."
 
 21:54 Neil Aspinall: "As far as I was concerned, we had to get it together... What were the Beatles going to do?"
 
@@ -132,7 +132,7 @@ I think it was a publishing company in an office on Baker Street."
 
 45:06 _Across the Universe_, Anthology 2 version, Rishikesh home movies.
 
-47:05 Ringo: "It was pretty exciting, you know, we're in this really, a spiritual place..." up to _Dear Prudence_.
+47:05 Ringo: "It was pretty exciting, y'know, we're in this really, a spiritual place..." up to _Dear Prudence_.
 
 48:57 Paul: "I wrote a couple of little things, **Donovan was there, that reminds me, of Donovan, because I remember,** I had a song called _I Will_."
 
@@ -146,7 +146,7 @@ I think it was a publishing company in an office on Baker Street."
 
 53:18 Derek Taylor: "They all rang from England one morning, morning my time, and said, 'We're starting this company, Apple.' So we went to live in Surrey, and I worked for Apple, became Apple press officer again."
 
-53:35 Ringo: "The sole purpose of Apple was not to, people didn't have to beg any more. Artists, if they had a valid idea. We would front them. And, you know, we had a publishing company, a record company, and we would, we could use that in these companies. But, you know, we should have had a big sign, 'You don't have to beg.'"
+53:35 Ringo: "The sole purpose of Apple was not to, people didn't have to beg any more. Artists, if they had a valid idea. We would front them. And, y'know, we had a publishing company, a record company, and we would, we could use that in these companies. But, y'know, we should have had a big sign, 'You don't have to beg.'"
 
 53:56 Paul: "The idea was we'd go to America and we'd say 'Apple is starting. Send us your huddled talent.' And we were interested. So we wanted a nice big launch. I had sort of a strange feeling. I was very nervous. I had like a real sort of personal paranoia on me. I don't know if it was what I was smoking at the time, but it was very strange, that for me. And I remember sitting up there and being interviewed, and John was doing great, and he had a bus driver or prefect badge. He was wearing it and he said, 'What's that mean?'"
 
@@ -212,7 +212,7 @@ I think it was a publishing company in an office on Baker Street."
 
 01:00:46 _Lady Madonna_, complete song, promo film that used footage of the _Hey Bulldog_ session.
 
-01:02:56 Opening of _Yellow Submarine_ movie up to Paul: "I think seeing it now is pretty good. You know, it's quite interesting really."
+01:02:56 Opening of _Yellow Submarine_ movie up to Paul: "I think seeing it now is pretty good. Y'know, it's quite interesting really."
 
 01:04:30 George: "Yeah, I like the film, I think it's a classic film," up to "I think it suits it."
 
@@ -228,7 +228,7 @@ I think it was a publishing company in an office on Baker Street."
 
 01:09:08 Ringo: "They showed me this cover..." up to "Well, Ring, you only have to answer the phone, so okay, fine."
 
-1:09:42 George: "They were, from that point on, never to be seen without each other, you know, for the next few years, at least."
+1:09:42 George: "They were, from that point on, never to be seen without each other, y'know, for the next few years, at least."
 
 01:09:50 Paul: "Trouble was, for us, it encroached on our framework..." up to Ringo: "And that's how they started to live, every moment together."
 
@@ -236,7 +236,7 @@ I think it was a publishing company in an office on Baker Street."
 
 01:11:17 _While My Guitar Gently Weeps_, acoustic demo, over end credits.
 
-EP8 00:28 **The 'White Album' sequence, presented at the start of Episode 8 in the DVD version, has been both modified and moved to the end of Episode 7 for Disney+. It is included here for comparison.** George: "Suddenly one day, I think Neil or somebody said, 'Oh, Ringo's gone on holiday.'"
+EP8 00:28 **The 'White Album' sequence, presented at [the start of Episode 8](#8&dvd0) in the DVD version, has been both modified and moved to the end of Episode 7 for Disney+. It is included here for comparison.** George: "Suddenly one day, I think Neil or somebody said, 'Oh, Ringo's gone on holiday.'"
 
 EP8 00:35 Ringo: "I felt two things, I felt I wasn't playing great..." up to "I thought it was you three."
 
