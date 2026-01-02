@@ -8,7 +8,7 @@ Anthology, 2003 DVD Version: Episode 1
 
 02:17 Separate clips of Mal Evans and Derek Taylor
 
-03:21 _The Wild Ones_ "...all the Beetles missed you"
+03:21 _The Wild Ones_ "...all the Beetles missed you" (This [appears again later](#1&dvd74) and that appearance is retained in the Disney+ version.)
 
 03:31 Opening titles of _Help!_
 
@@ -22,7 +22,7 @@ Anthology, 2003 DVD Version: Episode 1
 
 05:30 Footage of nurses attending to wounded soldier.
 
-05:36 Paul: "My mum was a nurse..."
+05:36 Paul: "My mum was a nurse..." up to George: "She had lots of brothers and sisters."
 
 06:25 George: "My grandmother used to live in Albert Grove, which was next to Arnold Grove."
 

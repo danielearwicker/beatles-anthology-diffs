@@ -1,12 +1,6 @@
 {
     "mappings": [
         {
-            "dvd": 0,
-            "dplus": 1,
-            "matchType": "same",
-            "note": "Titles (re-rendered)"
-        },
-        {
             "dvd": 1,
             "dplus": 2,
             "matchType": "same",
@@ -15,14 +9,14 @@
         {
             "dvd": 2,
             "dplus": 3,
-            "matchType": "same",
-            "note": "In My Life montage begins"
+            "matchType": "similar",
+            "note": "In My Life montage"
         },
         {
             "dvd": 3,
             "dplus": 4,
             "matchType": "similar",
-            "note": "Mal Evans and Derek Taylor clips"
+            "note": "Mal Evans and Derek Taylor"
         },
         {
             "dvd": 5,
@@ -33,14 +27,14 @@
         {
             "dvd": 6,
             "dplus": 6,
-            "matchType": "same",
+            "matchType": "similar",
             "note": "Cycling scene from Help!"
         },
         {
             "dvd": 7,
             "dplus": 7,
-            "matchType": "same",
-            "note": "Let's go back 'n back 'n... montage"
+            "matchType": "similar",
+            "note": "Let's go back photo montage"
         },
         {
             "dvd": 8,
@@ -52,31 +46,19 @@
             "dvd": 9,
             "dplus": 9,
             "matchType": "similar",
-            "note": "George: father driving bus, 12 Arnold Grove"
-        },
-        {
-            "dvd": 10,
-            "dplus": 10,
-            "matchType": "different",
-            "note": "DVD: wounded soldier / Disney+: soldiers marching, Ringo on not going to army"
+            "note": "George: father driving a bus"
         },
         {
             "dvd": 11,
             "dplus": 11,
-            "matchType": "same",
+            "matchType": "similar",
             "note": "Paul: My mum was a nurse"
-        },
-        {
-            "dvd": 12,
-            "dplus": 12,
-            "matchType": "different",
-            "note": "DVD: George grandmother / Disney+: George uncles with bald heads"
         },
         {
             "dvd": 13,
             "dplus": 13,
             "matchType": "similar",
-            "note": "Crystal radio set / cat's whisker"
+            "note": "George: crystal radio set"
         },
         {
             "dvd": 14,
@@ -87,72 +69,44 @@
         {
             "dvd": 16,
             "dplus": 14,
-            "matchType": "same",
-            "note": "Ringo: Little Drummer Boy, Nobody's Child"
+            "matchType": "similar",
+            "note": "Ringo: party piece, Nobody's Child"
         },
         {
             "dvd": 17,
             "dplus": 18,
             "matchType": "same",
-            "note": "C'mon Everybody (John V/O)"
-        },
-        { "dvd": 18, "dplus": 19, "matchType": "same", "note": "Rocket '88'" },
-        {
-            "dvd": 19,
-            "dplus": 22,
-            "matchType": "same",
-            "note": "That's Alright Mama - Paul: can't imagine when rock and roll was only one"
+            "note": "C'mon Everybody with John V/O"
         },
         {
-            "dvd": 20,
-            "dplus": 23,
-            "matchType": "same",
-            "note": "No Other Love Have I - George: whatever record was being played"
+            "dvd": 18,
+            "dplus": 19,
+            "matchType": "similar",
+            "note": "Rocket '88'"
         },
         {
             "dvd": 21,
             "dplus": 19,
-            "matchType": "same",
-            "note": "John: no such thing as English record, Move It by Cliff"
-        },
-        {
-            "dvd": 24,
-            "dplus": 34,
-            "matchType": "different",
-            "note": "Ringo: Country and Western, Skiffle - reordered"
-        },
-        {
-            "dvd": 42,
-            "dplus": 29,
-            "matchType": "same",
-            "note": "Peggy Sue live performance"
-        },
-        {
-            "dvd": 27,
-            "dplus": 30,
-            "matchType": "same",
-            "note": "Paul: Buddy Holly, wrote stuff himself"
+            "matchType": "similar",
+            "note": "John: no such thing as English record"
         },
         {
             "dvd": 28,
             "dplus": 24,
             "matchType": "same",
-            "note": "John: art school, jazz only, called it blues",
-            "aligned": true
+            "note": "John: art school, jazz vs rock and roll"
         },
         {
             "dvd": 29,
             "dplus": 28,
-            "matchType": "same",
-            "note": "George: teenager 12 or 13, Fats Domino I'm In Love Again"
+            "matchType": "similar",
+            "note": "George: Fats Domino first rock and roll"
         },
-
         {
             "dvd": 31,
             "dplus": 26,
             "matchType": "same",
-            "note": "Paul: in school, picture of Elvis",
-            "aligned": true
+            "note": "Paul: picture of Elvis in school"
         },
         {
             "dvd": 32,
@@ -160,26 +114,24 @@
             "matchType": "same",
             "note": "Hound Dog live performance"
         },
-
         {
             "dvd": 35,
             "dplus": 31,
-            "matchType": "same",
-            "note": "Broonzy tour"
+            "matchType": "similar",
+            "note": "George: Big Bill Broonzy"
         },
         {
             "dvd": 37,
             "dplus": 32,
             "matchType": "same",
-            "note": "Ringo: big fan, Frankie Laine"
+            "note": "Ringo: big fan of Frankie Laine"
         },
         { "dvd": 38, "dplus": 33, "matchType": "same", "note": "Jezebel" },
         {
             "dvd": 39,
             "dplus": 35,
             "matchType": "same",
-            "note": "John: train songs, Rock Island Line",
-            "aligned": true
+            "note": "John: train songs, Rock Island Line"
         },
         {
             "dvd": 40,
@@ -188,386 +140,395 @@
             "note": "Rock Island Line"
         },
         {
+            "dvd": 42,
+            "dplus": 29,
+            "matchType": "same",
+            "note": "Peggy Sue live performance"
+        },
+        {
             "dvd": 43,
             "dplus": 37,
             "matchType": "same",
-            "note": "George: Jimmie Rodgers Singing Brakeman"
+            "note": "George: Jimmie Rodgers, Singing Breakman"
         },
         { "dvd": 44, "dplus": 38, "matchType": "same", "note": "T for Texas" },
-
+        {
+            "dvd": 46,
+            "dplus": 53,
+            "matchType": "similar",
+            "note": "Ringo: looked at drums in shops"
+        },
         {
             "dvd": 47,
             "dplus": 49,
-            "matchType": "same",
-            "note": "Paul: dad trumpet player, bought me trumpet"
+            "matchType": "similar",
+            "note": "Paul: trumpet from Rushworth and Dreapers"
         },
         {
             "dvd": 48,
             "dplus": 47,
             "matchType": "same",
-            "note": "John: re-established relationship with mother, banjo/guitar",
-            "aligned": true
+            "note": "John: mother taught banjo and guitar"
         },
         {
             "dvd": 49,
             "dplus": 52,
             "matchType": "same",
-            "note": "George: drawing guitars, first guitar £3 10s"
+            "note": "George: drawing guitars at back of class"
         },
-
         {
             "dvd": 50,
             "dplus": 50,
             "matchType": "same",
-            "note": "Ringo: 30 bob bass drum",
-            "aligned": true
-        },
-
-        {
-            "dvd": 52,
-            "dplus": 48,
-            "matchType": "same",
-            "note": "Hobby"
-        },
-        {
-            "dvd": 46,
-            "dplus": 53,
-            "matchType": "same",
-            "note": "Drums in shops"
+            "note": "Paul: traded trumpet for Zenith guitar"
         },
         {
             "dvd": 51,
             "dplus": 54,
-            "matchType": "same",
-            "note": "Huge mother"
-        },
-
-        {
-            "dvd": 56,
-            "dplus": 41,
-            "matchType": "same",
-            "note": "Beggars can't be choosers"
-        },
-        {
-            "dvd": 57,
-            "dplus": 42,
-            "matchType": "same",
-            "note": "Ready Teddy"
-        },
-        {
-            "dvd": 58,
-            "dplus": 44,
-            "matchType": "different",
-            "note": "Disney+ adds short clip of Little Richard"
-        },
-        {
-            "dvd": 59,
-            "dplus": 43,
             "matchType": "similar",
-            "note": "Paul on Girl Can't Help It"
+            "note": "Ringo: 30 bob bass drum"
         },
         {
-            "dvd": 60,
-            "dplus": 39,
-            "matchType": "similar",
-            "note": "Ringo sees rock around the clock"
-        },
-        {
-            "dvd": 61,
-            "dplus": 40,
+            "dvd": 52,
+            "dplus": 48,
             "matchType": "same",
-            "note": "Rock around the clock"
+            "note": "John: joke in the family, hobby"
         },
-
         {
             "dvd": 54,
             "dplus": 57,
             "matchType": "same",
-            "note": "Just schoolboys"
+            "note": "George: Paul and I began to get together"
         },
         {
             "dvd": 55,
             "dplus": 58,
             "matchType": "similar",
-            "note": "Twist and Shout"
+            "note": "Twist and Shout Beatlemania montage"
+        },
+        {
+            "dvd": 56,
+            "dplus": 41,
+            "matchType": "similar",
+            "note": "George: beggars can't be choosers, films"
+        },
+        {
+            "dvd": 57,
+            "dplus": 42,
+            "matchType": "similar",
+            "note": "Ready Teddy from Girl Can't Help It"
+        },
+        {
+            "dvd": 58,
+            "dplus": 44,
+            "matchType": "same",
+            "note": "John: waiting to see Elvis in movies"
+        },
+        {
+            "dvd": 59,
+            "dplus": 43,
+            "matchType": "similar",
+            "note": "Paul: Girl Can't Help It in colour"
+        },
+        {
+            "dvd": 60,
+            "dplus": 39,
+            "matchType": "same",
+            "note": "Ringo: Rock Around the Clock, Isle of Man"
+        },
+        {
+            "dvd": 61,
+            "dplus": 40,
+            "matchType": "same",
+            "note": "Rock Around the Clock"
         },
         {
             "dvd": 63,
             "dplus": 55,
-            "matchType": "same",
-            "note": "Lived very near"
+            "matchType": "similar",
+            "note": "Paul: George and I lived near, bus stop"
         },
         {
             "dvd": 64,
             "dplus": 56,
-            "matchType": "same",
-            "note": "Nine months older"
+            "matchType": "similar",
+            "note": "George: nine months older than me"
         },
         {
             "dvd": 65,
             "dplus": 59,
             "matchType": "same",
-            "note": "Paul met me"
+            "note": "John: Paul met me, Be-Bop-a-Lula to Raunchy"
         },
         {
             "dvd": 66,
             "dplus": 61,
             "matchType": "similar",
-            "note": "Quarrymen tapes over tape machine"
+            "note": "That'll Be the Day by Quarry Men"
         },
         {
             "dvd": 67,
             "dplus": 64,
             "matchType": "similar",
-            "note": "Rhythm's in the guitars"
+            "note": "Paul: rhythm's in the guitars"
         },
         {
             "dvd": 68,
             "dplus": 65,
             "matchType": "similar",
-            "note": "Back seat"
+            "note": "Paul: jealous of John's friendship, Stuart"
         },
-
         {
             "dvd": 69,
             "dplus": 66,
-            "matchType": "same",
-            "note": "Ringo: Rory and Hurricanes, Johnny Guitar"
+            "matchType": "similar",
+            "note": "Quarrymen tapes over recreated scenery"
         },
         {
             "dvd": 70,
             "dplus": 85,
             "matchType": "same",
-            "note": "John: Ringo professional drummer, Ringo Starr Time"
+            "note": "John: Ringo was a professional drummer"
         },
         {
             "dvd": 72,
             "dplus": 69,
             "matchType": "same",
-            "note": "George: John got name Beatles in a vision",
-            "aligned": true
+            "note": "Ringo: John thought of the name Beatles"
+        },
+        {
+            "dvd": 73,
+            "dplus": 68,
+            "matchType": "similar",
+            "note": "George: John got the name Beatles"
         },
         {
             "dvd": 74,
             "dplus": 71,
             "matchType": "same",
-            "note": "The Wild Ones all the Beetles missed you (2nd occurrence)"
+            "note": "The Wild Ones: all the Beetles missed you"
         },
-
         {
             "dvd": 82,
             "dplus": 73,
             "matchType": "same",
-            "note": "Pathetic tour",
-            "aligned": true
+            "note": "George: pathetic tour, broke"
         },
-
         {
             "dvd": 84,
             "dplus": 74,
             "matchType": "same",
-            "note": "John: toppermost of the poppermost",
-            "aligned": true
-        },
-
-        {
-            "dvd": 87,
-            "dplus": 76,
-            "matchType": "same",
-            "note": "John: different drummers, drum kits expensive"
+            "note": "John: toppermost of the poppermost"
         },
         {
             "dvd": 86,
             "dplus": 75,
-            "matchType": "same",
-            "note": "Got to be five",
-            "aligned": true
+            "matchType": "similar",
+            "note": "George: job in Germany, need five people"
+        },
+        {
+            "dvd": 87,
+            "dplus": 76,
+            "matchType": "similar",
+            "note": "John: drum kits were expensive"
         },
         {
             "dvd": 88,
             "dplus": 77,
-            "matchType": "different",
-            "note": "Roll Over Beethoven",
-            "aligned": true
-        },
-
-        {
-            "dvd": 90,
-            "dplus": 79,
-            "matchType": "different",
-            "note": "Such a buzz"
-        },
-
-        {
-            "dvd": 93,
-            "dplus": 82,
-            "matchType": "different",
-            "note": "George: foaming at mouth - reordered"
+            "matchType": "similar",
+            "note": "Roll Over Beethoven Hamburg montage"
         },
         {
-            "dvd": 94,
-            "dplus": 80,
+            "dvd": 89,
+            "dplus": 78,
             "matchType": "same",
-            "note": "Money over Reeperbahn photos",
-            "aligned": true
+            "note": "Paul: ended up in Hamburg, Bambi Kino"
+        },
+        {
+            "dvd": 92,
+            "dplus": 79,
+            "matchType": "same",
+            "note": "George: Everything else was such a buzz"
         },
         {
             "dvd": 95,
+            "dplus": 82,
+            "matchType": "same",
+            "note": "George: foaming at the mouth, stomping"
+        },
+        {
+            "dvd": 96,
+            "dplus": 80,
+            "matchType": "same",
+            "note": "Money over Reeperbahn montage"
+        },
+        {
+            "dvd": 97,
             "dplus": 81,
             "matchType": "same",
-            "note": "John: work six or seven hours, pill wore off"
+            "note": "John: Hamburg six or seven hours"
         },
         {
-            "dvd": 97,
-            "dplus": 84,
-            "matchType": "similar",
-            "note": "Great by then",
-            "aligned": true
-        },
-        {
-            "dvd": 97,
+            "dvd": 99,
             "dplus": 86,
-            "matchType": "different",
-            "note": "Semi-drunk"
+            "matchType": "similar",
+            "note": "Ringo: 12 hours weekend, slow songs"
         },
         {
-            "dvd": 100,
+            "dvd": 102,
             "dplus": 87,
             "matchType": "same",
-            "note": "George: made friends, Astrid photographs"
+            "note": "George: made friends, Astrid photos"
         },
-        {
-            "dvd": 101,
-            "dplus": 89,
-            "matchType": "different",
-            "note": "Paul: liked rock and roll stuff - reordered"
-        },
-
         {
             "dvd": 103,
-            "dplus": 90,
-            "matchType": "different",
-            "note": "George: 17, Indra, Kaiserkeller, Top Ten, busted underage"
+            "dplus": 89,
+            "matchType": "similar",
+            "note": "Paul: They liked rock and roll stuff"
         },
         {
-            "dvd": 107,
-            "dplus": 91,
-            "matchType": "different",
-            "note": "George: second time 18, Bert Kaempfert"
+            "dvd": 105,
+            "dplus": 90,
+            "matchType": "similar",
+            "note": "George: 17, underage, booted out"
         },
         {
             "dvd": 109,
-            "dplus": 92,
-            "matchType": "same",
-            "note": "George: Ringo kept sitting in"
-        },
-        {
-            "dvd": 110,
-            "dplus": 93,
-            "matchType": "same",
-            "note": "George: one of us gonna be bass player"
+            "dplus": 91,
+            "matchType": "similar",
+            "note": "George: Bert Kaempfert, backing Sheridan"
         },
         {
             "dvd": 111,
-            "dplus": 97,
-            "matchType": "same",
-            "note": "George: played Cavern before Hamburg"
+            "dplus": 92,
+            "matchType": "similar",
+            "note": "George: Ringo sat in, Stuart left"
         },
-
         {
-            "dvd": 114,
-            "dplus": 98,
+            "dvd": 112,
+            "dplus": 93,
             "matchType": "same",
-            "note": "Footage of stairwell, Brian suggested suits"
+            "note": "George: one of us bass player"
+        },
+        {
+            "dvd": 113,
+            "dplus": 95,
+            "matchType": "same",
+            "note": "George: He went for it (bass)"
         },
         {
             "dvd": 115,
-            "dplus": 101,
+            "dplus": 96,
             "matchType": "same",
-            "note": "George: gladly switched into suits"
+            "note": "John: back to Liverpool, thought we were German"
         },
         {
             "dvd": 116,
-            "dplus": 103,
+            "dplus": 98,
             "matchType": "same",
-            "note": "End of decca montage"
+            "note": "George: played Cavern before Hamburg"
         },
-
         {
-            "dvd": 117,
-            "dplus": 106,
+            "dvd": 120,
+            "dplus": 99,
             "matchType": "same",
-            "note": "John: George had done little rock and roll, didn't like drummer"
+            "note": "Cavern stairwell, Kansas City"
         },
-
         {
-            "dvd": 119,
-            "dplus": 107,
+            "dvd": 121,
+            "dplus": 100,
+            "matchType": "same",
+            "note": "Paul: did well at Cavern, Brian suggested suits"
+        },
+        {
+            "dvd": 122,
+            "dplus": 102,
+            "matchType": "same",
+            "note": "Paul: betrayed leather image, went happily"
+        },
+        {
+            "dvd": 123,
+            "dplus": 104,
+            "matchType": "same",
+            "note": "George: gladly switched to suits"
+        },
+        {
+            "dvd": 125,
+            "dplus": 109,
+            "matchType": "same",
+            "note": "John: George had done little rock and roll"
+        },
+        {
+            "dvd": 127,
+            "dplus": 110,
             "matchType": "same",
             "note": "Paul: needed the great drummer in Liverpool"
         },
-
         {
-            "dvd": 120,
-            "dplus": 109,
+            "dvd": 128,
+            "dplus": 112,
             "matchType": "same",
-            "note": "George: historically may look nasty to Pete"
+            "note": "George: Ringo was the member of the band"
         },
-
         {
-            "dvd": 121,
-            "dplus": 108,
+            "dvd": 129,
+            "dplus": 111,
             "matchType": "similar",
             "note": "Ringo: Wednesday, Brian called"
         },
         {
-            "dvd": 122,
-            "dplus": 111,
+            "dvd": 130,
+            "dplus": 114,
             "matchType": "same",
-            "note": "Ringo: played Cavern, fighting, George fought for me"
+            "note": "Ringo: Cavern, George fought for me"
         },
         {
-            "dvd": 123,
-            "dplus": 115,
-            "matchType": "different",
-            "note": "George Martin: already booked Andy White - reordered"
+            "dvd": 131,
+            "dplus": 118,
+            "matchType": "similar",
+            "note": "George Martin: already booked Andy White"
         },
         {
-            "dvd": 124,
-            "dplus": 113,
-            "matchType": "same",
-            "note": "George Martin: Ringo turns up, bitten once"
-        },
-        {
-            "dvd": 125,
+            "dvd": 132,
             "dplus": 116,
+            "matchType": "same",
+            "note": "George Martin: Ringo turns up, been bitten"
+        },
+        {
+            "dvd": 133,
+            "dplus": 119,
             "matchType": "same",
             "note": "George Martin: We're going to have Andy White"
         },
         {
-            "dvd": 126,
-            "dplus": 118,
-            "matchType": "same",
-            "note": "Ringo: devastated, professional drummer"
-        },
-        {
-            "dvd": 127,
-            "dplus": 119,
-            "matchType": "same",
-            "note": "End of Love Me Do (Ringo version)"
-        },
-        {
-            "dvd": 128,
-            "dplus": 120,
-            "matchType": "same",
-            "note": "George: got to 17, next time more friendly"
-        },
-
-        {
-            "dvd": 130,
-            "dplus": 124,
+            "dvd": 134,
+            "dplus": 121,
             "matchType": "similar",
-            "note": "Cathy: Please Please Me reached number one"
+            "note": "Ringo: devastated, Andy White professional"
+        },
+        {
+            "dvd": 136,
+            "dplus": 123,
+            "matchType": "similar",
+            "note": "George: got to 17, EMI more friendly"
+        },
+        {
+            "dvd": 137,
+            "dplus": 126,
+            "matchType": "same",
+            "note": "George Martin: How Do You Do It"
+        },
+        {
+            "dvd": 140,
+            "dplus": 128,
+            "matchType": "same",
+            "note": "George Martin: we did record it, Please Please Me"
+        },
+        {
+            "dvd": 141,
+            "dplus": 129,
+            "matchType": "similar",
+            "note": "Cathy: Bob Wooler telegram, number one"
         }
     ]
 }

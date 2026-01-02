@@ -36,7 +36,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 05:20 Footage of soldiers marching in formation. Ringo: "We were all roughly the same age and we were like, the first group of people who didn't go in the army."
 
-05:29 Paul: "My mum was a nurse..." - some photos cropped differently but broadly the same until...
+05:29 Paul: "My mum was a nurse..." up to George: "She had lots of brothers and sisters."
 
 06:15 George: "Uncles who had bald heads, who used to say they got their bald heads by knocking pub doors open!"
 
@@ -272,4 +272,4 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 55:40 George Martin: "And we did record it. John took the lead", up to _Please Please Me_, complete song performed live for TV appearance.
 
-58:59 Cathy the gatekeeper of the Cavern: "And Bob Wooler got on the stage, telegram in his hand, I've got news for you, **edit**, and he said the Beatles' record _Please Please Me_ has reached number one in the national charts..."
+58:59 Cathy the gatekeeper of the Cavern: "And Bob Wooler got on the stage, telegram in his hand, I've got news for you, **[edit]**, and he said the Beatles' record _Please Please Me_ has reached number one in the national charts..."
