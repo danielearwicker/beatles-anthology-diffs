@@ -34,7 +34,9 @@
 
 07:46 John: "The Hollywood Bowl was pretty tatty, y'know. It's nice to hear. It'll probably go out one day, I'd have thought. But we're so nervous, y'know. It was like going on the Palladium."
 
-07:56 George Martin: "**I wanted to have a live concert and** I arranged with Capital to provide their engineers and we recorded at Hollywood Bowl, but the techniques we had then in America was three-track half-inch. And the separation wasn't too great. To begin with, y'know, you had your voices in the center, but you had a mixture of drums and bass and guitars on your separate side tracks. But pervading the whole lot was the enormous welter of screams from the audience. I mean, it was like putting a microphone by the end of a 747 jet. It was just one continual screaming sound. And it was very difficult to get a good recording out of it with the techniques we had there. And in fact, Hollywood Bowl tapes weren't issued. They didn't think it was right to do so. And it wasn't until many years later that I dug them up and refurbished them and worked on them. And we did issue a record."
+07:56 George Martin: "**I wanted to have a live concert and** I arranged with Capital to provide their engineers and we recorded at Hollywood Bowl..." up to "And in fact, Hollywood Bowl tapes weren't issued. They didn't think it was right to do so."
+
+08:46 George Martin: "**And it wasn't until many years later that I dug them up** and refurbished them and worked on them. And we did actually issue a record."
 
 08:54 _She Loves You_ excerpt from Hollywood Bowl, up to Paul talking about meeting early idols, Little Richard, Fats Domino.
 
@@ -154,7 +156,7 @@
 
 35:49 Producer character: "Boys, are you buzzing?"
 
-35:51 Paul: "Well, I think, y'know, this was beginning to get into that period when people were sort of giving up the drink, which had been the sort of stimulant of the times, and were getting into the herbal jazz cigarettes. \*\*And it was changing things a bit, y'know, things were becoming a bit more imaginative, a little more crazy."
+35:51 Paul: "Well, I think, y'know, this was beginning to get into that period when people were sort of giving up the drink, which had been the sort of stimulant of the times, and were getting into the herbal jazz cigarettes. **And it was changing things a bit, y'know, things were becoming a bit more imaginative, a little more crazy.**"
 
 36:12 John: "By then we were smoking marijuana for breakfast at that period. And we were well into marijuana, and nobody could communicate with us, 'cause it was just four glazed eyes giggling all the time, y'know, in their own world."
 

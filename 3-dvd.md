@@ -24,9 +24,9 @@ Anthology, 2003 DVD Version: Episode 3
 
 12:45 George: "Later they said there was the least reported, or there was no reported crime. Even the criminals had a rest for like 10 minutes while we were on."
 
-12:59 Ringo: "And then we did the train ride to Washington.
+12:59 Ringo: "And then we did the train ride to Washington."
 
-14:01 Neil Aspinall: "We did that Washington show. It was like a boxing ring, right, with people all round. Every song, you'd go to a different side of the stage, right, and so you'd have to move the mics all the time, y'know? And Ringo was sitting on a, like this round thing in the middle of the stage, that his drums were on so he had to turn that round to face whichever way the band were playing, and the bloody thing got stuck.
+14:01 Neil Aspinall: "We did that Washington show. It was like a boxing ring, right, with people all round. Every song, you'd go to a different side of the stage, right, and so you'd have to move the mics all the time, y'know? And Ringo was sitting on a, like this round thing in the middle of the stage, that his drums were on so he had to turn that round to face whichever way the band were playing, and the bloody thing got stuck."
 
 15:45 _She Loves You_ Live at Washington Coliseum
 
@@ -58,7 +58,7 @@ Anthology, 2003 DVD Version: Episode 3
 
 34:18 Opening chord of _A Hard Day's Night_
 
-34:18 John: "You went to see those movies with Elvis or somebody in it when we were still in Liverpool, and you'd see everybody waiting to see him, right? And I'd be waiting there, too, and they'd all scream when he came on the screen. So we thought, 'That's a good job.'"
+34:18 John: "You went to see those movies with Elvis or somebody in it when we were still in Liverpool, and you'd see everybody waiting to see him, right? And I'd be waiting there, too, and they'd all scream when he came on the screen. So we thought, 'That's a good job.'" (Although this has been removed in Disney+, it has [already appeared in Episode 1.](#1&dvd58))
 
 34:35 Paul: "We'd always, y'know, I'm talking about this progression with the Beatles from, y'know, little Stevedores and Dockers Union" up to where Spike Milligan walks slowly to the camera and is then punched in the face, and Paul continues talking about Richard Lester.
 

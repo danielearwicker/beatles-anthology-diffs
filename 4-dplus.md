@@ -36,11 +36,11 @@
 
 07:27 John: "The Hollywood Bowl was pretty tatty, y'know. It's nice to hear. It'll probably go out one day, I'd have thought. But we're so nervous, y'know. It was like going on the Palladium."
 
-07:37 George Martin: "**[edit]** I arranged with Capital to provide their engineers and we recorded at Hollywood Bowl, but the techniques we had then in America was three-track half-inch. And the separation wasn't too great. To begin with, y'know, you had your voices in the center, but you had a mixture of drums and bass and guitars on your separate side tracks. But pervading the whole lot was the enormous welter of screams from the audience. I mean, it was like putting a microphone by the end of a 747 jet. It was just one continual screaming sound. And it was very difficult to get a good recording out of it with the techniques we had there. And in fact, Hollywood Bowl tapes weren't issued. They didn't think it was right to do so."
+07:37 George Martin: "**[edit]** I arranged with Capital to provide their engineers and we recorded at Hollywood Bowl..." up to "And in fact, Hollywood Bowl tapes weren't issued. They didn't think it was right to do so."
 
 08:23 Paul: "We listened to that back and we wouldn't let them release it. Years later George and Geoff Emerick, George Martin and Geoff Emerick did a lot of work on it."
 
-08:31 George Martin: "And refurbished them and worked on them. And we did actually issue a record."
+08:31 George Martin: "**[edit]** And refurbished them and worked on them. And we did actually issue a record."
 
 08:35 _She Loves You_ excerpt from Hollywood Bowl, up to Paul talking about meeting early idols, Little Richard, Fats Domino.
 
@@ -114,7 +114,7 @@
 
 22:58 _Help!_ film opening title and song, discussion up to when the band falls backward into the snow.
 
-25:04 Paul: "Well, I think, y'know, this was beginning to get into that period when people were sort of giving up the drink, which had been the sort of stimulant of the times, and were getting into the herbal jazz cigarettes."
+25:04 Paul: "Well, I think, y'know, this was beginning to get into that period when people were sort of giving up the drink, which had been the sort of stimulant of the times, and were getting into the herbal jazz cigarettes. **[edit]**"
 
 25:17 George Martin: "I was 14 years older than they were, so. They knew... I guess I was straight, and they knew I'd disapprove very strongly of drugs. I'm afraid I used to smoke cigarettes, and that's pretty well as bad. So they never smoked pot in front of me. They used to just nip down to the canteen below, have a little drag, y'know, come out giggling a bit. I knew what they were doing, but it didn't make any difference."
 

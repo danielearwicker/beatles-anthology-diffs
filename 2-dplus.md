@@ -50,11 +50,11 @@ Anthology, 2025 Disney+ Version: Episode 2
 
 12:58 Paul: "Then it was like, well, what's left? Well, radio..." up to Saturday Club, John "Greeting everybody with a smile" and Brian Matthew, "Thank you, dear Beatles". at 14:49. Only minor edits to shorten the montage of BBC tracks.
 
-15:00 Derek Taylor, up to Ringo's Salmon out of tin until he was 22, ends 18:12 - only change being the usual de-Joolsing.
+15:00 Derek Taylor: "I'd heard they were coming to Manchester Odeon..." up to Ringo: "Never had any salmon that didn't come out of tin until I was 22." (The usual de-Joolsing.)
 
-18:09 John: "In the early days we'd make a record in 12 hours..." up to Brian Matthew's on "three number ones in a row for the Liverpool boys" ending 19:10
+18:09 John: "In the early days we'd make a record in 12 hours..." up to Brian Matthew's on "three number ones in a row for the Liverpool boys."
 
-19:11 _She Loves You_ live concert performance at ABC Cinema Manchester, completely re-scanned in widescreen, also playback speed slowed down compared to DVD. Ending 21:34, omitting the dramatic reverbed screaming audience member.
+19:11 _She Loves You_ live concert performance at ABC Cinema Manchester, completely re-scanned in widescreen, also playback speed slowed down compared to DVD. Ending omitting the dramatic reverbed screaming audience member.
 
 21:35 Ringo: "When we go home, we go in early in the morning, when we've finished the job, and the kids, y'know, they don't know you're at home. But if they find out, well, where I live, they get the drums out, and beat it out... It was getting really big, I think we noticed as we tried to move around town, we started, y'know, being noticed in the street."
 

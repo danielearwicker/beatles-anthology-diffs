@@ -34,13 +34,13 @@ Anthology, 2003 DVD Version: Episode 2
 
 08:27 _Twist and Shout_, cutting between mixed footage, the whole track
 
-11:01 Derek Taylor, up to Ringo's Salmon out of tin until he was 22, ends 14:10
+11:01 Derek Taylor: "I'd heard they were coming to Manchester Odeon..." up to Ringo: "Never had any salmon that didn't come out of tin until I was 22."
 
 14:11 _There's a Place_ (gig locations fly up the screen in crummy overlaid text), up to _It Won't Be Long_ montage of home movies during early tours, ending 19:08.
 
-19:09 John: "In the early days we'd make a record in 12 hours..." up to Brian Matthew's on "three number ones in a row for the Liverpool boys" ending 20:10.
+19:09 John: "In the early days we'd make a record in 12 hours..." up to Brian Matthew's on "three number ones in a row for the Liverpool boys."
 
-20:10 _She Loves You_ live concert performance at ABC Cinema Manchester, 4:3. Ending 22:29 with a freeze frame on a screaming audience member with a spooky reverb effect.
+20:10 _She Loves You_ live concert performance at ABC Cinema Manchester, 4:3. Ending with a freeze frame on a screaming audience member with a spooky reverb effect.
 
 22:31 John: "We were the first working-class singers, that stayed working-class, and pronounced it, didn't try and change our accents, which in England are looked - were looked down upon, probably still are."
 
