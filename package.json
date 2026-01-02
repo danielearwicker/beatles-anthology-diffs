@@ -1,0 +1,12 @@
+{
+  "name": "beatles-anthology",
+  "version": "1.0.0",
+  "description": "Comparison of The Beatles Anthology DVD vs Disney+ versions",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "add-indices": "node add-indices.js"
+  },
+  "keywords": ["beatles", "anthology", "documentary", "comparison"],
+  "author": "",
+  "license": "ISC"
+}

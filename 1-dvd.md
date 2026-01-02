@@ -26,7 +26,7 @@ Anthology, 2003 DVD Version: Episode 1
 
 06:25 George: "My grandmother used to live in Albert Grove, which was next to Arnold Grove."
 
-06:59 "When my parents were younger they used to have to listen on an old crystal radio set, sometimes known as The Cat's Whisker."
+06:59 George: "When my parents were younger they used to have to listen on an old crystal radio set, sometimes known as The Cat's Whisker."
 
 07:07 Paul: "John really loved his mother, 'cause she was great, I loved her too. And she played a little ukulele."
 
@@ -94,11 +94,11 @@ Anthology, 2003 DVD Version: Episode 1
 
 14:05 Ringo: "Drums were the only thing I wanted. And I came out and I used to look in shops and see drums, that's all I looked at, never looked at guitars or anything."
 
-14:11 Paul: "My dad used to be a trumpet player himself, and for my birthday he once bought me a trumpet, from Rushworth and Dreapers, which was one of the music stores in Liverpool." Just interview footage, no photo of the shop.
+14:11 Paul: "My dad used to be a trumpet player himself, and for my birthday he once bought me a trumpet, from Rushworth and Dreapers, which was one of the music stores in Liverpool." **Just interview footage, no photo of the shop.**
 
 14:22 John: "And when I was 16 I re-established a relationship with my mother for about four years, she taught me music, she first of all taught me the banjo, and from that I progressed to guitar. The first song I learnt was _Ain't That A Shame_, an old rock hit, Fats Domino."
 
-14:35 George on drawing guitars at the back of the class, and buying his first secondhand guitar with £3 10s from his mother.
+14:35 George: "When I was 13, 14, I used to be at the back of the class, drawing, trying to draw guitars..." up to "I got the £3 10s from me mother, that was a lot of money in those days."
 
 15:08 "But I suddenly figured out I wouldn't be able to sing with this thing stuck in me mouth. So I went back to the shop and traded it in for a guitar. So that was a Zenith. First guitar I ever had."
 
@@ -118,19 +118,19 @@ Anthology, 2003 DVD Version: Episode 1
 
 16:54 John: "Y'know, you went to see those movies with somebody in it like Elvis, when we were still in Liverpool, and you'd see everybody waiting to see him, and I'd be waiting there too, and they'd all scream when he came on the screen, so we thought 'That's a good job!'"
 
-17:09 Paul: "So when _The Girl Can't Help It_ came along, instead of us looking at these old black and white movies **and thinking _There's Clyde McPhatter, there's Fats Domino_, people we loved, who were being treated quite shabbily**, suddenly this was in colour, and this was in widescreen, and there's a famous..." Clips of Tom Ewell's intro are all sadly aspect-ratio distorted into 4:3 which undermines the magic of him clicking his fingers to make it widescreen. Leading to clip of Jayne Mansfield.
+17:09 Paul: "So when _The Girl Can't Help It_ came along, instead of us looking at these old black and white movies **and thinking _There's Clyde McPhatter, there's Fats Domino_, people we loved, who were being treated quite shabbily**, suddenly this was in colour, and this was in widescreen, and there's a famous..." up to the clip of Jayne Mansfield. Clips of Tom Ewell's intro are all sadly aspect-ratio distorted into 4:3 which undermines the magic of him clicking his fingers to make it widescreen.
 
 18:25 Ringo: "I went to see _Rock Around the Clock_ in the Isle of Man, my grandparents took me there after I came out of hospital, and it was just sensational because they ripped up the cinema, and this was good for me to see."
 
 18:38 _Rock Around the Clock_
 
-18:49 Neil Aspinall's memories of meeting Paul and George at school.
+18:58 Neil Aspinall: "I went to school with Paul, to Grammar school, and we were both in the same class, in the first year, and then we went off into different streams, but basically I knew him since I was about 11, I guess, but didn't really know him, as like a friend, until a number of years later. I met George at the Liverpool Institute as well, he was a year younger than Paul and I, and I met George, we used to smoke behind the air raid shelters together."
 
 19:31 Paul: "George and I lived very near each other in Liverpool, in fact we were just a bus stop away from each other - I'd get on the bus, and then the stop after, George would get on. So being quite close in age we'd sit together and talk about stuff and that. **In fact, I think he was about one and a half years younger than me, that's quite a big age difference at that time**, so, I suppose I used to talk down to him a little bit, **as you do to a kid who's one and half years younger than you, he's 14 and a half, and I'm sort of, 16, y'know**, might have been a failing of mine, to talk down to him, 'cause I'd known him as a younger kid."
 
 20:09 George: "He was always nine months older than I. Even now he's still nine months older than me!" (This is on camera, with laughter from Jools Holland.)
 
-20:17 John: "Paul met me..." leading to _Twenty Flight Rock_ and George joining.
+20:17 John: "Paul met me the first day I did _Be-Bop-a-Lula_ live on stage..." up to Paul: "Sure enough, note perfect, _Raunchy_. You're in."
 
 24:21 _That'll Be the Day_ by the Quarry Men, over black and white Jacaranda club footage.
 
@@ -168,19 +168,21 @@ Anthology, 2003 DVD Version: Episode 1
 
 36:45 George: "And we didn't have uniforms, y'know, and this guy, Larry Parnes, fella, Johnny Gentle, y'know, he did have this posh suit and stuff, and I remember trying to play _Won't You Wear My Ring_ or something, around your neck, that's what he was doing, one of his Elvis tunes, remember, and we were crummy, the band was 'orrible, y'know. We were really an embarrassment. We didn't have amplifiers or anything."
 
-37:10 John's "toppermost of the poppermost" cheerleading.
+37:10 John: "I would say to the others, when they were depressed..." up to "to the toppermost of the poppermost! I'd say 'Right!' and we'd all sort of cheer up."
 
-37:34 George: "This band called Derry and Seniors, they got offered this job, to go to London, give up your jobs and come to London, and you're going with Larry, and so they all gave up their jobs, and then they didn't get a gig. So they were a bit pissed off at that, so I remember them saying 'We're going to go to London and we're going to get that Parnesy, beat him up.' So Alan Williams who was the club owner who did the audition, and it was sort of... he was probably the first big groupie of Liverpool, he drove them to London and said, well, bring your instruments, lads, and you never know, you could get a gig, so he got them a gig in the 2i's in London. And so, they were playing there, and this fellow, Bruno Koschmider, from this club in Hamburg, right, I think it was him, and he saw them, and booked them to go to Germany. And then later he sent a message saying 'I want another band'. 'Cause we were probably so cheap. 'Send us another band.'
+37:34 George: "This band called Derry and Seniors, they got offered this job, to go to London, give up your jobs and come to London, and you're going with Larry, and so they all gave up their jobs, and then they didn't get a gig. So they were a bit pissed off at that, so I remember them saying 'We're going to go to London and we're going to get that Parnesy, beat him up.' So Alan Williams who was the club owner who did the audition, and it was sort of... he was probably the first big groupie of Liverpool, he drove them to London and said, well, bring your instruments, lads, and you never know, you could get a gig, so he got them a gig in the 2i's in London. And so, they were playing there, and this fellow, Bruno Koschmider, from this club in Hamburg, right, I think it was him, and he saw them, and booked them to go to Germany. And then later he sent a message saying 'I want another band'. 'Cause we were probably so cheap. 'Send us another band.'"
 
-38:37 George: "**So** Alan Williams came to us and said to us 'Okay, lads, you can have this job in Germany, the only problem is you've got to be five people."
+38:37 George: "**So** Alan Williams came to us and said to us 'Okay, lads, you can have this job in Germany, the only problem is you've got to be five people,'" up to "He was known on Merseyside as mean, moody and magnificent: Pete Best."
 
 39:07 John: "**And then we had all sorts of different drummers all the time, because** people who owned drum kits were far and few between, it was an expensive item."
 
-39:40 _Roll Over Beethoven_ - long montage of Hamburg lasting 01:19 before Paul voice over begins, followed by George.
+39:40 _Roll Over Beethoven_ - long montage of Hamburg lasting 01:19 before Paul voice over begins.
 
-41:52 Paul: I remember Rory Storm and his group coming with Ringo, coming to see us, they arrived a bit later and cam and saw the group in residence, came around to see how groups were levigin, and they were really shocked, cos they remembered, one of us had a Union Jack over us to keep warm.
+41:09 Paul: "We ended up in Hamburg very late one night..." up to George: "Second night we moved into the Bambi Kino, and then we were there for like two months, three months."
 
-Ring: Rory and I, or the band, we were staying in one room in the German Seaman's Mission, that was luxury, absolute bloody luxury, because before we got to the club, the Kaiserkeller, Howie Casey, sax player from Liverpool, also played a lot with Paul McCartney later on, they were sleeping for a while in the back of the club and I'll never forget, when they arrived, and they said 'Yes, now, this is where you live!' Just like, couple of old settees, and flags, union jacks, like they were your sheets. We're like, we don't do this, we've got suits! We're leaving, blah blah blah. So that's when we went to the life of luxury in the German Seaman's Mission."
+41:52 Paul: "I remember Rory Storm and his group coming with Ringo, coming to see us, they arrived a bit later and cam and saw the group in residence, came around to see how groups were living, and they were really shocked, 'cause they, remember, one of us had a Union Jack over us to keep warm."
+
+42:09 Ringo: "Rory and I, or the band, we were staying in one room in the German Seaman's Mission, that was luxury, absolute bloody luxury, because before we got to the club, the Kaiserkeller, Howie Casey, sax player from Liverpool, also played a lot with Paul McCartney later on, they were sleeping for a while in the back of the club and I'll never forget, when they arrived, and they said 'Yes, now, this is where you live!' Just like, couple of old settees, and flags, union jacks, like they were your sheets. We're like, we don't do this, we've got suits! We're leaving, blah blah blah. So that's when we went to the life of luxury in the German Seaman's Mission."
 
 42:58 George: "Everything else was such a buzz..."
 
@@ -192,7 +194,7 @@ Ring: Rory and I, or the band, we were staying in one room in the German Seaman'
 
 44:34 _Money_ over montage of Reeperbahn club photos.
 
-44:56 John: "In Hamburg, because we had to work six or seven hours a night... until the pill wore off and then you'd have to have another."
+44:56 John: "In Hamburg, because we had to work six or seven hours a night" up to "Until the pill wore off and then you'd have to have another."
 
 45:24 George: "I think that's where we found our style, we defeloped our style because fellow who used to say 'You've got to make a show for the people', he used to come up every night, shouting 'Mach shau!', so we used to mach shau, John used to dance around like a gorilla, and we'd all knock our heads together, things like that.
 
@@ -202,7 +204,7 @@ Ring: Rory and I, or the band, we were staying in one room in the German Seaman'
 
 46:43 _Three Thirty Blues_
 
-46:52 George: "We made friends with a lot of people... and Astrid, who took all the famous photographs of us of that period."
+46:52 George: "We made friends with a lot of people..." up to "... and Astrid, who took all the famous photographs of us of that period."
 
 47:11 Paul: "**They liked all the rock and roll stuff, the quiffed-back hair-dos, all that kind of thing, the leather outfits, the shades.** They weren't really rockers, or mods..." leading to long montage of Astrid's photos over sound clips of Beatles in Hamburg.
 
@@ -220,23 +222,35 @@ Ring: Rory and I, or the band, we were staying in one room in the German Seaman'
 
 53:13 Paul: "Ringo Starr, who had changed his name before all of us, and who had a beard, and was grown up, and was known a Zepher Zodiac, which was a very big car, in those days, y'know. Nobody had this. It was knock-off probably, fell off the back of a showroom."
 
-53:35 George: "**Ringo kept sitting in with the band, and** every time Ringo sat in..."
+53:35 George: "**Ringo kept sitting in with the band, and** every time Ringo sat in..." up to "That's why he left **when we finished the gig in Hamburg**, he decided to go back to art college."
 
-54:42 George: "One of us is gonna be the bass player, and I remember saying it's not me, I'm not doing it, and John said 'I'm not doing it either.' He... went for it..." Clips of Paul at Shea stadium, photo montage, prominently featuring Pete Best holding Paul's bass. "And he became the bass player from that point on, so then we were a four piece band."
+54:42 George: "At that point Paul was still playing a guitar. I remember saying 'One of us is gonna be the bass player,' and I remember saying it's not me, I'm not doing it, and John said 'I'm not doing it either.'"
 
-56:13 George: "We played the Cavern before we ever went to Hamburg, I believe... and finally they kicked us off."
+54:42 George: "He went for it." Clips of Paul at Shea stadium, photo montage, prominently featuring Pete Best holding Paul's bass.
+
+54:52 George: "And he became the bass player from that point on, so then we were a four piece band."
+
+55:04 John: "And then we went back to Liverpool and got quite a few bookings, y'know, they all thought we were German," up to Neil Aspinall: "'Cause they were using cabs at the time."
+
+56:13 George: "We played the Cavern before we ever went to Hamburg, I believe..." up to "Stop playing this music, this is a Jazz club."
+
+56:34 George: "So we were saying, 'Well now we'd like to do this tune by Leadbelly, and it's called _Long Tall Sally_. And finally they kicked us off."
 
 56:47 _Long Tall Sally_, Cavern photo montage.
 
 57:04 Cathy, a fan from the Cavern: "So y'know, the Cavern is their home, it's where they first started, and where they've played more times than anywhere else."
 
-57:16 Footage of stairwell (of the Cavern?)... Brian "suggested we wore ordinary suits."
+57:16 Footage of stairwell of the Cavern, leading into _Kansas City_ over slowed-down footage of _Some Other Guy_ from the Granada film of the Cavern.
+
+57:22 Paul: "So anyway, we did well at the Cavern, and attracted some big audiences," up to "So Brian suggested we just wear ordinary suits."
+
+59:44 Paul: "It was later put around that I betrayed our heavy leather image..." up to "We all went quite happily."
 
 01:00:04 George: "So y'know, we gladly switched into suits..." to John saying Brian "presented us well."
 
 01:01:19 End of long Decca audition montage
 
-01:02:09 John: "George had done little... no rock and roll when we met him..." to Paul: "But the thing he didn't like was our drummer."
+01:02:09 John: "George had done little, no rock and roll when we met him..." to Paul: "But the thing he didn't like was our drummer."
 
 01:02:54 George Martin: "And I said to Brian Epstein, if, when we do the next session, I don't want to interfere with the Beatles and what you're doing with them, that's fine, but I'm going to provide the drummer."
 
@@ -258,8 +272,14 @@ Ring: Rory and I, or the band, we were staying in one room in the German Seaman'
 
 01:10:35 End of full play of _Love Me Do_ (Ringo version). Brian and John talk about the chart performance of the single over silence.
 
-01:11:09 George: "It got to, whatever, 17 in the following weeks after it came out, and I don't recall what happened after then, it probably just died and went, but it meant that next time we went back to EMI, they were really more friendly, oh, hello lads, come in, yes, okay."
+01:11:09 George: "It got to, whatever, 17 in the following weeks after it came out, and I don't recall what happened after then, it probably just died and went _[Note: it reached No. 17 in its 12th week of release, and remained in the chart a further 6 weeks]_, but it meant that next time we went back to EMI, they were really more friendly, oh, hello lads, come in, yes, okay."
 
-01:12:09 George Martin (on _How Do You Do It?_): "Not a great piece of songwriting, not the most marvellous song I'd heard in my life, but I thought it had that essential element that would appeal to a lot of people."
+01:11:26 George Martin: "It was quite normal in those days to find material for artists..." up to "... and that was a song by Mitch Murray, called _How Do You Do It?_ And I was convinced this was a hit song."
 
-01:15:38 Cathy the gatekeeper of the Cavern: "And Bob Wooler got on the stage, telegram in his hand, I've got news for you, and he looked terrible, we thought something disastrous had happened, and he said the Beatles' record _Please Please Me_ has reached number one in the national charts..."
+01:12:00 Freeze frame on the George Martin interview as we hear Mitch Murray's demo of _How Do You Do It?_
+
+01:12:07 George Martin: "Not a great piece of songwriting, not the most marvellous song I'd heard in my life, but I thought it had that essential element that would appeal to a lot of people."
+
+01:12:16 George Martin: "And we did record it. John took the lead", up to _Please Please Me_, complete song performed live for TV appearance.
+
+01:15:38 Cathy the gatekeeper of the Cavern: "And Bob Wooler got on the stage, telegram in his hand, I've got news for you, **and he looked terrible, we thought something disastrous had happened,** and he said the Beatles' record _Please Please Me_ has reached number one in the national charts..."

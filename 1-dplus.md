@@ -100,7 +100,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 12:54 _Ready Teddy_ from _The Girl Can't Help It_ (restored, widescreen)
 
-13:00 Paul: "So when _The Girl Can't Help It_ came along, instead of us looking at these old black and white movies **[edit]**, suddenly this was in colour, and this was in widescreen, and there's a famous..." Tom Ewell's intro is now in widescreen, thankfully. Leading to clip of Jayne Mansfield, also widescreen and restored.
+13:00 Paul: "So when _The Girl Can't Help It_ came along, instead of us looking at these old black and white movies **[edit]**, suddenly this was in colour, and this was in widescreen, and there's a famous..." up to the clip of Jayne Mansfield. All clips, including Tom Ewell's intro, now in widescreen and restored.
 
 14:02 John: "Y'know, you went to see those movies with somebody in it like Elvis, when we were still in Liverpool, and you'd see everybody waiting to see him, and I'd be waiting there too, and they'd all scream when he came on the screen, so we thought 'That's a good job!'"
 
@@ -112,13 +112,13 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 14:49 John: "It was a joke in the family, it's alright for a hobby, but it won't earn you any money."
 
-14:54 Paul: "My dad used to be a trumpet player himself, and for my birthday he once bought me a trumpet, from Rushworth and Dreapers, which was one of the music stores in Liverpool." (Photo of the shopfront)
+14:54 Paul: "My dad used to be a trumpet player himself, and for my birthday he once bought me a trumpet, from Rushworth and Dreapers, which was one of the music stores in Liverpool." **Photo of the shopfront**
 
 15:03 Paul: "But I suddenly figured out I wouldn't be able to sing with this thing stuck in me mouth. So I went back to the shop and traded it in for a guitar. So that was a Zenith. First guitar I ever had."
 
 15:18 George: "I think hearing a little bit of guitar music, um, made me want a guitar."
 
-15:24 George on drawing guitars at the back of the class, and buying his first secondhand guitar with £3 10s from his mother.
+15:24 George: "When I was 13, 14, I used to be at the back of the class, drawing, trying to draw guitars..." up to "I got the £3 10s from me mother, that was a lot of money in those days."
 
 15:53 Ringo: "I used to look in shops and see drums, that's all I looked at, never looked at guitars or anything."
 
@@ -132,7 +132,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 17:04 Jump cut to the Beatles at the height of Beatlemania performing Twist and Shout, significantly longer montage of multiple performances with many more cuts between them.
 
-17:21 John: "Paul met me..." leading to _Twenty Flight Rock_ and George joining.
+17:21 John: "Paul met me the first day I did _Be-Bop-a-Lula_ live on stage..." up to Paul: "Sure enough, note perfect, _Raunchy_. You're in."
 
 21:21 John: "Y'know it wasn't just from '64, I was 24 in '64, and I'd been playing with Paul since I was 15... and he's very nice! And George about a year later or something, so it's a long time we spent together, in all the most extraordinary circumstances."
 
@@ -162,21 +162,21 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 28:28 George: "It was a pretty pathetic tour, by the end of it we were broke..."
 
-28:53 John's "toppermost of the poppermost" cheerleading.
+28:53 John: "I would say to the others, when they were depressed..." up to "to the toppermost of the poppermost! I'd say 'Right!' and we'd all sort of cheer up."
 
-29:16 George: "**And then later, Alan** came to us and said to us 'Okay, lads, you can have this job in Germany, the only problem is you've got to be five people."
+29:16 George: "**And then later, Alan** came to us and said to us 'Okay, lads, you can have this job in Germany, the only problem is you've got to be five people,'" up to "He was known on Merseyside as mean, moody and magnificent: Pete Best."
 
-29:48 John: "People who owned drum kits were far and few between, it was an expensive item.
+29:48 John: "People who owned drum kits were far and few between, it was an expensive item."
 
-30:09 _Roll Over Beethoven_ - much truncated montage of Hamburg lasting only 00:25 before Paul voice over begins, followed by George, all the same until...
+30:09 _Roll Over Beethoven_ - much truncated montage of Hamburg lasting only 00:25 before Paul voice over begins.
 
-31:21 George: "Second night we moved into the Bambi Kino, and then we were there for like two months, three months."
+30:44 Paul: "We ended up in Hamburg very late one night..." up to George: "Second night we moved into the Bambi Kino, and then we were there for like two months, three months."
 
 31:28 George: "Everything else was such a buzz..."
 
 32:22 _Money_ over montage of Reeperbahn club photos.
 
-32:44 John: "In Hamburg, because we had to work six or seven hours a night... until the pill wore off and then you'd have to have another.
+32:44 John: "In Hamburg, because we had to work six or seven hours a night..." up to "Until the pill wore off and then you'd have to have another."
 
 33:12 George: "We used to be up there just foaming at the mouth, stomping away, doing this. Those were the days."
 
@@ -188,7 +188,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 34:02 Ringo: "Because we used to do long hours, we used to do 12 hours in a weekend between two bands, and ended up on the same club and that, so if they had the last set, I'd sort of be semi-drunk, and demanding they play slow songs."
 
-34:17 George: "We made friends with a lot of people... and Astrid, who took all the famous photographs of us of that period."
+34:17 George: "We made friends with a lot of people..." up to "... and Astrid, who took all the famous photographs of us of that period."
 
 34:32 George: "Well, She was the one that made us look good. Y'know those early Beatles photographs, the Beatles look great. She was dressed like that, the leather kecks, y'know, and the hair, like the Beatle haircuts, so they gave us the confidence to like, leave it that way."
 
@@ -198,21 +198,27 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 35:58 George: "So the second time we went back I was 18, this fella came into the club, who was, they said, oh, he's this famous record producer and musician, he was called Bert Kaempfert. He came in the club, and I remember this buzz went around, we've got to be good, play really good, we may get a chance to record. Which we did, and we got all pleased with ourselves, and then we got to the studio, and he just wanted us to like back up **Tony** _[somehow edited in from another mention!]_ Sheridan. Remember feeling a little depressed, but we did at least get to do that My Bonnie."
 
-37:08 George: "Every time Ringo sat in..."
+37:08 George: "**[edit]** Every time Ringo sat in..." up to "That's why he left **[edit]**, he decided to go back to art college."
 
-38:02 George: "One of us is gonna be the bass player, and I remember saying it's not me, I'm not doing it, and John said 'I'm not doing it either.'"
+38:02 George: "At that point Paul was still playing a guitar. I remember saying 'One of us is gonna be the bass player,' and I remember saying it's not me, I'm not doing it, and John said 'I'm not doing it either.'"
 
 38:09 Paul: "I got lumbered with it really, I didn't want to be the bass player, but there was no one left, so I went, before we left Hamburg, I went and got my Hofner bass, down in the city centre."
 
-38:23 George: "He... went for it..." Clips of Paul at Shea stadium, photo montage replaced by a single shot of the whole group, Paul holding his own bass.
+38:23 George: "He went for it." Clips of Paul at Shea stadium, photo montage replaced by a single shot of the whole group, Paul holding his own bass.
+
+38:44 John: "And then we went back to Liverpool and got quite a few bookings, y'know, they all thought we were German," up to Neil Aspinall: "'Cause they were using cabs at the time."
 
 39:51 John: "I mean, on the street in Liverpool, and unless you were in the suburbs, you had to walk close to the wall, y'know? To get to the Cavern - for those of you who can remember all that - it was no easy matter, even at lunchtime, I mean it's a tense place, y'know."
 
-40:06 George: "We played the Cavern before we ever went to Hamburg, I believe... and finally they kicked us off."
+40:06 George: "We played the Cavern before we ever went to Hamburg, I believe..." up to "Stop playing this music, this is a Jazz club."
 
-40:26 Footage of stairwell (of the Cavern?)... Brian "suggested we wore ordinary suits."
+40:26 Footage of stairwell of the Cavern, leading into _Kansas City_ over slowed-down footage of _Some Other Guy_ from the Granada film of the Cavern.
+
+40:36 Paul: "So anyway, we did well at the Cavern, and attracted some big audiences," up to "So Brian suggested we just wear ordinary suits."
 
 42:57 John: "I mean, we cleaned up a bit, Brian cleaned us up a bit, when he discovered us, or we discovered him as Paul says."
+
+53:03 Paul: "It was later put around that I betrayed our heavy leather image..." up to "We all went quite happily."
 
 43:20 John: "Brian put us into suits, and all that, and we made it very, very big. But we sold out, y'know."
 
@@ -226,7 +232,7 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 45:31 George Martin: "And they came down here, and I spent some time with them, went through all their stuff, and tried to make up my mind which was the Cliff Richard of the group, y'know. Because one gets, one was focused, in those days, on a lead singer and a backing group. And suddenly realised at the end of it all, it was nonsense, it was a group that I had to take as it was."
 
-45:51 John: "George had done little... no rock and roll when we met him..." to Paul: "But the thing he didn't like was our drummer."
+45:51 John: "George had done little, no rock and roll when we met him..." to Paul: "But the thing he didn't like was our drummer."
 
 46:40 Paul: "We really started to think we needed _the_ great drummer in Liverpool".
 
@@ -260,6 +266,10 @@ Anthology, 2025 Disney+ Version: Episode 1
 
 54:51 John: "When we first got in the studio they tried to give us other people's songs, they didn't like ours."
 
+54:55 George Martin: "It was quite normal in those days to find material for artists..." up to "... and that was a song by Mitch Murray, called _How Do You Do It?_ And I was convinced this was a hit song."
+
 55:31 John: "They forced us to do a version of _[mockingly]_ 'How do you do what you do to me, I wish I knew', y'know, like that."
 
-58:59 Minor edit to Cathy (gatekeeper of the true fans), removing "and he looked terrible, we thought something disastrous had happened."
+55:40 George Martin: "And we did record it. John took the lead", up to _Please Please Me_, complete song performed live for TV appearance.
+
+58:59 Cathy the gatekeeper of the Cavern: "And Bob Wooler got on the stage, telegram in his hand, I've got news for you, **edit**, and he said the Beatles' record _Please Please Me_ has reached number one in the national charts..."
