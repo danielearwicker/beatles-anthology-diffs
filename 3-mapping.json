@@ -4,217 +4,229 @@
             "dvd": 4,
             "dplus": 1,
             "matchType": "similar",
-            "note": "George: Ed Sullivan and magazine covers (DVD has longer version with Capitol Records deal)"
+            "note": "George: Ed Sullivan, magazines, notoriety"
         },
         {
             "dvd": 6,
             "dplus": 4,
             "matchType": "same",
-            "note": "Press Conference, US (D+ notes greatly enhanced sound)"
+            "note": "Press Conference, US"
         },
         {
             "dvd": 7,
             "dplus": 5,
             "matchType": "similar",
-            "note": "John: 'We're all bald' (DVD adds 'And deaf and dumb, too')"
+            "note": "John: Oh, we're all bald"
         },
         {
             "dvd": 8,
             "dplus": 7,
             "matchType": "same",
-            "note": "Paul: Great moment in the limo with radio (DVD continues to hotel arrival)"
+            "note": "Paul: great moment in limo, radio"
         },
         {
             "dvd": 9,
             "dplus": 9,
             "matchType": "same",
-            "note": "John: 'We were so overawed by American radio' up to All My Loving"
+            "note": "John: overawed by American radio"
         },
         {
             "dvd": 10,
-            "dplus": 11,
-            "matchType": "same",
-            "note": "George: Least reported crime while on TV"
+            "dplus": 10,
+            "matchType": "similar",
+            "note": "Ed Sullivan: Ladies and Gentlemen, The Beatles"
         },
         {
             "dvd": 11,
-            "dplus": 10,
+            "dplus": 12,
             "matchType": "same",
-            "note": "Ed Sullivan passes on Elvis telegram"
+            "note": "Ed Sullivan on the Elvis telegram"
         },
         {
             "dvd": 12,
-            "dplus": 12,
+            "dplus": 11,
             "matchType": "same",
-            "note": "Ringo: Train ride to Washington"
+            "note": "George: least reported crime"
         },
         {
             "dvd": 13,
-            "dplus": 16,
+            "dplus": 13,
             "matchType": "same",
-            "note": "Neil Aspinall: Washington show boxing ring setup (D+ has earlier timestamp)"
+            "note": "Ringo: train ride to Washington"
         },
         {
             "dvd": 14,
-            "dplus": 15,
+            "dplus": 17,
             "matchType": "same",
-            "note": "She Loves You Live at Washington Coliseum"
+            "note": "Neil: Washington show like boxing ring"
         },
         {
-            "dvd": 16,
-            "dplus": 19,
+            "dvd": 15,
+            "dplus": 16,
             "matchType": "same",
-            "note": "I Saw Her Standing There Live at Washington Coliseum"
+            "note": "She Loves You Live at Washington"
         },
         {
-            "dvd": 19,
-            "dplus": 22,
+            "dvd": 17,
+            "dplus": 20,
             "matchType": "same",
-            "note": "Paul: British Embassy party, up to John storming after Ringo's haircut"
+            "note": "I Saw Her Standing There Live at Washington"
         },
         {
             "dvd": 20,
-            "dplus": 24,
-            "matchType": "similar",
-            "note": "Pentax"
+            "dplus": 23,
+            "matchType": "same",
+            "note": "Paul: British Embassy"
         },
         {
             "dvd": 21,
-            "dplus": 23,
-            "matchType": "similar",
-            "note": "I'll Follow the Sun (D+ plays full song with no VO, DVD has VO)"
-        },
-        {
-            "dvd": 23,
             "dplus": 25,
-            "matchType": "same",
-            "note": "Ringo: Most brilliant place, lending us yachts, speedboat incident"
+            "matchType": "similar",
+            "note": "Paul: Miami like paradise, palm trees"
         },
         {
             "dvd": 22,
-            "dplus": 26,
+            "dplus": 24,
             "matchType": "same",
-            "note": "Paul: Great time, fans writing on sand, hotel cabarets"
+            "note": "I'll Follow the Sun"
         },
         {
-            "dvd": 27,
+            "dvd": 23,
             "dplus": 27,
             "matchType": "same",
-            "note": "Ed Sullivan second show up to interview ending with 'What money?'"
+            "note": "Paul: great time, hotel, I LOVE JOHN"
+        },
+        {
+            "dvd": 24,
+            "dplus": 26,
+            "matchType": "same",
+            "note": "Ringo: brilliant place, speedboat"
         },
         {
             "dvd": 28,
             "dplus": 28,
             "matchType": "similar",
-            "note": "Hard Day's Night"
+            "note": "Ed Sullivan introduces second show"
         },
         {
-            "dvd": 30,
+            "dvd": 29,
             "dplus": 29,
             "matchType": "same",
-            "note": "Progression"
+            "note": "A Hard Day's Night opening chord/titles"
         },
         {
             "dvd": 31,
             "dplus": 30,
-            "matchType": "similar",
-            "note": "Paul: Richard Lester and Alan Owen (DVD has longer section about Last Tram to Lime Street)"
+            "matchType": "same",
+            "note": "Paul: progression, Richard Lester"
         },
         {
             "dvd": 32,
-            "dplus": 35,
-            "matchType": "same",
-            "note": "Lap of the gods"
+            "dplus": 31,
+            "matchType": "similar",
+            "note": "Paul: Alan Owen, Welsh playwright"
         },
         {
             "dvd": 33,
-            "dplus": 39,
+            "dplus": 36,
             "matchType": "same",
-            "note": "John: All of us like the bit in the field, pure film"
+            "note": "Brian Matthew: lap of the gods"
         },
         {
             "dvd": 34,
             "dplus": 40,
             "matchType": "same",
-            "note": "Wrestling dog"
+            "note": "John: bit in the field, pure film"
         },
         {
             "dvd": 35,
             "dplus": 41,
             "matchType": "same",
-            "note": "Dudley"
+            "note": "Can't Buy Me Love continues"
         },
         {
-            "dvd": 37,
-            "dplus": 43,
-            "matchType": "same",
-            "note": "Brian Epstein scenes up to George about Derek Taylor"
+            "dvd": 36,
+            "dplus": 42,
+            "matchType": "similar",
+            "note": "Dudley Moore: Mr. John Lennon"
         },
         {
             "dvd": 38,
-            "dplus": 46,
+            "dplus": 44,
             "matchType": "same",
-            "note": "George Martin: We nearly didn't do that tour"
+            "note": "Brian Epstein scenes, Derek Taylor"
         },
         {
             "dvd": 39,
             "dplus": 47,
             "matchType": "same",
-            "note": "Ringo: Desperately ill, having tonsils out"
+            "note": "George Martin: nearly didn't do tour"
         },
         {
             "dvd": 40,
             "dplus": 48,
             "matchType": "same",
-            "note": "George Martin: George said if Ringo not part, not Beatles"
+            "note": "Ringo: desperately ill, tonsils out"
         },
         {
             "dvd": 41,
-            "dplus": 50,
-            "matchType": "similar",
-            "note": "George: Couldn't make decisions (D+ has 'How many Beatles to change lightbulb' joke)"
+            "dplus": 49,
+            "matchType": "same",
+            "note": "George Martin: George is very loyal"
         },
         {
             "dvd": 42,
             "dplus": 51,
-            "matchType": "same",
-            "note": "Jimmie surrounded"
+            "matchType": "similar",
+            "note": "George: despise no decision for ourselves"
         },
         {
-            "dvd": 44,
+            "dvd": 43,
             "dplus": 52,
             "matchType": "same",
-            "note": "Ringo: Very strange, thought they didn't love me anymore"
-        },
-        {
-            "dvd": 46,
-            "dplus": 37,
-            "matchType": "similar",
-            "note": "Marx Brothers"
+            "note": "Jimmie drumming as Beatles surround"
         },
         {
             "dvd": 45,
             "dplus": 53,
             "matchType": "same",
-            "note": "Long Tall Sally with Jimmie Nicol up to You Can't Do That with Ringo"
+            "note": "Ringo: very strange, didn't love me"
+        },
+        {
+            "dvd": 46,
+            "dplus": 54,
+            "matchType": "similar",
+            "note": "Long Tall Sally with Jimmie, Australia"
+        },
+        {
+            "dvd": 47,
+            "dplus": 38,
+            "matchType": "similar",
+            "note": "John: Marx brothers comparison"
         },
         {
             "dvd": 49,
-            "dplus": 36,
+            "dplus": 39,
             "matchType": "same",
-            "note": "Ringo loved it"
+            "note": "George: Beatles were very funny"
         },
         {
             "dvd": 50,
-            "dplus": 56,
+            "dplus": 37,
             "matchType": "same",
-            "note": "Look at me nose"
+            "note": "Ringo: I found it exciting"
         },
         {
             "dvd": 51,
             "dplus": 57,
+            "matchType": "same",
+            "note": "John: first see yourself on big screen"
+        },
+        {
+            "dvd": 52,
+            "dplus": 35,
             "matchType": "similar",
-            "note": "Closing credits music (DVD: I'll Be Back outtakes; D+: Things We Said Today released)"
+            "note": "I'll Be Back outtakes"
         }
     ]
 }

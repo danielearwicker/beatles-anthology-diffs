@@ -20,6 +20,8 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 04:33 John: "We were so overawed by American radio..." up to the end of _All My Loving_ on the Ed Sullivan show.
 
+09:30 Ed Sullivan: "Ladies and Gentlemen, The Beatles, **bring 'em on home.**" (This latter piece of audio has been copied from the intro to the second show, so the original audible "let's..." has been replaced.)
+
 11:36 George: "Later they said there was the least reported, or there was no reported crime. Even the criminals had a rest for like 10 minutes while we were on."
 
 11:51 Ed Sullivan on the Elvis telegram
@@ -54,7 +56,7 @@ Anthology, 2025 Disney+ Version: Episode 3
 
 22:37 Paul: "We had a great time there, we stayed in a hotel most of the time and sort of looked down on the sand where the kids, the fans would write I LOVE JOHN on the sand, y'know, so you could read it from your hotel room. I remember playing at one of the hotels, and they always have cabarets."
 
-23:00 Ed Sullivan introduces the second Beatles show, up to the interview back in London ending with George saying "What money?"
+23:00 Ed Sullivan introduces the second Beatles show, ending with "... The Beatles, bring 'em on home", this last word now audible as it is in the full Sullivan episode DVD. The border around the Sullivan footage has been hidden by severely cropping the picture (this is most obvious from the opening shot of a man diving into a pool.) All the other edits are the same except for a newly inserted shot of the audience just before Ed begins speaking. Continues up to the interview back in London ending with George saying "What money?"
 
 28:16 _A Hard Day's Night_ movie opening titles clip
 

@@ -20,6 +20,8 @@ Anthology, 2003 DVD Version: Episode 3
 
 05:18 John: We were so overawed by American radio..." up to the end of _All My Loving_ on the Ed Sullivan show.
 
+10:15 Ed Sullivan: "Ladies and Gentlemen, The Beatles, **let's**..." (drowned by screams but possibly he finishes "... **bring 'em out.**")
+
 12:33 Ed Sullivan on the Elvis telegram
 
 12:45 George: "Later they said there was the least reported, or there was no reported crime. Even the criminals had a rest for like 10 minutes while we were on."
@@ -54,7 +56,7 @@ Anthology, 2003 DVD Version: Episode 3
 
 28:59 Paul: "Yeah!"
 
-29:02 Ed Sullivan introduces the second Beatles show, up to the interview back in London ending with George saying "What money?"
+29:02 Ed Sullivan introduces the second Beatles show, "Ladies and Gentlemen, here are four of the nicest youngsters we've ever had on our stage, The Beatles, bring 'em on...", but the end is again obliterated by screams. In the complete Sullivan episode (available on DVD as a set of all 4 episodes) the screams don't entirely drown him out and he can be heard saying "Bring 'em on home". The Sullivan footage has been badly transferred and has black corners cut into it (this is also the case in the full episode DVD). In the Anthology clip there is an edit to skip Ed listing the other guests on the show, achieved by cutting to the enraptured face of a girl in the audience, and another edit via an audience applause shot to skip an integrated commercial for Lipton tea. Continues up to the interview back in London ending with George saying "What money?"
 
 34:18 Opening chord of _A Hard Day's Night_
 
